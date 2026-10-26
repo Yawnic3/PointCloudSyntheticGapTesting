@@ -1,0 +1,13 @@
+{
+  "folds": [
+    3,
+    4
+  ],
+  "epochs": 6,
+  "initial_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+  "preflight_sha256": "ebe8612faf5d95a4c924485dfb1a717ae21185b29913b06b9506f485bcb2c30e",
+  "source_sha256": "78ae50b370e4b56afaec74cc0922431d451afd8470f84d93cd632f74c883fcb8",
+  "visibility_helper_sha256": "6376f819cb3d85eabbd064c43647d7c983099fea84ff96e79ecabcc5cb2d21ec",
+  "original_protocol_sha256": "91c2a420f8915d2b9da9d1a603b28d8514167ccfd376b0ec7700d13ba9c2c73b",
+  "policy": "Repair only explicit100%-occluded TRAIN supervision/donors; ignore classification anchors centered in hidden XY footprints, with visible-positive priority. Same data frames, optimizer, seeds, initialization, augmentation parameters and validation/test eligibility for folds3/4. Eight former positive frames per fold become background-only; frames are retained to isolate target repair, so unchanged synthetic references no longer match visible-positive frame counts. Four new real models; synthetic/pretrained references reused because their TRAIN/VAL/test eligible annotations are unaffected. This is a real-label-repair pilot, not a newly balanced real/synthetic benchmark or blind confirmation."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 20.389999999999418,
+    "training_loss": 2.9444549821126156,
+    "pasted_instances_before_final_support_filter": 108,
+    "partial_visibility_pastes": 48,
+    "supervised_boxes": 221
+  },
+  {
+    "epoch": 2,
+    "seconds": 20.39100000000326,
+    "training_loss": 2.7800722040044956,
+    "pasted_instances_before_final_support_filter": 128,
+    "partial_visibility_pastes": 52,
+    "supervised_boxes": 245,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.16017739855920674,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 20,
+        "fp": 58,
+        "fn": 59,
+        "precision": 0.2564102564102564,
+        "recall": 0.25316455696202533
+      },
+      "3D_AP25": {
+        "AP101": 0.2691171633836543,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 27,
+        "fp": 51,
+        "fn": 52,
+        "precision": 0.34615384615384615,
+        "recall": 0.34177215189873417
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 78,
+        "fn": 79,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.26704735560041004,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 27,
+        "fp": 51,
+        "fn": 52,
+        "precision": 0.34615384615384615,
+        "recall": 0.34177215189873417
+      }
+    },
+    "validation_fitness": [
+      0.1525163901194924,
+      0.262731362452716
+    ],
+    "validation_locations": {
+      "4": {
+        "AP50": 0.0,
+        "AP25": 0.0
+      },
+      "5": {
+        "AP50": 0.3050327802389848,
+        "AP25": 0.525462724905432
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "seconds": 20.718999999997322,
+    "training_loss": 2.458698319701048,
+    "pasted_instances_before_final_support_filter": 123,
+    "partial_visibility_pastes": 47,
+    "supervised_boxes": 239
+  },
+  {
+    "epoch": 4,
+    "seconds": 20.75,
+    "training_loss": 2.378918182486907,
+    "pasted_instances_before_final_support_filter": 139,
+    "partial_visibility_pastes": 50,
+    "supervised_boxes": 251,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.1571147005667966,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 18,
+        "fp": 38,
+        "fn": 61,
+        "precision": 0.32142857142857145,
+        "recall": 0.22784810126582278
+      },
+      "3D_AP25": {
+        "AP101": 0.3040105214838064,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 27,
+        "fp": 29,
+        "fn": 52,
+        "precision": 0.48214285714285715,
+        "recall": 0.34177215189873417
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 56,
+        "fn": 79,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.3018261255988583,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 27,
+        "fp": 29,
+        "fn": 52,
+        "precision": 0.48214285714285715,
+        "recall": 0.34177215189873417
+      }
+    },
+    "validation_fitness": [
+      0.14544418289859257,
+      0.28257441043638165
+    ],
+    "validation_locations": {
+      "4": {
+        "AP50": 0.0,
+        "AP25": 0.0
+      },
+      "5": {
+        "AP50": 0.29088836579718513,
+        "AP25": 0.5651488208727633
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "seconds": 21.23399999999674,
+    "training_loss": 2.28700558306315,
+    "pasted_instances_before_final_support_filter": 121,
+    "partial_visibility_pastes": 54,
+    "supervised_boxes": 239
+  },
+  {
+    "epoch": 6,
+    "seconds": 20.3440000000046,
+    "training_loss": 2.2824340453132606,
+    "pasted_instances_before_final_support_filter": 125,
+    "partial_visibility_pastes": 61,
+    "supervised_boxes": 245,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.16840732464217045,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 17,
+        "fp": 23,
+        "fn": 62,
+        "precision": 0.425,
+        "recall": 0.21518987341772153
+      },
+      "3D_AP25": {
+        "AP101": 0.3055511645845455,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 23,
+        "fp": 17,
+        "fn": 56,
+        "precision": 0.575,
+        "recall": 0.2911392405063291
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 40,
+        "fn": 79,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.30338279361340115,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 79,
+        "confidence": 0.25,
+        "tp": 23,
+        "fp": 17,
+        "fn": 56,
+        "precision": 0.575,
+        "recall": 0.2911392405063291
+      }
+    },
+    "validation_fitness": [
+      0.1548004612340612,
+      0.28420673061050805
+    ],
+    "validation_locations": {
+      "4": {
+        "AP50": 0.0,
+        "AP25": 0.0
+      },
+      "5": {
+        "AP50": 0.3096009224681224,
+        "AP25": 0.5684134612210161
+      }
+    }
+  }
+]

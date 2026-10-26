@@ -1,0 +1,253 @@
+{
+  "policy": "Secondary diagnostic from already-frozen selected-checkpoint predictions. Recall at confidence .25 and exact 3D IoU .5, not AP. Fixed range and raw in-cuboid-return bins. No model, threshold or recipe selection. Box instances are correlated frames, not independent vehicles.",
+  "frames": 400,
+  "ground_truth_boxes": 565,
+  "models": {
+    "pretrained": {
+      "tp": 107,
+      "fp": 2262,
+      "fn": 458,
+      "range": {
+        "<30m": {
+          "ground_truth_boxes": 254,
+          "tp": 40,
+          "recall": 0.15748031496062992
+        },
+        "30-60m": {
+          "ground_truth_boxes": 59,
+          "tp": 51,
+          "recall": 0.864406779661017
+        },
+        "60-100m": {
+          "ground_truth_boxes": 247,
+          "tp": 16,
+          "recall": 0.06477732793522267
+        },
+        "100m+": {
+          "ground_truth_boxes": 5,
+          "tp": 0,
+          "recall": 0.0
+        }
+      },
+      "support": {
+        "5-19 returns": {
+          "ground_truth_boxes": 30,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "20-49 returns": {
+          "ground_truth_boxes": 94,
+          "tp": 1,
+          "recall": 0.010638297872340425
+        },
+        "50-199 returns": {
+          "ground_truth_boxes": 147,
+          "tp": 13,
+          "recall": 0.08843537414965986
+        },
+        "200+ returns": {
+          "ground_truth_boxes": 294,
+          "tp": 93,
+          "recall": 0.3163265306122449
+        }
+      }
+    },
+    "real_control_best": {
+      "tp": 71,
+      "fp": 60,
+      "fn": 494,
+      "range": {
+        "<30m": {
+          "ground_truth_boxes": 254,
+          "tp": 23,
+          "recall": 0.09055118110236221
+        },
+        "30-60m": {
+          "ground_truth_boxes": 59,
+          "tp": 38,
+          "recall": 0.6440677966101694
+        },
+        "60-100m": {
+          "ground_truth_boxes": 247,
+          "tp": 10,
+          "recall": 0.04048582995951417
+        },
+        "100m+": {
+          "ground_truth_boxes": 5,
+          "tp": 0,
+          "recall": 0.0
+        }
+      },
+      "support": {
+        "5-19 returns": {
+          "ground_truth_boxes": 30,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "20-49 returns": {
+          "ground_truth_boxes": 94,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "50-199 returns": {
+          "ground_truth_boxes": 147,
+          "tp": 6,
+          "recall": 0.04081632653061224
+        },
+        "200+ returns": {
+          "ground_truth_boxes": 294,
+          "tp": 65,
+          "recall": 0.22108843537414966
+        }
+      }
+    },
+    "real_augmented_best": {
+      "tp": 87,
+      "fp": 261,
+      "fn": 478,
+      "range": {
+        "<30m": {
+          "ground_truth_boxes": 254,
+          "tp": 26,
+          "recall": 0.10236220472440945
+        },
+        "30-60m": {
+          "ground_truth_boxes": 59,
+          "tp": 47,
+          "recall": 0.7966101694915254
+        },
+        "60-100m": {
+          "ground_truth_boxes": 247,
+          "tp": 14,
+          "recall": 0.05668016194331984
+        },
+        "100m+": {
+          "ground_truth_boxes": 5,
+          "tp": 0,
+          "recall": 0.0
+        }
+      },
+      "support": {
+        "5-19 returns": {
+          "ground_truth_boxes": 30,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "20-49 returns": {
+          "ground_truth_boxes": 94,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "50-199 returns": {
+          "ground_truth_boxes": 147,
+          "tp": 9,
+          "recall": 0.061224489795918366
+        },
+        "200+ returns": {
+          "ground_truth_boxes": 294,
+          "tp": 78,
+          "recall": 0.2653061224489796
+        }
+      }
+    },
+    "synthetic_control_best": {
+      "tp": 27,
+      "fp": 1656,
+      "fn": 538,
+      "range": {
+        "<30m": {
+          "ground_truth_boxes": 254,
+          "tp": 12,
+          "recall": 0.047244094488188976
+        },
+        "30-60m": {
+          "ground_truth_boxes": 59,
+          "tp": 15,
+          "recall": 0.2542372881355932
+        },
+        "60-100m": {
+          "ground_truth_boxes": 247,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "100m+": {
+          "ground_truth_boxes": 5,
+          "tp": 0,
+          "recall": 0.0
+        }
+      },
+      "support": {
+        "5-19 returns": {
+          "ground_truth_boxes": 30,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "20-49 returns": {
+          "ground_truth_boxes": 94,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "50-199 returns": {
+          "ground_truth_boxes": 147,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "200+ returns": {
+          "ground_truth_boxes": 294,
+          "tp": 27,
+          "recall": 0.09183673469387756
+        }
+      }
+    },
+    "synthetic_augmented_best": {
+      "tp": 98,
+      "fp": 4221,
+      "fn": 467,
+      "range": {
+        "<30m": {
+          "ground_truth_boxes": 254,
+          "tp": 38,
+          "recall": 0.14960629921259844
+        },
+        "30-60m": {
+          "ground_truth_boxes": 59,
+          "tp": 46,
+          "recall": 0.7796610169491526
+        },
+        "60-100m": {
+          "ground_truth_boxes": 247,
+          "tp": 14,
+          "recall": 0.05668016194331984
+        },
+        "100m+": {
+          "ground_truth_boxes": 5,
+          "tp": 0,
+          "recall": 0.0
+        }
+      },
+      "support": {
+        "5-19 returns": {
+          "ground_truth_boxes": 30,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "20-49 returns": {
+          "ground_truth_boxes": 94,
+          "tp": 0,
+          "recall": 0.0
+        },
+        "50-199 returns": {
+          "ground_truth_boxes": 147,
+          "tp": 7,
+          "recall": 0.047619047619047616
+        },
+        "200+ returns": {
+          "ground_truth_boxes": 294,
+          "tp": 91,
+          "recall": 0.30952380952380953
+        }
+      }
+    }
+  },
+  "visibility_aware": true
+}

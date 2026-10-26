@@ -1,0 +1,195 @@
+{
+  "plan": {
+    "created_utc": "2026-10-25T20:15:53.173277+00:00",
+    "policy": "Report fixed-confidence counts at 0.10 (published native score threshold) in addition to the existing 0.25 counts, identically for every baseline/checkpoint. AP and checkpoint selection unchanged; no test-based threshold selection.",
+    "confidence_thresholds": [
+      0.1,
+      0.25
+    ],
+    "protocol_sha256": "91ef68b17d36618a16fc60f65b4821de9c8170c8f8a01f0ef8e2f940dca27f80"
+  },
+  "results": {
+    "zero_shot": {
+      "0.1": {
+        "AP101": 0.049954506435760514,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 8,
+        "fp": 619,
+        "fn": 78,
+        "precision": 0.012759170653907496,
+        "recall": 0.09302325581395349
+      },
+      "0.25": {
+        "AP101": 0.049954506435760514,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 8,
+        "fp": 143,
+        "fn": 78,
+        "precision": 0.052980132450331126,
+        "recall": 0.09302325581395349
+      }
+    },
+    "real_best": {
+      "0.1": {
+        "AP101": 0.013474399120584327,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 3,
+        "fp": 42,
+        "fn": 83,
+        "precision": 0.06666666666666667,
+        "recall": 0.03488372093023256
+      },
+      "0.25": {
+        "AP101": 0.013474399120584327,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 1,
+        "fp": 5,
+        "fn": 85,
+        "precision": 0.16666666666666666,
+        "recall": 0.011627906976744186
+      }
+    },
+    "real_last": {
+      "0.1": {
+        "AP101": 0.006508516218405274,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 1,
+        "fp": 17,
+        "fn": 85,
+        "precision": 0.05555555555555555,
+        "recall": 0.011627906976744186
+      },
+      "0.25": {
+        "AP101": 0.006508516218405274,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 3,
+        "fn": 86,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    },
+    "synthetic_best": {
+      "0.1": {
+        "AP101": 0.009306327125612747,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 10,
+        "fp": 546,
+        "fn": 76,
+        "precision": 0.017985611510791366,
+        "recall": 0.11627906976744186
+      },
+      "0.25": {
+        "AP101": 0.009306327125612747,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 10,
+        "fp": 492,
+        "fn": 76,
+        "precision": 0.0199203187250996,
+        "recall": 0.11627906976744186
+      }
+    },
+    "synthetic_last": {
+      "0.1": {
+        "AP101": 0.012338713215531366,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 12,
+        "fp": 600,
+        "fn": 74,
+        "precision": 0.0196078431372549,
+        "recall": 0.13953488372093023
+      },
+      "0.25": {
+        "AP101": 0.012338713215531366,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 12,
+        "fp": 585,
+        "fn": 74,
+        "precision": 0.020100502512562814,
+        "recall": 0.13953488372093023
+      }
+    },
+    "synthetic_coverage_best": {
+      "0.1": {
+        "AP101": 0.009727151885918347,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 9,
+        "fp": 858,
+        "fn": 77,
+        "precision": 0.010380622837370242,
+        "recall": 0.10465116279069768
+      },
+      "0.25": {
+        "AP101": 0.009727151885918347,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 7,
+        "fp": 362,
+        "fn": 79,
+        "precision": 0.018970189701897018,
+        "recall": 0.08139534883720931
+      }
+    },
+    "synthetic_coverage_last": {
+      "0.1": {
+        "AP101": 0.022166310773064447,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.1,
+        "tp": 17,
+        "fp": 834,
+        "fn": 69,
+        "precision": 0.0199764982373678,
+        "recall": 0.19767441860465115
+      },
+      "0.25": {
+        "AP101": 0.022166310773064447,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 86,
+        "confidence": 0.25,
+        "tp": 16,
+        "fp": 577,
+        "fn": 70,
+        "precision": 0.026981450252951095,
+        "recall": 0.18604651162790697
+      }
+    }
+  }
+}

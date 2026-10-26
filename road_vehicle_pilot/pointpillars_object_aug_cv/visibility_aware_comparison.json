@@ -1,0 +1,924 @@
+{
+  "policy": "Secondary post-hoc diagnostic motivated by annotation documentation and metadata, not model scores. Retain original ROI/support eligibility, but exclude GT explicitly marked LiDAR occlusion100%. Give visible-GT matches priority; otherwise ignore predictions with 3D IoU>=.5 to a fully-occluded eligible GT. Other original exclusions remain unchanged. Same frozen predictions/weights. Models were still TRAINED and SELECTED using the original eligibility; this does not fix their training targets or checkpoint selection.",
+  "original_ground_truth_boxes": 589,
+  "visible_ground_truth_boxes": 565,
+  "folds": [
+    {
+      "fold": 0,
+      "original_GT": 73,
+      "visible_GT": 73,
+      "results": {
+        "pretrained": {
+          "metrics": {
+            "AP101": 0.9392046370315791,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 71,
+            "fp": 721,
+            "fn": 2,
+            "precision": 0.08964646464646464,
+            "recall": 0.9726027397260274
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_best": {
+          "metrics": {
+            "AP101": 0.8065820391359773,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 54,
+            "fp": 10,
+            "fn": 19,
+            "precision": 0.84375,
+            "recall": 0.7397260273972602
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_last": {
+          "metrics": {
+            "AP101": 0.7509569415330741,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 46,
+            "fp": 10,
+            "fn": 27,
+            "precision": 0.8214285714285714,
+            "recall": 0.6301369863013698
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_best": {
+          "metrics": {
+            "AP101": 0.7552986589439914,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 61,
+            "fp": 54,
+            "fn": 12,
+            "precision": 0.5304347826086957,
+            "recall": 0.8356164383561644
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_last": {
+          "metrics": {
+            "AP101": 0.7552986589439914,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 61,
+            "fp": 54,
+            "fn": 12,
+            "precision": 0.5304347826086957,
+            "recall": 0.8356164383561644
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_best": {
+          "metrics": {
+            "AP101": 0.0602887786154956,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 22,
+            "fp": 151,
+            "fn": 51,
+            "precision": 0.12716763005780346,
+            "recall": 0.3013698630136986
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_last": {
+          "metrics": {
+            "AP101": 0.03591986461773858,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 12,
+            "fp": 148,
+            "fn": 61,
+            "precision": 0.075,
+            "recall": 0.1643835616438356
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_best": {
+          "metrics": {
+            "AP101": 0.8177787017529461,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 70,
+            "fp": 917,
+            "fn": 3,
+            "precision": 0.07092198581560284,
+            "recall": 0.958904109589041
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_last": {
+          "metrics": {
+            "AP101": 0.6713096921228301,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 73,
+            "confidence": 0.25,
+            "tp": 62,
+            "fp": 739,
+            "fn": 11,
+            "precision": 0.07740324594257178,
+            "recall": 0.8493150684931506
+          },
+          "ignored_predictions": 0
+        }
+      },
+      "split_fully_occluded_counts": {
+        "real_train": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        },
+        "real_val": {
+          "box_instances": 17,
+          "annotation_IDs": 1
+        },
+        "real_test": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "original_GT": 336,
+      "visible_GT": 336,
+      "results": {
+        "pretrained": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 830,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_best": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 32,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 186,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_best": {
+          "metrics": {
+            "AP101": 0.00013845333225595297,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 47,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_last": {
+          "metrics": {
+            "AP101": 0.00013845333225595297,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 47,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_best": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 914,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 914,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_best": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 2318,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 336,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 1313,
+            "fn": 336,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        }
+      },
+      "split_fully_occluded_counts": {
+        "real_train": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        },
+        "real_val": {
+          "box_instances": 17,
+          "annotation_IDs": 1
+        },
+        "real_test": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "original_GT": 59,
+      "visible_GT": 35,
+      "results": {
+        "pretrained": {
+          "metrics": {
+            "AP101": 0.503976812699633,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 29,
+            "fp": 360,
+            "fn": 6,
+            "precision": 0.07455012853470437,
+            "recall": 0.8285714285714286
+          },
+          "ignored_predictions": 6
+        },
+        "real_control_best": {
+          "metrics": {
+            "AP101": 0.4434842112998039,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 16,
+            "fp": 15,
+            "fn": 19,
+            "precision": 0.5161290322580645,
+            "recall": 0.45714285714285713
+          },
+          "ignored_predictions": 12
+        },
+        "real_control_last": {
+          "metrics": {
+            "AP101": 0.5640796392895563,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 17,
+            "fp": 9,
+            "fn": 18,
+            "precision": 0.6538461538461539,
+            "recall": 0.4857142857142857
+          },
+          "ignored_predictions": 13
+        },
+        "real_augmented_best": {
+          "metrics": {
+            "AP101": 0.43434933264777353,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 21,
+            "fp": 65,
+            "fn": 14,
+            "precision": 0.2441860465116279,
+            "recall": 0.6
+          },
+          "ignored_predictions": 17
+        },
+        "real_augmented_last": {
+          "metrics": {
+            "AP101": 0.44309167824644674,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 22,
+            "fp": 68,
+            "fn": 13,
+            "precision": 0.24444444444444444,
+            "recall": 0.6285714285714286
+          },
+          "ignored_predictions": 17
+        },
+        "synthetic_control_best": {
+          "metrics": {
+            "AP101": 0.007392055301615834,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 5,
+            "fp": 180,
+            "fn": 30,
+            "precision": 0.02702702702702703,
+            "recall": 0.14285714285714285
+          },
+          "ignored_predictions": 3
+        },
+        "synthetic_control_last": {
+          "metrics": {
+            "AP101": 0.003933325327546272,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 6,
+            "fp": 440,
+            "fn": 29,
+            "precision": 0.013452914798206279,
+            "recall": 0.17142857142857143
+          },
+          "ignored_predictions": 1
+        },
+        "synthetic_augmented_best": {
+          "metrics": {
+            "AP101": 0.053146669802085864,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 18,
+            "fp": 553,
+            "fn": 17,
+            "precision": 0.03152364273204904,
+            "recall": 0.5142857142857142
+          },
+          "ignored_predictions": 5
+        },
+        "synthetic_augmented_last": {
+          "metrics": {
+            "AP101": 0.03625910417049318,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 17,
+            "fp": 769,
+            "fn": 18,
+            "precision": 0.021628498727735368,
+            "recall": 0.4857142857142857
+          },
+          "ignored_predictions": 3
+        }
+      },
+      "split_fully_occluded_counts": {
+        "real_train": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        },
+        "real_val": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        },
+        "real_test": {
+          "box_instances": 24,
+          "annotation_IDs": 1
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "original_GT": 86,
+      "visible_GT": 86,
+      "results": {
+        "pretrained": {
+          "metrics": {
+            "AP101": 0.03476098741095829,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 7,
+            "fp": 145,
+            "fn": 79,
+            "precision": 0.046052631578947366,
+            "recall": 0.08139534883720931
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_best": {
+          "metrics": {
+            "AP101": 0.01066611042798535,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 1,
+            "fp": 3,
+            "fn": 85,
+            "precision": 0.25,
+            "recall": 0.011627906976744186
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_last": {
+          "metrics": {
+            "AP101": 0.01066611042798535,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 1,
+            "fp": 3,
+            "fn": 85,
+            "precision": 0.25,
+            "recall": 0.011627906976744186
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_best": {
+          "metrics": {
+            "AP101": 0.04511964065550015,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 5,
+            "fp": 58,
+            "fn": 81,
+            "precision": 0.07936507936507936,
+            "recall": 0.05813953488372093
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_last": {
+          "metrics": {
+            "AP101": 0.04511964065550015,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 5,
+            "fp": 58,
+            "fn": 81,
+            "precision": 0.07936507936507936,
+            "recall": 0.05813953488372093
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_best": {
+          "metrics": {
+            "AP101": 3.455842966495602e-05,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 318,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 382,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_best": {
+          "metrics": {
+            "AP101": 0.023717835323787188,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 9,
+            "fp": 191,
+            "fn": 77,
+            "precision": 0.045,
+            "recall": 0.10465116279069768
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_last": {
+          "metrics": {
+            "AP101": 0.017769027722980554,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 8,
+            "fp": 399,
+            "fn": 78,
+            "precision": 0.019656019656019656,
+            "recall": 0.09302325581395349
+          },
+          "ignored_predictions": 0
+        }
+      },
+      "split_fully_occluded_counts": {
+        "real_train": {
+          "box_instances": 24,
+          "annotation_IDs": 1
+        },
+        "real_val": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        },
+        "real_test": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "original_GT": 35,
+      "visible_GT": 35,
+      "results": {
+        "pretrained": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 206,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_best": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_control_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_best": {
+          "metrics": {
+            "AP101": 3.183598102575531e-05,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 37,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "real_augmented_last": {
+          "metrics": {
+            "AP101": 3.4220011862937445e-05,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 21,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_best": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 93,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_control_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 93,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_best": {
+          "metrics": {
+            "AP101": 0.0003414134516899966,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 1,
+            "fp": 242,
+            "fn": 34,
+            "precision": 0.00411522633744856,
+            "recall": 0.02857142857142857
+          },
+          "ignored_predictions": 0
+        },
+        "synthetic_augmented_last": {
+          "metrics": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 35,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 211,
+            "fn": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "ignored_predictions": 0
+        }
+      },
+      "split_fully_occluded_counts": {
+        "real_train": {
+          "box_instances": 24,
+          "annotation_IDs": 1
+        },
+        "real_val": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        },
+        "real_test": {
+          "box_instances": 0,
+          "annotation_IDs": 0
+        }
+      }
+    }
+  ],
+  "summary": {
+    "pretrained": {
+      "macro_3D_AP50": 0.2955884874284341,
+      "pooled_3D_AP50": {
+        "AP101": 0.15352376000366325,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 107,
+        "fp": 2262,
+        "fn": 458,
+        "precision": 0.045166737019839594,
+        "recall": 0.18938053097345134
+      }
+    },
+    "real_control_best": {
+      "macro_3D_AP50": 0.25214647217275327,
+      "pooled_3D_AP50": {
+        "AP101": 0.11882129289052558,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 71,
+        "fp": 60,
+        "fn": 494,
+        "precision": 0.5419847328244275,
+        "recall": 0.1256637168141593
+      }
+    },
+    "real_control_last": {
+      "macro_3D_AP50": 0.2651405382501232,
+      "pooled_3D_AP50": {
+        "AP101": 0.05622630386814528,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 64,
+        "fp": 208,
+        "fn": 501,
+        "precision": 0.23529411764705882,
+        "recall": 0.11327433628318584
+      }
+    },
+    "real_augmented_best": {
+      "macro_3D_AP50": 0.24698758431210938,
+      "pooled_3D_AP50": {
+        "AP101": 0.11535950152643674,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 87,
+        "fp": 261,
+        "fn": 478,
+        "precision": 0.25,
+        "recall": 0.15398230088495576
+      }
+    },
+    "real_augmented_last": {
+      "macro_3D_AP50": 0.24873653023801143,
+      "pooled_3D_AP50": {
+        "AP101": 0.11692967424919896,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 88,
+        "fp": 248,
+        "fn": 477,
+        "precision": 0.2619047619047619,
+        "recall": 0.15575221238938053
+      }
+    },
+    "synthetic_control_best": {
+      "macro_3D_AP50": 0.01354307846935528,
+      "pooled_3D_AP50": {
+        "AP101": 0.002729022701403535,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 27,
+        "fp": 1656,
+        "fn": 538,
+        "precision": 0.016042780748663103,
+        "recall": 0.047787610619469026
+      }
+    },
+    "synthetic_control_last": {
+      "macro_3D_AP50": 0.00797063798905697,
+      "pooled_3D_AP50": {
+        "AP101": 0.0031159518579983586,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 18,
+        "fp": 1977,
+        "fn": 547,
+        "precision": 0.009022556390977444,
+        "recall": 0.03185840707964602
+      }
+    },
+    "synthetic_augmented_best": {
+      "macro_3D_AP50": 0.17899692406610185,
+      "pooled_3D_AP50": {
+        "AP101": 0.10964390807587542,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 98,
+        "fp": 4221,
+        "fn": 467,
+        "precision": 0.022690437601296597,
+        "recall": 0.17345132743362832
+      }
+    },
+    "synthetic_augmented_last": {
+      "macro_3D_AP50": 0.14506756480326075,
+      "pooled_3D_AP50": {
+        "AP101": 0.09438190839749636,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 565,
+        "confidence": 0.25,
+        "tp": 87,
+        "fp": 3431,
+        "fn": 478,
+        "precision": 0.02472996020466174,
+        "recall": 0.15398230088495576
+      }
+    }
+  }
+}

@@ -1,0 +1,4105 @@
+{
+  "purpose": "Diagnostic exploration, not new benchmark tuning",
+  "box_sizes": {
+    "real_train": {
+      "objects": 255,
+      "median_input_wh": [
+        45.199776000000014,
+        21.918015584415603
+      ],
+      "fraction_min_side_under_8px": 0.00392156862745098
+    },
+    "synthetic_train": {
+      "objects": 107,
+      "median_input_wh": [
+        12.749999999999915,
+        10.499997600000015
+      ],
+      "fraction_min_side_under_8px": 0.4485981308411215
+    },
+    "real_val": {
+      "objects": 34,
+      "median_input_wh": [
+        19.604697599999973,
+        15.789188571428586
+      ],
+      "fraction_min_side_under_8px": 0.0
+    },
+    "real_test": {
+      "objects": 36,
+      "median_input_wh": [
+        25.148966400000035,
+        9.246944415584426
+      ],
+      "fraction_min_side_under_8px": 0.3055555555555556
+    }
+  },
+  "models": {
+    "real_on_real_train": {
+      "thresholds": {
+        "0.001": {
+          "tp": 248,
+          "fp": 1930,
+          "fn": 7,
+          "precision": 0.11386593204775022,
+          "recall": 0.9725490196078431
+        },
+        "0.01": {
+          "tp": 248,
+          "fp": 443,
+          "fn": 7,
+          "precision": 0.3589001447178003,
+          "recall": 0.9725490196078431
+        },
+        "0.05": {
+          "tp": 239,
+          "fp": 130,
+          "fn": 16,
+          "precision": 0.6476964769647696,
+          "recall": 0.9372549019607843
+        },
+        "0.25": {
+          "tp": 234,
+          "fp": 29,
+          "fn": 21,
+          "precision": 0.8897338403041825,
+          "recall": 0.9176470588235294
+        }
+      },
+      "objects": [
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_87.png",
+          "best_iou": 0.8204313434248987,
+          "confidence_at_best_iou": 0.779764711856842,
+          "input_width": 47.736979200000036,
+          "input_height": 23.691098181818173
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_87.png",
+          "best_iou": 0.775798018111988,
+          "confidence_at_best_iou": 0.7613438367843628,
+          "input_width": 46.547779199999944,
+          "input_height": 19.738616103896074
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_87.png",
+          "best_iou": 0.834786881508317,
+          "confidence_at_best_iou": 0.7976341247558594,
+          "input_width": 40.570022400000006,
+          "input_height": 31.031688311688317
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_87.png",
+          "best_iou": 0.7304203723985709,
+          "confidence_at_best_iou": 0.7050319314002991,
+          "input_width": 39.60743040000004,
+          "input_height": 20.243345454545434
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_27.png",
+          "best_iou": 0.8429147613140816,
+          "confidence_at_best_iou": 0.8011135458946228,
+          "input_width": 47.08451520000001,
+          "input_height": 28.55913974025973
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_27.png",
+          "best_iou": 0.788177502561902,
+          "confidence_at_best_iou": 0.5177836418151855,
+          "input_width": 45.199776000000014,
+          "input_height": 20.489841038961046
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_27.png",
+          "best_iou": 0.923580128265748,
+          "confidence_at_best_iou": 0.7476484775543213,
+          "input_width": 39.919478399999974,
+          "input_height": 18.95399688311693
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_27.png",
+          "best_iou": 0.763360290007812,
+          "confidence_at_best_iou": 0.6423376202583313,
+          "input_width": 38.775167999999965,
+          "input_height": 21.163050389610383
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_27.png",
+          "best_iou": 0.8827864650797288,
+          "confidence_at_best_iou": 0.7488566040992737,
+          "input_width": 46.58626560000002,
+          "input_height": 21.24214441558439
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_94.png",
+          "best_iou": 0.8862311424024529,
+          "confidence_at_best_iou": 0.7582201361656189,
+          "input_width": 47.29097280000004,
+          "input_height": 20.85032103896102
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_94.png",
+          "best_iou": 0.882439376006182,
+          "confidence_at_best_iou": 0.7429582476615906,
+          "input_width": 45.28238400000001,
+          "input_height": 18.75168000000001
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_94.png",
+          "best_iou": 0.8119768763111902,
+          "confidence_at_best_iou": 0.7789936661720276,
+          "input_width": 40.56596160000003,
+          "input_height": 27.91663168831165
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_94.png",
+          "best_iou": 0.8905161367323419,
+          "confidence_at_best_iou": 0.7313790917396545,
+          "input_width": 36.37278720000005,
+          "input_height": 17.57157194805195
+        },
+        {
+          "image": "real_1_calibration_1.1_15.png",
+          "best_iou": 0.9509802093032661,
+          "confidence_at_best_iou": 0.9743127822875977,
+          "input_width": 154.39646399999984,
+          "input_height": 111.35878441558445
+        },
+        {
+          "image": "real_1_calibration_1.1_15.png",
+          "best_iou": 0.7827640755092704,
+          "confidence_at_best_iou": 0.6858169436454773,
+          "input_width": 22.542998400000045,
+          "input_height": 34.01816727272725
+        },
+        {
+          "image": "real_1_calibration_1.1_15.png",
+          "best_iou": 0.9341846984346749,
+          "confidence_at_best_iou": 0.9015358686447144,
+          "input_width": 55.97536319999994,
+          "input_height": 76.58674285714294
+        },
+        {
+          "image": "real_1_calibration_1.1_15.png",
+          "best_iou": 0.6941471801337554,
+          "confidence_at_best_iou": 0.6477882266044617,
+          "input_width": 18.595747199999995,
+          "input_height": 15.848596363636387
+        },
+        {
+          "image": "real_1_calibration_1.1_15.png",
+          "best_iou": 0.736233643162504,
+          "confidence_at_best_iou": 0.8490018844604492,
+          "input_width": 22.419225599999976,
+          "input_height": 23.037126233766212
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.8642419994166942,
+          "confidence_at_best_iou": 0.011036212556064129,
+          "input_width": 16.624780800000075,
+          "input_height": 20.008020779220786
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.6364908744064952,
+          "confidence_at_best_iou": 0.01945698820054531,
+          "input_width": 9.04528319999992,
+          "input_height": 19.57082181818185
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.8444891260787215,
+          "confidence_at_best_iou": 0.7727129459381104,
+          "input_width": 50.256192000000084,
+          "input_height": 17.7410368831169
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.7593131040812492,
+          "confidence_at_best_iou": 0.7469977140426636,
+          "input_width": 41.69469120000013,
+          "input_height": 15.336648311688306
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.9447279150518921,
+          "confidence_at_best_iou": 0.8327486515045166,
+          "input_width": 63.348691199999976,
+          "input_height": 24.898067532467547
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.908361405294558,
+          "confidence_at_best_iou": 0.6820575594902039,
+          "input_width": 38.249808000000044,
+          "input_height": 15.7792581818182
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.9165152964913769,
+          "confidence_at_best_iou": 0.8225089907646179,
+          "input_width": 52.27433279999999,
+          "input_height": 17.450256623376625
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.8399035782720913,
+          "confidence_at_best_iou": 0.5845358371734619,
+          "input_width": 53.41139520000009,
+          "input_height": 17.845589610389627
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_77.png",
+          "best_iou": 0.7675241997276634,
+          "confidence_at_best_iou": 0.2945024073123932,
+          "input_width": 48.13492800000008,
+          "input_height": 19.14893922077921
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_260.png",
+          "best_iou": 0.723059881116754,
+          "confidence_at_best_iou": 0.6393799185752869,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_260.png",
+          "best_iou": 0.8782089413114545,
+          "confidence_at_best_iou": 0.7592691779136658,
+          "input_width": 34.875935999999996,
+          "input_height": 20.287449350649375
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_260.png",
+          "best_iou": 0.8618579540327994,
+          "confidence_at_best_iou": 0.7366042137145996,
+          "input_width": 49.5052128,
+          "input_height": 29.585198961038955
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_260.png",
+          "best_iou": 0.9199631314280299,
+          "confidence_at_best_iou": 0.7709105610847473,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.8732513121936405,
+          "confidence_at_best_iou": 0.44394221901893616,
+          "input_width": 26.393855999999865,
+          "input_height": 26.124068571428534
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.6296940487315748,
+          "confidence_at_best_iou": 0.04500116407871246,
+          "input_width": 15.460272000000082,
+          "input_height": 23.383798441558397
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.7953010649918297,
+          "confidence_at_best_iou": 0.7831942439079285,
+          "input_width": 52.18743359999992,
+          "input_height": 16.797631168831195
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.7813162759854265,
+          "confidence_at_best_iou": 0.5420724749565125,
+          "input_width": 42.5022335999999,
+          "input_height": 15.516149610389599
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.9087595308003618,
+          "confidence_at_best_iou": 0.8368232846260071,
+          "input_width": 61.5242015999999,
+          "input_height": 24.645194805194794
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.9131997593097902,
+          "confidence_at_best_iou": 0.5789583325386047,
+          "input_width": 42.157132799999985,
+          "input_height": 14.380612987012936
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.9253912805595627,
+          "confidence_at_best_iou": 0.8452351689338684,
+          "input_width": 47.760028800000015,
+          "input_height": 16.131721558441527
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.8495001189737608,
+          "confidence_at_best_iou": 0.6073892712593079,
+          "input_width": 53.96737919999998,
+          "input_height": 16.680667012987016
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_73.png",
+          "best_iou": 0.8727057096063681,
+          "confidence_at_best_iou": 0.21424908936023712,
+          "input_width": 52.84265279999997,
+          "input_height": 17.222119480519456
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_127.png",
+          "best_iou": 0.8425180160621358,
+          "confidence_at_best_iou": 0.7476119995117188,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_127.png",
+          "best_iou": 0.9070196998533263,
+          "confidence_at_best_iou": 0.7663658857345581,
+          "input_width": 43.4569824,
+          "input_height": 29.40352207792206
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_127.png",
+          "best_iou": 0.9120966266688738,
+          "confidence_at_best_iou": 0.7568166255950928,
+          "input_width": 33.29315520000001,
+          "input_height": 18.954196363636395
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_127.png",
+          "best_iou": 0.7584781579566249,
+          "confidence_at_best_iou": 0.5899906158447266,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_5_station_bergedorf_5.1_1.png",
+          "best_iou": 0.8017035109763787,
+          "confidence_at_best_iou": 0.3273196518421173,
+          "input_width": 37.3809023999999,
+          "input_height": 86.82264935064939
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_88.png",
+          "best_iou": 0.9537546382497453,
+          "confidence_at_best_iou": 0.7437283992767334,
+          "input_width": 47.078591999999986,
+          "input_height": 21.30556051948055
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_88.png",
+          "best_iou": 0.7946253558453259,
+          "confidence_at_best_iou": 0.7181538939476013,
+          "input_width": 43.91387519999998,
+          "input_height": 19.738616103896074
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_88.png",
+          "best_iou": 0.8870485035506909,
+          "confidence_at_best_iou": 0.796459972858429,
+          "input_width": 42.16848000000001,
+          "input_height": 31.836130909090937
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_88.png",
+          "best_iou": 0.9071761681481623,
+          "confidence_at_best_iou": 0.7192001342773438,
+          "input_width": 37.33865280000007,
+          "input_height": 17.385930389610333
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.7636058745290046,
+          "confidence_at_best_iou": 0.275165855884552,
+          "input_width": 19.035657599999833,
+          "input_height": 21.30716883116883
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.17438759283352495,
+          "confidence_at_best_iou": 0.1723780781030655,
+          "input_width": 3.6345983999999945,
+          "input_height": 19.324824935064964
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.8474676337256768,
+          "confidence_at_best_iou": 0.8179906010627747,
+          "input_width": 46.557964800000065,
+          "input_height": 16.521350649350612
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.8166658164177061,
+          "confidence_at_best_iou": 0.730686604976654,
+          "input_width": 42.480988800000105,
+          "input_height": 15.292513246753273
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.8936644151854829,
+          "confidence_at_best_iou": 0.8082249760627747,
+          "input_width": 61.213142400000066,
+          "input_height": 23.497552207792207
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.8787662973553271,
+          "confidence_at_best_iou": 0.2135925441980362,
+          "input_width": 39.225686399999965,
+          "input_height": 14.70711272727276
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.9235200242981606,
+          "confidence_at_best_iou": 0.8285306692123413,
+          "input_width": 50.08928639999992,
+          "input_height": 16.051954285714288
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.7991393460004788,
+          "confidence_at_best_iou": 0.6000745892524719,
+          "input_width": 52.860710399999945,
+          "input_height": 16.379420259740275
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_76.png",
+          "best_iou": 0.844833949486857,
+          "confidence_at_best_iou": 0.6671674251556396,
+          "input_width": 50.07401279999996,
+          "input_height": 18.56098285714285
+        },
+        {
+          "image": "real_1_calibration_1.2_24.png",
+          "best_iou": 0.8509687275523543,
+          "confidence_at_best_iou": 0.7548273205757141,
+          "input_width": 20.591664000000062,
+          "input_height": 29.450798961038906
+        },
+        {
+          "image": "real_1_calibration_1.2_24.png",
+          "best_iou": 0.879670970147331,
+          "confidence_at_best_iou": 0.8790075182914734,
+          "input_width": 21.937507200000077,
+          "input_height": 22.404155844155895
+        },
+        {
+          "image": "real_1_calibration_1.2_24.png",
+          "best_iou": 0.9468869716310973,
+          "confidence_at_best_iou": 0.752410888671875,
+          "input_width": 59.87312640000019,
+          "input_height": 45.070697142857156
+        },
+        {
+          "image": "real_1_calibration_1.2_24.png",
+          "best_iou": 0.4242888483533749,
+          "confidence_at_best_iou": 0.0016760861035436392,
+          "input_width": 18.701068800000023,
+          "input_height": 17.016610909090957
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_26.png",
+          "best_iou": 0.8986774987634121,
+          "confidence_at_best_iou": 0.7950710654258728,
+          "input_width": 48.954739200000034,
+          "input_height": 28.914084155844147
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_26.png",
+          "best_iou": 0.8285202852743188,
+          "confidence_at_best_iou": 0.6112634539604187,
+          "input_width": 45.84155520000003,
+          "input_height": 21.038961038960995
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_26.png",
+          "best_iou": 0.907801746738042,
+          "confidence_at_best_iou": 0.7175804376602173,
+          "input_width": 39.919478399999974,
+          "input_height": 19.14545454545454
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_26.png",
+          "best_iou": 0.769125356120612,
+          "confidence_at_best_iou": 0.6392203569412231,
+          "input_width": 37.84801919999999,
+          "input_height": 21.670129870129916
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_26.png",
+          "best_iou": 0.8742393076095599,
+          "confidence_at_best_iou": 0.7667751312255859,
+          "input_width": 46.97142719999995,
+          "input_height": 21.428571428571427
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_246.png",
+          "best_iou": 0.7368759465930491,
+          "confidence_at_best_iou": 0.6635366082191467,
+          "input_width": 64.6320672,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_246.png",
+          "best_iou": 0.7865183243212736,
+          "confidence_at_best_iou": 0.7664735913276672,
+          "input_width": 37.15391999999994,
+          "input_height": 20.938678441558405
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_246.png",
+          "best_iou": 0.8132553146113004,
+          "confidence_at_best_iou": 0.7692325115203857,
+          "input_width": 49.40702399999997,
+          "input_height": 31.886050909090912
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_246.png",
+          "best_iou": 0.8492456509762193,
+          "confidence_at_best_iou": 0.7663001418113708,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_111.png",
+          "best_iou": 0.8809284441961666,
+          "confidence_at_best_iou": 0.7231720089912415,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_111.png",
+          "best_iou": 0.9311491400642754,
+          "confidence_at_best_iou": 0.7303073406219482,
+          "input_width": 44.94653759999997,
+          "input_height": 29.40352207792206
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_111.png",
+          "best_iou": 0.961755604670336,
+          "confidence_at_best_iou": 0.7322208285331726,
+          "input_width": 33.872668800000056,
+          "input_height": 18.95371636363632
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_111.png",
+          "best_iou": 0.7607419812710955,
+          "confidence_at_best_iou": 0.6744869947433472,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_30.png",
+          "best_iou": 0.9202813320243894,
+          "confidence_at_best_iou": 0.7012847065925598,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_30.png",
+          "best_iou": 0.8725661397764525,
+          "confidence_at_best_iou": 0.760920524597168,
+          "input_width": 45.34042559999999,
+          "input_height": 29.58370909090908
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_30.png",
+          "best_iou": 0.8909126197621525,
+          "confidence_at_best_iou": 0.7360249757766724,
+          "input_width": 32.92688640000001,
+          "input_height": 18.954183896103913
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_30.png",
+          "best_iou": 0.7125250059987192,
+          "confidence_at_best_iou": 0.5757743716239929,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.9053212458485764,
+          "confidence_at_best_iou": 0.48606741428375244,
+          "input_width": 24.57799680000004,
+          "input_height": 27.17640311688314
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.4194176447798213,
+          "confidence_at_best_iou": 0.48606741428375244,
+          "input_width": 11.792697600000036,
+          "input_height": 23.32114285714283
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.7929661744239179,
+          "confidence_at_best_iou": 0.8022791147232056,
+          "input_width": 51.668419200000066,
+          "input_height": 16.774048831168844
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.8252992124367161,
+          "confidence_at_best_iou": 0.6060656905174255,
+          "input_width": 42.23872319999984,
+          "input_height": 15.57793870129871
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.9203930262411097,
+          "confidence_at_best_iou": 0.8376749753952026,
+          "input_width": 63.9468863999999,
+          "input_height": 24.7935148051948
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.8202488476354567,
+          "confidence_at_best_iou": 0.4924956262111664,
+          "input_width": 40.09101119999998,
+          "input_height": 14.83653818181818
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.9692208781078658,
+          "confidence_at_best_iou": 0.8564184308052063,
+          "input_width": 47.84599680000002,
+          "input_height": 16.694948571428593
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.7912701703217322,
+          "confidence_at_best_iou": 0.5494245290756226,
+          "input_width": 55.25408640000009,
+          "input_height": 16.90980779220779
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_74.png",
+          "best_iou": 0.7986127307812787,
+          "confidence_at_best_iou": 0.1452835500240326,
+          "input_width": 51.62423999999994,
+          "input_height": 18.226684675324666
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_12.png",
+          "best_iou": 0.9472722289305614,
+          "confidence_at_best_iou": 0.773891806602478,
+          "input_width": 45.34042559999999,
+          "input_height": 29.87046857142859
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_12.png",
+          "best_iou": 0.9124390430080402,
+          "confidence_at_best_iou": 0.7800698280334473,
+          "input_width": 32.92688640000001,
+          "input_height": 18.954183896103913
+        },
+        {
+          "image": "real_1_calibration_1.2_1.png",
+          "best_iou": 0.9461357535060386,
+          "confidence_at_best_iou": 0.7589669227600098,
+          "input_width": 20.570006399999954,
+          "input_height": 29.492484155844235
+        },
+        {
+          "image": "real_1_calibration_1.2_1.png",
+          "best_iou": 0.9041748407906659,
+          "confidence_at_best_iou": 0.8652287125587463,
+          "input_width": 21.749097599999942,
+          "input_height": 21.48708779220777
+        },
+        {
+          "image": "real_1_calibration_1.2_1.png",
+          "best_iou": 0.9609806583885234,
+          "confidence_at_best_iou": 0.8081571459770203,
+          "input_width": 58.246694400000095,
+          "input_height": 42.84347844155848
+        },
+        {
+          "image": "real_1_calibration_1.2_1.png",
+          "best_iou": 0.6830210460521041,
+          "confidence_at_best_iou": 0.27536115050315857,
+          "input_width": 18.579772800000075,
+          "input_height": 15.606589090909095
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_86.png",
+          "best_iou": 0.8288328427218368,
+          "confidence_at_best_iou": 0.7778235673904419,
+          "input_width": 48.31042560000001,
+          "input_height": 23.297498181818145
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_86.png",
+          "best_iou": 0.757640276575621,
+          "confidence_at_best_iou": 0.7750974893569946,
+          "input_width": 44.024918400000004,
+          "input_height": 21.11834181818183
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_86.png",
+          "best_iou": 0.8040058812436505,
+          "confidence_at_best_iou": 0.7957001328468323,
+          "input_width": 40.570022400000006,
+          "input_height": 28.193036883116918
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_86.png",
+          "best_iou": 0.9313524676316033,
+          "confidence_at_best_iou": 0.6850196719169617,
+          "input_width": 31.41548159999995,
+          "input_height": 17.681753766233793
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_71.png",
+          "best_iou": 0.8648287837179914,
+          "confidence_at_best_iou": 0.6986461877822876,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_71.png",
+          "best_iou": 0.9631330004449471,
+          "confidence_at_best_iou": 0.7714667320251465,
+          "input_width": 43.39588800000007,
+          "input_height": 29.147713246753234
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_71.png",
+          "best_iou": 0.8364436547969275,
+          "confidence_at_best_iou": 0.7552781105041504,
+          "input_width": 29.268710400000064,
+          "input_height": 18.954183896103913
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_71.png",
+          "best_iou": 0.7047831341188204,
+          "confidence_at_best_iou": 0.6842629909515381,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_1_calibration_1.1_16.png",
+          "best_iou": 0.9547015404874474,
+          "confidence_at_best_iou": 0.9720679521560669,
+          "input_width": 154.39646399999984,
+          "input_height": 111.35878441558445
+        },
+        {
+          "image": "real_1_calibration_1.1_16.png",
+          "best_iou": 0.8929640990082103,
+          "confidence_at_best_iou": 0.5993629693984985,
+          "input_width": 22.542998400000045,
+          "input_height": 34.01816727272725
+        },
+        {
+          "image": "real_1_calibration_1.1_16.png",
+          "best_iou": 0.9107362374926677,
+          "confidence_at_best_iou": 0.9079705476760864,
+          "input_width": 55.97536319999994,
+          "input_height": 76.58674285714294
+        },
+        {
+          "image": "real_1_calibration_1.1_16.png",
+          "best_iou": 0.7566784327085302,
+          "confidence_at_best_iou": 0.5231038331985474,
+          "input_width": 18.409785599999985,
+          "input_height": 15.373140779220813
+        },
+        {
+          "image": "real_1_calibration_1.1_16.png",
+          "best_iou": 0.740190562408074,
+          "confidence_at_best_iou": 0.841069757938385,
+          "input_width": 22.419225599999976,
+          "input_height": 24.346372987012977
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_133.png",
+          "best_iou": 0.8931248064660613,
+          "confidence_at_best_iou": 0.6813371777534485,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_133.png",
+          "best_iou": 0.9305928242199141,
+          "confidence_at_best_iou": 0.7602782249450684,
+          "input_width": 41.902742400000065,
+          "input_height": 29.403528311688323
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_133.png",
+          "best_iou": 0.7985033944634412,
+          "confidence_at_best_iou": 0.7617178559303284,
+          "input_width": 29.268710400000064,
+          "input_height": 18.954183896103913
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_133.png",
+          "best_iou": 0.737911913550755,
+          "confidence_at_best_iou": 0.6412772536277771,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.71390627469754,
+          "confidence_at_best_iou": 0.2071288675069809,
+          "input_width": 29.818032000000084,
+          "input_height": 26.611000519480555
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.5572427269968371,
+          "confidence_at_best_iou": 0.03886844217777252,
+          "input_width": 24.49610879999992,
+          "input_height": 23.207426493506464
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.7815298827576979,
+          "confidence_at_best_iou": 0.843662440776825,
+          "input_width": 50.10659520000005,
+          "input_height": 17.306848831168825
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.77535925777369,
+          "confidence_at_best_iou": 0.7640672326087952,
+          "input_width": 42.226704000000026,
+          "input_height": 14.895515844155852
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.9294802308691734,
+          "confidence_at_best_iou": 0.8132346272468567,
+          "input_width": 61.34042880000001,
+          "input_height": 24.025595844155855
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.7257377154427295,
+          "confidence_at_best_iou": 0.02984604239463806,
+          "input_width": 19.306041599999975,
+          "input_height": 22.901398441558445
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.7799187801804727,
+          "confidence_at_best_iou": 0.665069580078125,
+          "input_width": 48.40803839999991,
+          "input_height": 14.70711272727276
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.8278450089619067,
+          "confidence_at_best_iou": 0.8301020860671997,
+          "input_width": 49.157664000000004,
+          "input_height": 16.634194285714266
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.6371022636908303,
+          "confidence_at_best_iou": 0.638270914554596,
+          "input_width": 51.49036799999991,
+          "input_height": 16.156176623376616
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_68.png",
+          "best_iou": 0.6618620153605204,
+          "confidence_at_best_iou": 0.5983511805534363,
+          "input_width": 48.06703679999996,
+          "input_height": 19.657577142857125
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_240.png",
+          "best_iou": 0.7332883388602146,
+          "confidence_at_best_iou": 0.638195812702179,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_240.png",
+          "best_iou": 0.8066014864010399,
+          "confidence_at_best_iou": 0.7752447724342346,
+          "input_width": 34.58493119999996,
+          "input_height": 18.22204675324669
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_240.png",
+          "best_iou": 0.8228356128991032,
+          "confidence_at_best_iou": 0.7693822979927063,
+          "input_width": 50.64989760000003,
+          "input_height": 28.623652987012964
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_240.png",
+          "best_iou": 0.9304316968187313,
+          "confidence_at_best_iou": 0.7171614170074463,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_88.png",
+          "best_iou": 0.8770428119341058,
+          "confidence_at_best_iou": 0.7215155959129333,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_88.png",
+          "best_iou": 0.8333089181369918,
+          "confidence_at_best_iou": 0.7659287452697754,
+          "input_width": 51.07064640000001,
+          "input_height": 29.40352207792206
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_88.png",
+          "best_iou": 0.8346612005855304,
+          "confidence_at_best_iou": 0.7731425762176514,
+          "input_width": 33.738038399999986,
+          "input_height": 18.954183896103913
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_88.png",
+          "best_iou": 0.7500805957499626,
+          "confidence_at_best_iou": 0.6362626552581787,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_1_calibration_1.1_12.png",
+          "best_iou": 0.9430458974369406,
+          "confidence_at_best_iou": 0.9777026772499084,
+          "input_width": 157.05235199999998,
+          "input_height": 115.25748779220778
+        },
+        {
+          "image": "real_1_calibration_1.1_12.png",
+          "best_iou": 0.8467491565268818,
+          "confidence_at_best_iou": 0.76763916015625,
+          "input_width": 19.928400000000025,
+          "input_height": 33.66210701298705
+        },
+        {
+          "image": "real_1_calibration_1.1_12.png",
+          "best_iou": 0.9463228171969664,
+          "confidence_at_best_iou": 0.9158459901809692,
+          "input_width": 57.58953599999994,
+          "input_height": 76.76694857142861
+        },
+        {
+          "image": "real_1_calibration_1.1_12.png",
+          "best_iou": 0.6305508995168796,
+          "confidence_at_best_iou": 0.5884252190589905,
+          "input_width": 19.170873599999986,
+          "input_height": 17.241119999999952
+        },
+        {
+          "image": "real_1_calibration_1.1_12.png",
+          "best_iou": 0.7649378869483807,
+          "confidence_at_best_iou": 0.8152698278427124,
+          "input_width": 22.42146240000008,
+          "input_height": 24.605061818181746
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_32.png",
+          "best_iou": 0.8921955919243387,
+          "confidence_at_best_iou": 0.7267903089523315,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_32.png",
+          "best_iou": 0.8736869937072453,
+          "confidence_at_best_iou": 0.7600099444389343,
+          "input_width": 45.34042559999999,
+          "input_height": 29.58370909090908
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_32.png",
+          "best_iou": 0.9553747868317525,
+          "confidence_at_best_iou": 0.7431762218475342,
+          "input_width": 32.92688640000001,
+          "input_height": 18.954183896103913
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_32.png",
+          "best_iou": 0.7132419314312913,
+          "confidence_at_best_iou": 0.6600151062011719,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_93.png",
+          "best_iou": 0.7731691600336467,
+          "confidence_at_best_iou": 0.752289891242981,
+          "input_width": 51.85724160000003,
+          "input_height": 26.183962597402562
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_93.png",
+          "best_iou": 0.8653671746669431,
+          "confidence_at_best_iou": 0.7506999969482422,
+          "input_width": 45.27865920000006,
+          "input_height": 18.75168000000001
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_93.png",
+          "best_iou": 0.8025362812977603,
+          "confidence_at_best_iou": 0.7882040143013,
+          "input_width": 40.56596160000003,
+          "input_height": 27.91663168831165
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_93.png",
+          "best_iou": 0.8527752643936928,
+          "confidence_at_best_iou": 0.69398432970047,
+          "input_width": 36.48370560000003,
+          "input_height": 16.796066493506462
+        },
+        {
+          "image": "real_1_calibration_1.1_14.png",
+          "best_iou": 0.9647911805370213,
+          "confidence_at_best_iou": 0.9729753136634827,
+          "input_width": 156.283536,
+          "input_height": 114.8345329870129
+        },
+        {
+          "image": "real_1_calibration_1.1_14.png",
+          "best_iou": 0.9011725211700038,
+          "confidence_at_best_iou": 0.7147697806358337,
+          "input_width": 22.319798400000067,
+          "input_height": 35.6550794805195
+        },
+        {
+          "image": "real_1_calibration_1.1_14.png",
+          "best_iou": 0.9168678229530404,
+          "confidence_at_best_iou": 0.9100145697593689,
+          "input_width": 58.644086400000006,
+          "input_height": 79.11182961038959
+        },
+        {
+          "image": "real_1_calibration_1.1_14.png",
+          "best_iou": 0.6174004181098379,
+          "confidence_at_best_iou": 0.6580126285552979,
+          "input_width": 20.18754240000002,
+          "input_height": 17.50270129870124
+        },
+        {
+          "image": "real_1_calibration_1.1_14.png",
+          "best_iou": 0.8992119797054242,
+          "confidence_at_best_iou": 0.8322974443435669,
+          "input_width": 24.498095999999922,
+          "input_height": 25.61267532467536
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_34.png",
+          "best_iou": 0.8309929921687503,
+          "confidence_at_best_iou": 0.800559401512146,
+          "input_width": 48.20593920000008,
+          "input_height": 27.509267532467533
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_34.png",
+          "best_iou": 0.7793861658291602,
+          "confidence_at_best_iou": 0.6171925067901611,
+          "input_width": 45.199776000000014,
+          "input_height": 20.489841038961046
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_34.png",
+          "best_iou": 0.8981182989637625,
+          "confidence_at_best_iou": 0.7426567673683167,
+          "input_width": 40.28843520000002,
+          "input_height": 17.576371948051968
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_34.png",
+          "best_iou": 0.747738724276075,
+          "confidence_at_best_iou": 0.008700569160282612,
+          "input_width": 39.78651840000005,
+          "input_height": 20.821365194805153
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_34.png",
+          "best_iou": 0.901927966648041,
+          "confidence_at_best_iou": 0.763521134853363,
+          "input_width": 45.23060159999994,
+          "input_height": 20.76266805194809
+        },
+        {
+          "image": "real_1_calibration_1.2_16.png",
+          "best_iou": 0.9067737180799087,
+          "confidence_at_best_iou": 0.745018720626831,
+          "input_width": 20.92922880000001,
+          "input_height": 28.317543896103935
+        },
+        {
+          "image": "real_1_calibration_1.2_16.png",
+          "best_iou": 0.9626091668564507,
+          "confidence_at_best_iou": 0.8569424748420715,
+          "input_width": 21.620284799999844,
+          "input_height": 20.94983064935067
+        },
+        {
+          "image": "real_1_calibration_1.2_16.png",
+          "best_iou": 0.9696979003006636,
+          "confidence_at_best_iou": 0.7913510799407959,
+          "input_width": 59.318784000000036,
+          "input_height": 44.45853506493514
+        },
+        {
+          "image": "real_1_calibration_1.2_16.png",
+          "best_iou": 0.6776425461404775,
+          "confidence_at_best_iou": 0.578985869884491,
+          "input_width": 18.27181439999989,
+          "input_height": 15.174832207792228
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_69.png",
+          "best_iou": 0.8802933468644666,
+          "confidence_at_best_iou": 0.7134741544723511,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_69.png",
+          "best_iou": 0.9273642406158843,
+          "confidence_at_best_iou": 0.768753707408905,
+          "input_width": 43.042934399999936,
+          "input_height": 29.39275636363633
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_69.png",
+          "best_iou": 0.8297657434101531,
+          "confidence_at_best_iou": 0.7819516062736511,
+          "input_width": 29.268710400000064,
+          "input_height": 18.921032727272728
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_69.png",
+          "best_iou": 0.7674496401751343,
+          "confidence_at_best_iou": 0.6676372289657593,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_118.png",
+          "best_iou": 0.8923114588754271,
+          "confidence_at_best_iou": 0.6836637258529663,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_118.png",
+          "best_iou": 0.948286341462137,
+          "confidence_at_best_iou": 0.7604630589485168,
+          "input_width": 43.96992000000001,
+          "input_height": 29.40352207792206
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_118.png",
+          "best_iou": 0.879544906132335,
+          "confidence_at_best_iou": 0.7745958566665649,
+          "input_width": 31.78288319999995,
+          "input_height": 18.954308571428584
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_118.png",
+          "best_iou": 0.7577886132972073,
+          "confidence_at_best_iou": 0.595669686794281,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_5_station_bergedorf_5.1_2.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.006780204828828573,
+          "input_width": 22.653071999999842,
+          "input_height": 86.82264935064939
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_254.png",
+          "best_iou": 0.787164244151311,
+          "confidence_at_best_iou": 0.0021302669774740934,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_254.png",
+          "best_iou": 0.6971340942242612,
+          "confidence_at_best_iou": 0.7693564891815186,
+          "input_width": 34.81751039999995,
+          "input_height": 21.565714285714275
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_254.png",
+          "best_iou": 0.7839499667419707,
+          "confidence_at_best_iou": 0.7321508526802063,
+          "input_width": 49.5074976,
+          "input_height": 31.145604155844154
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_254.png",
+          "best_iou": 0.8617559214339507,
+          "confidence_at_best_iou": 0.7828537225723267,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_1_calibration_1.1_13.png",
+          "best_iou": 0.967117456717213,
+          "confidence_at_best_iou": 0.9687753319740295,
+          "input_width": 156.85161600000004,
+          "input_height": 112.12323740259738
+        },
+        {
+          "image": "real_1_calibration_1.1_13.png",
+          "best_iou": 0.9041441491485659,
+          "confidence_at_best_iou": 0.7556958198547363,
+          "input_width": 21.281529600000088,
+          "input_height": 34.05023999999997
+        },
+        {
+          "image": "real_1_calibration_1.1_13.png",
+          "best_iou": 0.8712568471054583,
+          "confidence_at_best_iou": 0.9106675982475281,
+          "input_width": 60.860486400000006,
+          "input_height": 79.16966649350654
+        },
+        {
+          "image": "real_1_calibration_1.1_13.png",
+          "best_iou": 0.7156367865191917,
+          "confidence_at_best_iou": 0.6936890482902527,
+          "input_width": 19.170873599999986,
+          "input_height": 15.386985974025956
+        },
+        {
+          "image": "real_1_calibration_1.1_13.png",
+          "best_iou": 0.7932984024797085,
+          "confidence_at_best_iou": 0.8378293514251709,
+          "input_width": 22.42146240000008,
+          "input_height": 25.256216103896158
+        },
+        {
+          "image": "real_1_calibration_1.2_34.png",
+          "best_iou": 0.8272738876241731,
+          "confidence_at_best_iou": 0.7627997398376465,
+          "input_width": 20.571023999999994,
+          "input_height": 29.553762077922023
+        },
+        {
+          "image": "real_1_calibration_1.2_34.png",
+          "best_iou": 0.7602043377375877,
+          "confidence_at_best_iou": 0.8696180582046509,
+          "input_width": 22.41144,
+          "input_height": 21.918015584415603
+        },
+        {
+          "image": "real_1_calibration_1.2_34.png",
+          "best_iou": 0.9212369630463673,
+          "confidence_at_best_iou": 0.7788735628128052,
+          "input_width": 62.67756480000006,
+          "input_height": 47.08269506493503
+        },
+        {
+          "image": "real_1_calibration_1.2_34.png",
+          "best_iou": 0.4974523067223967,
+          "confidence_at_best_iou": 0.07358967512845993,
+          "input_width": 18.906729600000123,
+          "input_height": 17.108284675324747
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.8128590333059958,
+          "confidence_at_best_iou": 0.13201363384723663,
+          "input_width": 29.27928959999988,
+          "input_height": 27.122163116883126
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.6694382109228965,
+          "confidence_at_best_iou": 0.03905865177512169,
+          "input_width": 27.94977599999985,
+          "input_height": 23.207426493506464
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.8891278332027927,
+          "confidence_at_best_iou": 0.7468675374984741,
+          "input_width": 46.2248063999999,
+          "input_height": 16.846491428571408
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.7872514151363765,
+          "confidence_at_best_iou": 0.6589083075523376,
+          "input_width": 42.5022335999999,
+          "input_height": 15.160095584415581
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.920805840028812,
+          "confidence_at_best_iou": 0.8313327431678772,
+          "input_width": 62.20556160000009,
+          "input_height": 24.222121558441543
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.5297604826836448,
+          "confidence_at_best_iou": 0.04760430008172989,
+          "input_width": 17.442249599999954,
+          "input_height": 22.901398441558445
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.8722833006854324,
+          "confidence_at_best_iou": 0.43577656149864197,
+          "input_width": 30.240835199999914,
+          "input_height": 14.70711272727276
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.9023515086547604,
+          "confidence_at_best_iou": 0.8382927775382996,
+          "input_width": 48.86798400000009,
+          "input_height": 16.064976623376612
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.7129290869780698,
+          "confidence_at_best_iou": 0.7118479013442993,
+          "input_width": 54.956860799999944,
+          "input_height": 16.023696623376612
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_70.png",
+          "best_iou": 0.8153309219882109,
+          "confidence_at_best_iou": 0.7537804245948792,
+          "input_width": 44.32840319999989,
+          "input_height": 18.665136623376636
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_32.png",
+          "best_iou": 0.9096926958133189,
+          "confidence_at_best_iou": 0.8344095349311829,
+          "input_width": 48.71130239999995,
+          "input_height": 28.888357402597414
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_32.png",
+          "best_iou": 0.8679592343685659,
+          "confidence_at_best_iou": 0.5466238856315613,
+          "input_width": 45.199776000000014,
+          "input_height": 20.489841038961046
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_32.png",
+          "best_iou": 0.910553032351612,
+          "confidence_at_best_iou": 0.755914032459259,
+          "input_width": 40.64202240000001,
+          "input_height": 17.86035116883119
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_32.png",
+          "best_iou": 0.757912544472427,
+          "confidence_at_best_iou": 0.012276288121938705,
+          "input_width": 38.278934399999955,
+          "input_height": 20.821365194805153
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_32.png",
+          "best_iou": 0.8597969504841538,
+          "confidence_at_best_iou": 0.7470734119415283,
+          "input_width": 45.23060159999994,
+          "input_height": 20.76266805194809
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.6575666823939236,
+          "confidence_at_best_iou": 0.21401633322238922,
+          "input_width": 28.36326719999991,
+          "input_height": 26.467636363636345
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.5161504049845761,
+          "confidence_at_best_iou": 0.21401633322238922,
+          "input_width": 24.49883519999996,
+          "input_height": 22.90209662337659
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.8503900036179849,
+          "confidence_at_best_iou": 0.7986237406730652,
+          "input_width": 46.41260160000014,
+          "input_height": 16.39837090909089
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.8298843488039058,
+          "confidence_at_best_iou": 0.23401786386966705,
+          "input_width": 44.10031680000001,
+          "input_height": 16.356249350649353
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.8680324631272955,
+          "confidence_at_best_iou": 0.8203006982803345,
+          "input_width": 63.0723264,
+          "input_height": 24.025178181818184
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.6980455727429717,
+          "confidence_at_best_iou": 0.010456073097884655,
+          "input_width": 21.804412799999888,
+          "input_height": 22.262449870129846
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.8822696568877108,
+          "confidence_at_best_iou": 0.5013412237167358,
+          "input_width": 38.30606400000005,
+          "input_height": 14.89389506493509
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.9420163569589943,
+          "confidence_at_best_iou": 0.8316231966018677,
+          "input_width": 49.249027200000114,
+          "input_height": 16.528905974025953
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.676267237288644,
+          "confidence_at_best_iou": 0.6745645403862,
+          "input_width": 55.51056960000002,
+          "input_height": 16.820072727272724
+        },
+        {
+          "image": "real_7_approach_underground_station_7.3_69.png",
+          "best_iou": 0.759023516424692,
+          "confidence_at_best_iou": 0.6711048483848572,
+          "input_width": 43.94281920000004,
+          "input_height": 18.770967272727265
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_89.png",
+          "best_iou": 0.905723520819258,
+          "confidence_at_best_iou": 0.7724897861480713,
+          "input_width": 44.74944000000004,
+          "input_height": 20.85720311688313
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_89.png",
+          "best_iou": 0.771296557078321,
+          "confidence_at_best_iou": 0.7048734426498413,
+          "input_width": 45.64001280000003,
+          "input_height": 19.912413506493543
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_89.png",
+          "best_iou": 0.9418834501287877,
+          "confidence_at_best_iou": 0.7823321223258972,
+          "input_width": 44.341411200000024,
+          "input_height": 29.826134025974003
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.1_89.png",
+          "best_iou": 0.8388870087276095,
+          "confidence_at_best_iou": 0.730021595954895,
+          "input_width": 40.75558079999996,
+          "input_height": 18.952569350649327
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_53.png",
+          "best_iou": 0.9354086226553908,
+          "confidence_at_best_iou": 0.6578267216682434,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_53.png",
+          "best_iou": 0.8959575737963027,
+          "confidence_at_best_iou": 0.7717905640602112,
+          "input_width": 46.81016640000004,
+          "input_height": 29.340037402597414
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_53.png",
+          "best_iou": 0.9105180073047763,
+          "confidence_at_best_iou": 0.7593094110488892,
+          "input_width": 35.49052799999997,
+          "input_height": 19.403401558441548
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.3_53.png",
+          "best_iou": 0.7339971001036085,
+          "confidence_at_best_iou": 0.6432533860206604,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_1_calibration_1.1_21.png",
+          "best_iou": 0.9633950464010416,
+          "confidence_at_best_iou": 0.976932168006897,
+          "input_width": 154.4119104000001,
+          "input_height": 109.20739948051957
+        },
+        {
+          "image": "real_1_calibration_1.1_21.png",
+          "best_iou": 0.8084072962088431,
+          "confidence_at_best_iou": 0.7131646275520325,
+          "input_width": 19.928400000000025,
+          "input_height": 32.077477402597474
+        },
+        {
+          "image": "real_1_calibration_1.1_21.png",
+          "best_iou": 0.9262111348371186,
+          "confidence_at_best_iou": 0.8959342241287231,
+          "input_width": 56.54076480000002,
+          "input_height": 74.34162701298705
+        },
+        {
+          "image": "real_1_calibration_1.1_21.png",
+          "best_iou": 0.7347503402402363,
+          "confidence_at_best_iou": 0.21171176433563232,
+          "input_width": 19.170873599999986,
+          "input_height": 15.386985974025956
+        },
+        {
+          "image": "real_1_calibration_1.1_21.png",
+          "best_iou": 0.7092252284942537,
+          "confidence_at_best_iou": 0.6854888200759888,
+          "input_width": 22.42146240000008,
+          "input_height": 23.27452675324678
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_188.png",
+          "best_iou": 0.862649339166502,
+          "confidence_at_best_iou": 0.6889109015464783,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_188.png",
+          "best_iou": 0.906163846265844,
+          "confidence_at_best_iou": 0.7908785343170166,
+          "input_width": 47.182703999999994,
+          "input_height": 29.248656623376668
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_188.png",
+          "best_iou": 0.9239027776705953,
+          "confidence_at_best_iou": 0.787402331829071,
+          "input_width": 34.615910400000004,
+          "input_height": 18.921406753246742
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_188.png",
+          "best_iou": 0.7364027855363869,
+          "confidence_at_best_iou": 0.6265032887458801,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_231.png",
+          "best_iou": 0.725535463660702,
+          "confidence_at_best_iou": 0.5471129417419434,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_231.png",
+          "best_iou": 0.783743697888153,
+          "confidence_at_best_iou": 0.7711515426635742,
+          "input_width": 34.705584000000016,
+          "input_height": 18.24715636363638
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_231.png",
+          "best_iou": 0.8557228221702129,
+          "confidence_at_best_iou": 0.755966305732727,
+          "input_width": 50.66106239999998,
+          "input_height": 28.7241288311688
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_231.png",
+          "best_iou": 0.9025518381606477,
+          "confidence_at_best_iou": 0.7257111072540283,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_149.png",
+          "best_iou": 0.8539134808545779,
+          "confidence_at_best_iou": 0.7250997424125671,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_149.png",
+          "best_iou": 0.8581713294511861,
+          "confidence_at_best_iou": 0.7396542429924011,
+          "input_width": 45.4542336,
+          "input_height": 29.403260259740282
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_149.png",
+          "best_iou": 0.967997797673446,
+          "confidence_at_best_iou": 0.7271926999092102,
+          "input_width": 34.47221760000001,
+          "input_height": 18.954202597402567
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.4_149.png",
+          "best_iou": 0.7969042121624995,
+          "confidence_at_best_iou": 0.5516693592071533,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_5_station_bergedorf_5.1_0.png",
+          "best_iou": 0.8570154657884073,
+          "confidence_at_best_iou": 0.5872190594673157,
+          "input_width": 47.68571519999993,
+          "input_height": 86.82264935064939
+        },
+        {
+          "image": "real_1_calibration_1.2_92.png",
+          "best_iou": 0.8071735566028568,
+          "confidence_at_best_iou": 0.7289488911628723,
+          "input_width": 21.962601599999914,
+          "input_height": 32.24633142857138
+        },
+        {
+          "image": "real_1_calibration_1.2_92.png",
+          "best_iou": 0.8973470700755148,
+          "confidence_at_best_iou": 0.8678256273269653,
+          "input_width": 23.54388480000001,
+          "input_height": 24.29265662337665
+        },
+        {
+          "image": "real_1_calibration_1.2_92.png",
+          "best_iou": 0.9693051194362476,
+          "confidence_at_best_iou": 0.8648942708969116,
+          "input_width": 75.58965120000018,
+          "input_height": 61.93355844155844
+        },
+        {
+          "image": "real_1_calibration_1.2_92.png",
+          "best_iou": 0.6664210214890375,
+          "confidence_at_best_iou": 0.030959295108914375,
+          "input_width": 20.32543679999996,
+          "input_height": 18.16927792207799
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_29.png",
+          "best_iou": 0.8359448420049521,
+          "confidence_at_best_iou": 0.8033490777015686,
+          "input_width": 48.05557440000006,
+          "input_height": 28.75096519480518
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_29.png",
+          "best_iou": 0.8704284700081906,
+          "confidence_at_best_iou": 0.592304527759552,
+          "input_width": 45.199776000000014,
+          "input_height": 20.489841038961046
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_29.png",
+          "best_iou": 0.9404648993909742,
+          "confidence_at_best_iou": 0.7873810529708862,
+          "input_width": 40.64202240000001,
+          "input_height": 18.95399688311693
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_29.png",
+          "best_iou": 0.7623554972440922,
+          "confidence_at_best_iou": 0.6586138606071472,
+          "input_width": 39.08304000000008,
+          "input_height": 20.921791168831202
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_29.png",
+          "best_iou": 0.8811319453014349,
+          "confidence_at_best_iou": 0.7892928719520569,
+          "input_width": 45.23060159999994,
+          "input_height": 20.982988051948073
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_31.png",
+          "best_iou": 0.8755302830742497,
+          "confidence_at_best_iou": 0.8048585057258606,
+          "input_width": 47.216092800000006,
+          "input_height": 28.78725818181818
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_31.png",
+          "best_iou": 0.7977429323772236,
+          "confidence_at_best_iou": 0.6238961815834045,
+          "input_width": 45.199776000000014,
+          "input_height": 20.489841038961046
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_31.png",
+          "best_iou": 0.8936384976217326,
+          "confidence_at_best_iou": 0.7493369579315186,
+          "input_width": 40.64202240000001,
+          "input_height": 17.86035116883119
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_31.png",
+          "best_iou": 0.7539547005861491,
+          "confidence_at_best_iou": 0.01247129961848259,
+          "input_width": 37.38292799999998,
+          "input_height": 20.821365194805153
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.2_31.png",
+          "best_iou": 0.8747428191954251,
+          "confidence_at_best_iou": 0.753872275352478,
+          "input_width": 45.23060159999994,
+          "input_height": 20.76266805194809
+        },
+        {
+          "image": "real_1_calibration_1.2_56.png",
+          "best_iou": 0.80080433250899,
+          "confidence_at_best_iou": 0.8109201192855835,
+          "input_width": 21.44855999999985,
+          "input_height": 30.819671688311658
+        },
+        {
+          "image": "real_1_calibration_1.2_56.png",
+          "best_iou": 0.8804759026126465,
+          "confidence_at_best_iou": 0.9077135920524597,
+          "input_width": 22.54951680000006,
+          "input_height": 23.238402077922107
+        },
+        {
+          "image": "real_1_calibration_1.2_56.png",
+          "best_iou": 0.9141526673534018,
+          "confidence_at_best_iou": 0.7127588391304016,
+          "input_width": 67.38633599999999,
+          "input_height": 50.53181922077919
+        },
+        {
+          "image": "real_1_calibration_1.2_56.png",
+          "best_iou": 0.4195703224680072,
+          "confidence_at_best_iou": 0.9077135920524597,
+          "input_width": 19.087603199999936,
+          "input_height": 17.41509194805197
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_253.png",
+          "best_iou": 0.6431533459241779,
+          "confidence_at_best_iou": 0.6025583148002625,
+          "input_width": 67.0874688,
+          "input_height": 24.98070857142854
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_253.png",
+          "best_iou": 0.748086754383521,
+          "confidence_at_best_iou": 0.7168982625007629,
+          "input_width": 34.82198400000007,
+          "input_height": 21.117749610389613
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_253.png",
+          "best_iou": 0.8544748517391174,
+          "confidence_at_best_iou": 0.8011928796768188,
+          "input_width": 49.51824959999999,
+          "input_height": 30.186427012986993
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_253.png",
+          "best_iou": 0.8729534493582991,
+          "confidence_at_best_iou": 0.7674964070320129,
+          "input_width": 45.2388384,
+          "input_height": 21.736332467532442
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_220.png",
+          "best_iou": 0.7329846138720376,
+          "confidence_at_best_iou": 0.6641849279403687,
+          "input_width": 67.0874688,
+          "input_height": 26.831775584415563
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_220.png",
+          "best_iou": 0.8555432238500327,
+          "confidence_at_best_iou": 0.7937668561935425,
+          "input_width": 33.34129919999996,
+          "input_height": 18.22204675324669
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_220.png",
+          "best_iou": 0.8492973705109169,
+          "confidence_at_best_iou": 0.7697505950927734,
+          "input_width": 50.64989760000003,
+          "input_height": 27.963709090909116
+        },
+        {
+          "image": "real_4_station_pedestrian_bridge_4.5_220.png",
+          "best_iou": 0.9093763534765951,
+          "confidence_at_best_iou": 0.7125311493873596,
+          "input_width": 45.2388384,
+          "input_height": 22.58839480519478
+        }
+      ]
+    },
+    "real_on_real_val": {
+      "thresholds": {
+        "0.001": {
+          "tp": 14,
+          "fp": 476,
+          "fn": 20,
+          "precision": 0.02857142857142857,
+          "recall": 0.4117647058823529
+        },
+        "0.01": {
+          "tp": 9,
+          "fp": 99,
+          "fn": 25,
+          "precision": 0.08333333333333333,
+          "recall": 0.2647058823529412
+        },
+        "0.05": {
+          "tp": 4,
+          "fp": 22,
+          "fn": 30,
+          "precision": 0.15384615384615385,
+          "recall": 0.11764705882352941
+        },
+        "0.25": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 32,
+          "precision": 0.5,
+          "recall": 0.058823529411764705
+        }
+      },
+      "objects": [
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.17982694426532286,
+          "confidence_at_best_iou": 0.024523526430130005,
+          "input_width": 18.195196799999998,
+          "input_height": 14.218460259740311
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.17171726760900333,
+          "confidence_at_best_iou": 0.024523526430130005,
+          "input_width": 18.22855679999993,
+          "input_height": 13.552401038961035
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.5390790689952016,
+          "confidence_at_best_iou": 0.024523526430130005,
+          "input_width": 34.66219199999992,
+          "input_height": 23.921978181818158
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.49808541167910136,
+          "confidence_at_best_iou": 0.015130843035876751,
+          "input_width": 21.12156480000008,
+          "input_height": 15.32599480519481
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.29765383486067354,
+          "confidence_at_best_iou": 0.0017724953358992934,
+          "input_width": 18.195196799999998,
+          "input_height": 13.343152207792262
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.3075791580317712,
+          "confidence_at_best_iou": 0.0017724953358992934,
+          "input_width": 17.393520000000002,
+          "input_height": 14.423582337662387
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.5950845054512566,
+          "confidence_at_best_iou": 0.0038989721797406673,
+          "input_width": 34.99110719999998,
+          "input_height": 23.17796571428565
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.277672590226012,
+          "confidence_at_best_iou": 0.0017724953358992934,
+          "input_width": 22.34016959999995,
+          "input_height": 16.25238233766236
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.8241038018023045,
+          "confidence_at_best_iou": 0.001150535186752677,
+          "input_width": 94.55448960000001,
+          "input_height": 46.72261402597399
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.47069554973258837,
+          "confidence_at_best_iou": 0.010462824255228043,
+          "input_width": 31.404048000000007,
+          "input_height": 24.53859116883118
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.8917303315672103,
+          "confidence_at_best_iou": 0.09424608200788498,
+          "input_width": 10.856515200000002,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.6461327753053155,
+          "confidence_at_best_iou": 0.2666923999786377,
+          "input_width": 23.3664288,
+          "input_height": 25.381620779220828
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.7325372141022637,
+          "confidence_at_best_iou": 0.01481717824935913,
+          "input_width": 98.20429439999998,
+          "input_height": 40.72809974025972
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.4545429061546105,
+          "confidence_at_best_iou": 0.0060417670756578445,
+          "input_width": 28.637356800000003,
+          "input_height": 22.35956571428575
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.496220091568007,
+          "confidence_at_best_iou": 0.0012093344703316689,
+          "input_width": 9.534192,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.7486871097132503,
+          "confidence_at_best_iou": 0.005867847241461277,
+          "input_width": 20.1535392,
+          "input_height": 23.985631168831134
+        },
+        {
+          "image": "real_14_signals_station_14.2_24.png",
+          "best_iou": 0.5312180411494306,
+          "confidence_at_best_iou": 0.004651359748095274,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_24.png",
+          "best_iou": 0.2454435541289145,
+          "confidence_at_best_iou": 0.0333954356610775,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_14_signals_station_14.2_21.png",
+          "best_iou": 0.5104397146425125,
+          "confidence_at_best_iou": 0.006932226940989494,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_21.png",
+          "best_iou": 0.2387936475940648,
+          "confidence_at_best_iou": 0.04466556757688522,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.3155494372084374,
+          "confidence_at_best_iou": 0.0013627627631649375,
+          "input_width": 18.149711999999926,
+          "input_height": 13.87579636363633
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.19031203172412212,
+          "confidence_at_best_iou": 0.032673925161361694,
+          "input_width": 20.406873600000043,
+          "input_height": 13.183773506493546
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.6724773315920484,
+          "confidence_at_best_iou": 0.032673925161361694,
+          "input_width": 35.1543936000002,
+          "input_height": 23.921978181818158
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.550882834035732,
+          "confidence_at_best_iou": 0.04427749663591385,
+          "input_width": 19.05585599999995,
+          "input_height": 15.32599480519481
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.19743353874962352,
+          "confidence_at_best_iou": 0.007909135892987251,
+          "input_width": 18.195196799999998,
+          "input_height": 13.343152207792262
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.21332649162653325,
+          "confidence_at_best_iou": 0.007909135892987251,
+          "input_width": 18.54912959999992,
+          "input_height": 14.142152727272672
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.5928771099987858,
+          "confidence_at_best_iou": 0.007909135892987251,
+          "input_width": 34.03142400000009,
+          "input_height": 23.092525714285745
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.2940210095911484,
+          "confidence_at_best_iou": 0.0016614279011264443,
+          "input_width": 21.44999039999994,
+          "input_height": 15.300679480519397
+        },
+        {
+          "image": "real_14_signals_station_14.2_17.png",
+          "best_iou": 0.3707079755875196,
+          "confidence_at_best_iou": 0.00431862473487854,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_17.png",
+          "best_iou": 0.2160654265089581,
+          "confidence_at_best_iou": 0.03217487409710884,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.5203860194609585,
+          "confidence_at_best_iou": 0.010418318212032318,
+          "input_width": 116.02715520000001,
+          "input_height": 49.35276467532468
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.7720933387631486,
+          "confidence_at_best_iou": 0.1649072766304016,
+          "input_width": 30.5110848,
+          "input_height": 23.5565361038961
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.4616852104663849,
+          "input_width": 9.534192,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.14148832410005122,
+          "confidence_at_best_iou": 0.004247740376740694,
+          "input_width": 20.1535392,
+          "input_height": 23.985631168831134
+        }
+      ]
+    },
+    "real_on_real_test": {
+      "thresholds": {
+        "0.001": {
+          "tp": 7,
+          "fp": 889,
+          "fn": 29,
+          "precision": 0.0078125,
+          "recall": 0.19444444444444445
+        },
+        "0.01": {
+          "tp": 2,
+          "fp": 131,
+          "fn": 34,
+          "precision": 0.015037593984962405,
+          "recall": 0.05555555555555555
+        },
+        "0.05": {
+          "tp": 1,
+          "fp": 29,
+          "fn": 35,
+          "precision": 0.03333333333333333,
+          "recall": 0.027777777777777776
+        },
+        "0.25": {
+          "tp": 0,
+          "fp": 12,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "objects": [
+        {
+          "image": "real_21_station_wedel_21.3_580.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.008212229236960411,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_21_station_wedel_21.2_528.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.008943874388933182,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_21_station_wedel_21.2_528.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.008943874388933182,
+          "input_width": 44.846515199999935,
+          "input_height": 18.647763116883052
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.2_211.png",
+          "best_iou": 0.561350678100919,
+          "confidence_at_best_iou": 0.009036516770720482,
+          "input_width": 37.91477759999993,
+          "input_height": 12.709234285714324
+        },
+        {
+          "image": "real_21_station_wedel_21.1_390.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.009600426070392132,
+          "input_width": 28.65108480000005,
+          "input_height": 12.607592727272793
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7257928848266602,
+          "input_width": 27.69302400000009,
+          "input_height": 9.541564675324663
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.3602052800814384,
+          "confidence_at_best_iou": 0.006195320747792721,
+          "input_width": 24.230735999999997,
+          "input_height": 7.127233246753287
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7257928848266602,
+          "input_width": 27.566899199999956,
+          "input_height": 7.847052467532504
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7257928848266602,
+          "input_width": 25.75851840000003,
+          "input_height": 8.221564675324695
+        },
+        {
+          "image": "real_21_station_wedel_21.2_545.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005339081399142742,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_21_station_wedel_21.3_605.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.00620502233505249,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7641218900680542,
+          "input_width": 30.521702399999903,
+          "input_height": 12.75253402597406
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7641218900680542,
+          "input_width": 20.741107199999963,
+          "input_height": 9.07057870129871
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7641218900680542,
+          "input_width": 20.263171199999956,
+          "input_height": 7.979594805194842
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.60480132365905,
+          "confidence_at_best_iou": 0.0011156410910189152,
+          "input_width": 30.583900800000105,
+          "input_height": 11.658582857142882
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_57.png",
+          "best_iou": 0.554028268012851,
+          "confidence_at_best_iou": 0.020963232964277267,
+          "input_width": 50.498352000000025,
+          "input_height": 14.175453506493533
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_57.png",
+          "best_iou": 0.5678268083610585,
+          "confidence_at_best_iou": 0.0012141522020101547,
+          "input_width": 64.37337600000001,
+          "input_height": 15.567322597402612
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_57.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.6484614610671997,
+          "input_width": 55.603814400000076,
+          "input_height": 20.188550649350642
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.1_84.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.05274336040019989,
+          "input_width": 20.113171200000046,
+          "input_height": 7.728654545454571
+        },
+        {
+          "image": "real_21_station_wedel_21.1_373.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.007755331229418516,
+          "input_width": 21.30997439999995,
+          "input_height": 10.671646753246684
+        },
+        {
+          "image": "real_21_station_wedel_21.1_407.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.007683101110160351,
+          "input_width": 25.502399999999984,
+          "input_height": 10.320504935065012
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.1_81.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.009618205949664116,
+          "input_width": 18.389183999999997,
+          "input_height": 7.140567272727266
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.1_78.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.011283599771559238,
+          "input_width": 18.069273600000063,
+          "input_height": 7.497705974026008
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.2_209.png",
+          "best_iou": 0.6993077913136566,
+          "confidence_at_best_iou": 0.002655633259564638,
+          "input_width": 36.44250239999991,
+          "input_height": 13.397884675324738
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_221.png",
+          "best_iou": 0.4391814901583124,
+          "confidence_at_best_iou": 0.0012432466028258204,
+          "input_width": 22.94199360000008,
+          "input_height": 7.809450389610441
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_221.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.686598539352417,
+          "input_width": 26.195126399999918,
+          "input_height": 7.394188051948067
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_221.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.686598539352417,
+          "input_width": 20.755948799999967,
+          "input_height": 7.607195844155834
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_52.png",
+          "best_iou": 0.6903593177832797,
+          "confidence_at_best_iou": 0.0016488070832565427,
+          "input_width": 50.498352000000025,
+          "input_height": 14.175453506493533
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.752520740032196,
+          "input_width": 24.01737599999998,
+          "input_height": 10.262244155844138
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.006189724642560277,
+          "confidence_at_best_iou": 0.0031757347751408815,
+          "input_width": 20.741107199999874,
+          "input_height": 8.55392415584419
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.752520740032196,
+          "input_width": 19.694112000000032,
+          "input_height": 7.607177142857136
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.3777832108710218,
+          "confidence_at_best_iou": 0.005863698199391365,
+          "input_width": 32.48316479999993,
+          "input_height": 9.939964675324706
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.2_206.png",
+          "best_iou": 0.7099736212124774,
+          "confidence_at_best_iou": 0.00253100274130702,
+          "input_width": 35.72794559999997,
+          "input_height": 13.191372467532457
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_136.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7558518052101135,
+          "input_width": 22.73436480000006,
+          "input_height": 8.55392415584419
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_136.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7558518052101135,
+          "input_width": 24.245078400000068,
+          "input_height": 7.746065454545416
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_136.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7558518052101135,
+          "input_width": 30.583900800000105,
+          "input_height": 9.939964675324706
+        }
+      ]
+    },
+    "synthetic_on_synthetic_train": {
+      "thresholds": {
+        "0.001": {
+          "tp": 92,
+          "fp": 537,
+          "fn": 15,
+          "precision": 0.14626391096979333,
+          "recall": 0.8598130841121495
+        },
+        "0.01": {
+          "tp": 92,
+          "fp": 105,
+          "fn": 15,
+          "precision": 0.467005076142132,
+          "recall": 0.8598130841121495
+        },
+        "0.05": {
+          "tp": 91,
+          "fp": 29,
+          "fn": 16,
+          "precision": 0.7583333333333333,
+          "recall": 0.8504672897196262
+        },
+        "0.25": {
+          "tp": 88,
+          "fp": 1,
+          "fn": 19,
+          "precision": 0.9887640449438202,
+          "recall": 0.822429906542056
+        }
+      },
+      "objects": [
+        {
+          "image": "synthetic_0000.png",
+          "best_iou": 0.9233438999362875,
+          "confidence_at_best_iou": 0.8620755672454834,
+          "input_width": 16.5,
+          "input_height": 10.499997600000015
+        },
+        {
+          "image": "synthetic_0000.png",
+          "best_iou": 0.6675500034722025,
+          "confidence_at_best_iou": 0.8567371368408203,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0001.png",
+          "best_iou": 0.8604641831224316,
+          "confidence_at_best_iou": 0.8442767262458801,
+          "input_width": 21.0,
+          "input_height": 13.499999999999957
+        },
+        {
+          "image": "synthetic_0001.png",
+          "best_iou": 0.8070325377251918,
+          "confidence_at_best_iou": 0.9020283818244934,
+          "input_width": 13.5,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0002.png",
+          "best_iou": 0.95428210673935,
+          "confidence_at_best_iou": 0.8545309901237488,
+          "input_width": 29.25,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0002.png",
+          "best_iou": 0.9823623649746333,
+          "confidence_at_best_iou": 0.9072306752204895,
+          "input_width": 15.749999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0003.png",
+          "best_iou": 0.9796185714318643,
+          "confidence_at_best_iou": 0.8613793849945068,
+          "input_width": 48.000000000000085,
+          "input_height": 27.750000599999964
+        },
+        {
+          "image": "synthetic_0003.png",
+          "best_iou": 0.9177396076231197,
+          "confidence_at_best_iou": 0.8459326028823853,
+          "input_width": 20.24999999999983,
+          "input_height": 13.499999999999915
+        },
+        {
+          "image": "synthetic_0003.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.8613793849945068,
+          "input_width": 1.4999999999999147,
+          "input_height": 1.5000011999999714
+        },
+        {
+          "image": "synthetic_0004.png",
+          "best_iou": 0.9944084824267924,
+          "confidence_at_best_iou": 0.869621753692627,
+          "input_width": 118.5,
+          "input_height": 55.50000120000002
+        },
+        {
+          "image": "synthetic_0004.png",
+          "best_iou": 0.9368670262148449,
+          "confidence_at_best_iou": 0.8703859448432922,
+          "input_width": 28.500000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0005.png",
+          "best_iou": 0.844984252129992,
+          "confidence_at_best_iou": 0.6866358518600464,
+          "input_width": 4.499999999999915,
+          "input_height": 15.000001200000057
+        },
+        {
+          "image": "synthetic_0007.png",
+          "best_iou": 0.38179696116995604,
+          "confidence_at_best_iou": 0.002854798687621951,
+          "input_width": 4.499999999999915,
+          "input_height": 3.0000023999999854
+        },
+        {
+          "image": "synthetic_0007.png",
+          "best_iou": 0.14953956266094015,
+          "confidence_at_best_iou": 0.002854798687621951,
+          "input_width": 1.4999999999999147,
+          "input_height": 2.2500018000000637
+        },
+        {
+          "image": "synthetic_0007.png",
+          "best_iou": 0.12606974375959207,
+          "confidence_at_best_iou": 0.0035781937185674906,
+          "input_width": 1.4999999999999147,
+          "input_height": 1.5000011999999714
+        },
+        {
+          "image": "synthetic_0008.png",
+          "best_iou": 0.8800472721389238,
+          "confidence_at_best_iou": 0.8257065415382385,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0008.png",
+          "best_iou": 0.8629820850880426,
+          "confidence_at_best_iou": 0.8396397233009338,
+          "input_width": 6.750000000000085,
+          "input_height": 5.999999399999993
+        },
+        {
+          "image": "synthetic_0008.png",
+          "best_iou": 0.5474996930605637,
+          "confidence_at_best_iou": 0.021472809836268425,
+          "input_width": 4.5,
+          "input_height": 3.0000023999999854
+        },
+        {
+          "image": "synthetic_0008.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.8396397233009338,
+          "input_width": 2.2500000000000853,
+          "input_height": 1.5000011999999714
+        },
+        {
+          "image": "synthetic_0009.png",
+          "best_iou": 0.8412100524845472,
+          "confidence_at_best_iou": 0.8917113542556763,
+          "input_width": 12.749999999999915,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0009.png",
+          "best_iou": 0.7106341245484298,
+          "confidence_at_best_iou": 0.8113549947738647,
+          "input_width": 8.999999999999915,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0009.png",
+          "best_iou": 0.005988667775668054,
+          "confidence_at_best_iou": 0.003713598707690835,
+          "input_width": 4.5,
+          "input_height": 3.7499976000000146
+        },
+        {
+          "image": "synthetic_0009.png",
+          "best_iou": 0.018956577612369397,
+          "confidence_at_best_iou": 0.003713598707690835,
+          "input_width": 2.2500000000001705,
+          "input_height": 2.250001800000021
+        },
+        {
+          "image": "synthetic_0010.png",
+          "best_iou": 0.9262761289138123,
+          "confidence_at_best_iou": 0.8841537237167358,
+          "input_width": 16.499999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0010.png",
+          "best_iou": 0.8577132690121524,
+          "confidence_at_best_iou": 0.8724262714385986,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0010.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.8841537237167358,
+          "input_width": 2.2500000000000853,
+          "input_height": 3.7499976000000146
+        },
+        {
+          "image": "synthetic_0011.png",
+          "best_iou": 0.945422761412325,
+          "confidence_at_best_iou": 0.66867595911026,
+          "input_width": 21.0,
+          "input_height": 13.499999999999957
+        },
+        {
+          "image": "synthetic_0011.png",
+          "best_iou": 0.8850547650347247,
+          "confidence_at_best_iou": 0.8982924818992615,
+          "input_width": 12.749999999999915,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0012.png",
+          "best_iou": 0.9150078165407031,
+          "confidence_at_best_iou": 0.8607175946235657,
+          "input_width": 29.250000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0012.png",
+          "best_iou": 0.9191683141973973,
+          "confidence_at_best_iou": 0.8543512225151062,
+          "input_width": 15.749999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0013.png",
+          "best_iou": 0.9171700846204514,
+          "confidence_at_best_iou": 0.8786829113960266,
+          "input_width": 48.0,
+          "input_height": 27.000000000000046
+        },
+        {
+          "image": "synthetic_0013.png",
+          "best_iou": 0.9401768810006941,
+          "confidence_at_best_iou": 0.8534555435180664,
+          "input_width": 20.249999999999915,
+          "input_height": 13.499999999999915
+        },
+        {
+          "image": "synthetic_0014.png",
+          "best_iou": 0.9658165032871743,
+          "confidence_at_best_iou": 0.8280402421951294,
+          "input_width": 119.25,
+          "input_height": 55.50000120000002
+        },
+        {
+          "image": "synthetic_0014.png",
+          "best_iou": 0.9532379806054995,
+          "confidence_at_best_iou": 0.8420636057853699,
+          "input_width": 28.500000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0015.png",
+          "best_iou": 0.7970668832765211,
+          "confidence_at_best_iou": 0.5350226163864136,
+          "input_width": 5.249999999999915,
+          "input_height": 15.000001200000057
+        },
+        {
+          "image": "synthetic_0016.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0077850427478551865,
+          "input_width": 1.4999999999999147,
+          "input_height": 1.5000011999999714
+        },
+        {
+          "image": "synthetic_0017.png",
+          "best_iou": 0.18069987338335952,
+          "confidence_at_best_iou": 0.006929260678589344,
+          "input_width": 4.499999999999915,
+          "input_height": 3.0000023999999854
+        },
+        {
+          "image": "synthetic_0017.png",
+          "best_iou": 0.1508146796228959,
+          "confidence_at_best_iou": 0.006929260678589344,
+          "input_width": 2.2500000000000853,
+          "input_height": 2.2500018000000637
+        },
+        {
+          "image": "synthetic_0018.png",
+          "best_iou": 0.9027659009679985,
+          "confidence_at_best_iou": 0.7883799076080322,
+          "input_width": 10.500000000000085,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0018.png",
+          "best_iou": 0.9019360025596768,
+          "confidence_at_best_iou": 0.776639997959137,
+          "input_width": 8.25,
+          "input_height": 5.999999399999993
+        },
+        {
+          "image": "synthetic_0018.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.7883799076080322,
+          "input_width": 2.2500000000001705,
+          "input_height": 3.0000023999999854
+        },
+        {
+          "image": "synthetic_0019.png",
+          "best_iou": 0.8630999195685927,
+          "confidence_at_best_iou": 0.839443564414978,
+          "input_width": 12.749999999999915,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0019.png",
+          "best_iou": 0.7511138719533247,
+          "confidence_at_best_iou": 0.8687934279441833,
+          "input_width": 7.5,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0020.png",
+          "best_iou": 0.9074857268787174,
+          "confidence_at_best_iou": 0.8488705158233643,
+          "input_width": 16.499999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0020.png",
+          "best_iou": 0.8814538416081972,
+          "confidence_at_best_iou": 0.877788782119751,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0021.png",
+          "best_iou": 0.9675587606593353,
+          "confidence_at_best_iou": 0.8378745317459106,
+          "input_width": 21.0,
+          "input_height": 13.499999999999957
+        },
+        {
+          "image": "synthetic_0021.png",
+          "best_iou": 0.9384676966707534,
+          "confidence_at_best_iou": 0.9085808396339417,
+          "input_width": 12.749999999999915,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0022.png",
+          "best_iou": 0.9367264669536133,
+          "confidence_at_best_iou": 0.8263060450553894,
+          "input_width": 29.250000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0022.png",
+          "best_iou": 0.9242760142462529,
+          "confidence_at_best_iou": 0.8166645169258118,
+          "input_width": 15.749999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0023.png",
+          "best_iou": 0.9776613505313295,
+          "confidence_at_best_iou": 0.8877698183059692,
+          "input_width": 48.75,
+          "input_height": 27.000000000000046
+        },
+        {
+          "image": "synthetic_0023.png",
+          "best_iou": 0.9374849796915099,
+          "confidence_at_best_iou": 0.8326786756515503,
+          "input_width": 20.249999999999915,
+          "input_height": 13.499999999999915
+        },
+        {
+          "image": "synthetic_0024.png",
+          "best_iou": 0.9605866627206667,
+          "confidence_at_best_iou": 0.8624119162559509,
+          "input_width": 119.25,
+          "input_height": 55.50000120000002
+        },
+        {
+          "image": "synthetic_0024.png",
+          "best_iou": 0.9425254114863831,
+          "confidence_at_best_iou": 0.8850998282432556,
+          "input_width": 28.5,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0025.png",
+          "best_iou": 0.7990755724668926,
+          "confidence_at_best_iou": 0.6849215626716614,
+          "input_width": 4.499999999999915,
+          "input_height": 15.000001200000057
+        },
+        {
+          "image": "synthetic_0026.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.03408994898200035,
+          "input_width": 2.2500000000001705,
+          "input_height": 2.2500018000000637
+        },
+        {
+          "image": "synthetic_0027.png",
+          "best_iou": 0.6975042459665766,
+          "confidence_at_best_iou": 0.12410033494234085,
+          "input_width": 4.5,
+          "input_height": 4.499998200000022
+        },
+        {
+          "image": "synthetic_0027.png",
+          "best_iou": 0.06414258305485365,
+          "confidence_at_best_iou": 0.06643562018871307,
+          "input_width": 1.4999999999999147,
+          "input_height": 2.250001800000021
+        },
+        {
+          "image": "synthetic_0028.png",
+          "best_iou": 0.7607099922994754,
+          "confidence_at_best_iou": 0.8452713489532471,
+          "input_width": 9.750000000000085,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0028.png",
+          "best_iou": 0.692020725656263,
+          "confidence_at_best_iou": 0.7873386144638062,
+          "input_width": 7.5,
+          "input_height": 5.249998800000029
+        },
+        {
+          "image": "synthetic_0029.png",
+          "best_iou": 0.751624408217462,
+          "confidence_at_best_iou": 0.0015190765261650085,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0029.png",
+          "best_iou": 0.7885504930931152,
+          "confidence_at_best_iou": 0.6588180661201477,
+          "input_width": 8.249999999999915,
+          "input_height": 5.999999399999993
+        },
+        {
+          "image": "synthetic_0030.png",
+          "best_iou": 0.8662036752927041,
+          "confidence_at_best_iou": 0.8684981465339661,
+          "input_width": 13.500000000000085,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0030.png",
+          "best_iou": 0.7270127733020096,
+          "confidence_at_best_iou": 0.7401644587516785,
+          "input_width": 8.249999999999915,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0031.png",
+          "best_iou": 0.9005348061614483,
+          "confidence_at_best_iou": 0.8578943014144897,
+          "input_width": 16.499999999999915,
+          "input_height": 10.499997600000015
+        },
+        {
+          "image": "synthetic_0031.png",
+          "best_iou": 0.8867756882649211,
+          "confidence_at_best_iou": 0.9027052521705627,
+          "input_width": 10.5,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0032.png",
+          "best_iou": 0.9441252841649439,
+          "confidence_at_best_iou": 0.856816828250885,
+          "input_width": 21.000000000000085,
+          "input_height": 13.499999999999957
+        },
+        {
+          "image": "synthetic_0032.png",
+          "best_iou": 0.851208156034632,
+          "confidence_at_best_iou": 0.8890396952629089,
+          "input_width": 11.25,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0033.png",
+          "best_iou": 0.9425452457306501,
+          "confidence_at_best_iou": 0.8704298734664917,
+          "input_width": 30.0,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0033.png",
+          "best_iou": 0.8974745717848354,
+          "confidence_at_best_iou": 0.856201171875,
+          "input_width": 15.749999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0034.png",
+          "best_iou": 0.9176344535914517,
+          "confidence_at_best_iou": 0.8633745312690735,
+          "input_width": 48.75,
+          "input_height": 27.750000599999964
+        },
+        {
+          "image": "synthetic_0034.png",
+          "best_iou": 0.954977886221786,
+          "confidence_at_best_iou": 0.875158965587616,
+          "input_width": 21.000000000000085,
+          "input_height": 13.499999999999915
+        },
+        {
+          "image": "synthetic_0035.png",
+          "best_iou": 0.9601615643376185,
+          "confidence_at_best_iou": 0.8907549381256104,
+          "input_width": 118.5,
+          "input_height": 56.25000179999997
+        },
+        {
+          "image": "synthetic_0035.png",
+          "best_iou": 0.9630481562101787,
+          "confidence_at_best_iou": 0.8563000559806824,
+          "input_width": 28.500000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0036.png",
+          "best_iou": 0.8473269782208263,
+          "confidence_at_best_iou": 0.5112847089767456,
+          "input_width": 3.75,
+          "input_height": 14.250000600000007
+        },
+        {
+          "image": "synthetic_0038.png",
+          "best_iou": 0.7094473567934673,
+          "confidence_at_best_iou": 0.7463629245758057,
+          "input_width": 7.5,
+          "input_height": 5.249998800000029
+        },
+        {
+          "image": "synthetic_0039.png",
+          "best_iou": 0.9426137055844583,
+          "confidence_at_best_iou": 0.7217705845832825,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0039.png",
+          "best_iou": 0.914725229646325,
+          "confidence_at_best_iou": 0.7133429050445557,
+          "input_width": 8.249999999999915,
+          "input_height": 5.999999399999993
+        },
+        {
+          "image": "synthetic_0040.png",
+          "best_iou": 0.8973732906140931,
+          "confidence_at_best_iou": 0.743242621421814,
+          "input_width": 13.500000000000085,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0040.png",
+          "best_iou": 0.8414520059376557,
+          "confidence_at_best_iou": 0.8571351766586304,
+          "input_width": 9.75000000000017,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0041.png",
+          "best_iou": 0.9396512947198544,
+          "confidence_at_best_iou": 0.8470549583435059,
+          "input_width": 16.499999999999915,
+          "input_height": 10.499997600000015
+        },
+        {
+          "image": "synthetic_0041.png",
+          "best_iou": 0.8054561841970727,
+          "confidence_at_best_iou": 0.8741191625595093,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0042.png",
+          "best_iou": 0.8922983556911969,
+          "confidence_at_best_iou": 0.8360888957977295,
+          "input_width": 21.0,
+          "input_height": 13.499999999999957
+        },
+        {
+          "image": "synthetic_0042.png",
+          "best_iou": 0.9155665606476926,
+          "confidence_at_best_iou": 0.8523897528648376,
+          "input_width": 12.74999999999983,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0043.png",
+          "best_iou": 0.932679516952509,
+          "confidence_at_best_iou": 0.8228035569190979,
+          "input_width": 30.0,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0043.png",
+          "best_iou": 0.8366508941401377,
+          "confidence_at_best_iou": 0.8742707967758179,
+          "input_width": 15.0,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0044.png",
+          "best_iou": 0.969677887379544,
+          "confidence_at_best_iou": 0.9127336144447327,
+          "input_width": 48.75,
+          "input_height": 27.750000599999964
+        },
+        {
+          "image": "synthetic_0044.png",
+          "best_iou": 0.9496241622884117,
+          "confidence_at_best_iou": 0.7142305374145508,
+          "input_width": 20.249999999999915,
+          "input_height": 13.499999999999915
+        },
+        {
+          "image": "synthetic_0045.png",
+          "best_iou": 0.9463589058682657,
+          "confidence_at_best_iou": 0.9127079248428345,
+          "input_width": 118.5,
+          "input_height": 55.50000120000006
+        },
+        {
+          "image": "synthetic_0045.png",
+          "best_iou": 0.9151549464764562,
+          "confidence_at_best_iou": 0.8144668936729431,
+          "input_width": 28.500000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0046.png",
+          "best_iou": 0.8621821089002986,
+          "confidence_at_best_iou": 0.07324488461017609,
+          "input_width": 3.0,
+          "input_height": 14.250000600000007
+        },
+        {
+          "image": "synthetic_0048.png",
+          "best_iou": 0.3353172709266557,
+          "confidence_at_best_iou": 0.012258012779057026,
+          "input_width": 2.2500000000000853,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0048.png",
+          "best_iou": 0.798925207688063,
+          "confidence_at_best_iou": 0.7396456003189087,
+          "input_width": 7.5,
+          "input_height": 5.249998800000029
+        },
+        {
+          "image": "synthetic_0049.png",
+          "best_iou": 0.898138543546309,
+          "confidence_at_best_iou": 0.8707018494606018,
+          "input_width": 12.0,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0049.png",
+          "best_iou": 0.7519711004392082,
+          "confidence_at_best_iou": 0.8183013200759888,
+          "input_width": 8.25,
+          "input_height": 5.999999399999993
+        },
+        {
+          "image": "synthetic_0050.png",
+          "best_iou": 0.8444460028993105,
+          "confidence_at_best_iou": 0.8576026558876038,
+          "input_width": 13.5,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0050.png",
+          "best_iou": 0.6667414093941165,
+          "confidence_at_best_iou": 0.8122886419296265,
+          "input_width": 7.5,
+          "input_height": 6.749999999999957
+        },
+        {
+          "image": "synthetic_0051.png",
+          "best_iou": 0.8179541663881197,
+          "confidence_at_best_iou": 0.8480880856513977,
+          "input_width": 16.499999999999915,
+          "input_height": 10.499997600000015
+        },
+        {
+          "image": "synthetic_0051.png",
+          "best_iou": 0.8773156567018665,
+          "confidence_at_best_iou": 0.8239327073097229,
+          "input_width": 11.25,
+          "input_height": 7.500000599999964
+        },
+        {
+          "image": "synthetic_0052.png",
+          "best_iou": 0.9348626071962016,
+          "confidence_at_best_iou": 0.8676505088806152,
+          "input_width": 21.000000000000085,
+          "input_height": 13.499999999999957
+        },
+        {
+          "image": "synthetic_0052.png",
+          "best_iou": 0.8747816481586195,
+          "confidence_at_best_iou": 0.8317233920097351,
+          "input_width": 12.74999999999983,
+          "input_height": 9.000001800000021
+        },
+        {
+          "image": "synthetic_0053.png",
+          "best_iou": 0.9912989467865221,
+          "confidence_at_best_iou": 0.8978411555290222,
+          "input_width": 29.250000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0053.png",
+          "best_iou": 0.8975436874818066,
+          "confidence_at_best_iou": 0.8405711650848389,
+          "input_width": 15.749999999999915,
+          "input_height": 11.249998200000022
+        },
+        {
+          "image": "synthetic_0054.png",
+          "best_iou": 0.9381868799132772,
+          "confidence_at_best_iou": 0.8989049792289734,
+          "input_width": 48.75,
+          "input_height": 27.750000599999964
+        },
+        {
+          "image": "synthetic_0054.png",
+          "best_iou": 0.9458882593926952,
+          "confidence_at_best_iou": 0.8414347767829895,
+          "input_width": 21.000000000000085,
+          "input_height": 13.499999999999915
+        },
+        {
+          "image": "synthetic_0055.png",
+          "best_iou": 0.9551049488086968,
+          "confidence_at_best_iou": 0.908227801322937,
+          "input_width": 118.5,
+          "input_height": 55.50000120000006
+        },
+        {
+          "image": "synthetic_0055.png",
+          "best_iou": 0.9475114016188373,
+          "confidence_at_best_iou": 0.845754861831665,
+          "input_width": 28.500000000000085,
+          "input_height": 17.99999820000002
+        },
+        {
+          "image": "synthetic_0056.png",
+          "best_iou": 0.5918368030242194,
+          "confidence_at_best_iou": 0.07295256108045578,
+          "input_width": 2.2500000000000853,
+          "input_height": 14.250000600000007
+        }
+      ]
+    },
+    "synthetic_on_real_val": {
+      "thresholds": {
+        "0.001": {
+          "tp": 2,
+          "fp": 140,
+          "fn": 32,
+          "precision": 0.014084507042253521,
+          "recall": 0.058823529411764705
+        },
+        "0.01": {
+          "tp": 0,
+          "fp": 24,
+          "fn": 34,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "0.05": {
+          "tp": 0,
+          "fp": 10,
+          "fn": 34,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "0.25": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 34,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "objects": [
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0068958718329668045,
+          "input_width": 18.195196799999998,
+          "input_height": 14.218460259740311
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0068958718329668045,
+          "input_width": 18.22855679999993,
+          "input_height": 13.552401038961035
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0068958718329668045,
+          "input_width": 34.66219199999992,
+          "input_height": 23.921978181818158
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0068958718329668045,
+          "input_width": 21.12156480000008,
+          "input_height": 15.32599480519481
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005318987183272839,
+          "input_width": 18.195196799999998,
+          "input_height": 13.343152207792262
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005318987183272839,
+          "input_width": 17.393520000000002,
+          "input_height": 14.423582337662387
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005318987183272839,
+          "input_width": 34.99110719999998,
+          "input_height": 23.17796571428565
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005318987183272839,
+          "input_width": 22.34016959999995,
+          "input_height": 16.25238233766236
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005548685323446989,
+          "input_width": 94.55448960000001,
+          "input_height": 46.72261402597399
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005548685323446989,
+          "input_width": 31.404048000000007,
+          "input_height": 24.53859116883118
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005548685323446989,
+          "input_width": 10.856515200000002,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005548685323446989,
+          "input_width": 23.3664288,
+          "input_height": 25.381620779220828
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005470732226967812,
+          "input_width": 98.20429439999998,
+          "input_height": 40.72809974025972
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005470732226967812,
+          "input_width": 28.637356800000003,
+          "input_height": 22.35956571428575
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005470732226967812,
+          "input_width": 9.534192,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.005470732226967812,
+          "input_width": 20.1535392,
+          "input_height": 23.985631168831134
+        },
+        {
+          "image": "real_14_signals_station_14.2_24.png",
+          "best_iou": 0.4956692875460216,
+          "confidence_at_best_iou": 0.0010448939865455031,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_24.png",
+          "best_iou": 0.4029507024294956,
+          "confidence_at_best_iou": 0.001939494046382606,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_14_signals_station_14.2_21.png",
+          "best_iou": 0.5401766733059362,
+          "confidence_at_best_iou": 0.0012930077500641346,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_21.png",
+          "best_iou": 0.38774857305599053,
+          "confidence_at_best_iou": 0.0021384432911872864,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.010463827289640903,
+          "input_width": 18.149711999999926,
+          "input_height": 13.87579636363633
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.010463827289640903,
+          "input_width": 20.406873600000043,
+          "input_height": 13.183773506493546
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.00012825273409459686,
+          "confidence_at_best_iou": 0.0010154296178370714,
+          "input_width": 35.1543936000002,
+          "input_height": 23.921978181818158
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.0895711796471526,
+          "confidence_at_best_iou": 0.0010154296178370714,
+          "input_width": 19.05585599999995,
+          "input_height": 15.32599480519481
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0036521379370242357,
+          "input_width": 18.195196799999998,
+          "input_height": 13.343152207792262
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0036521379370242357,
+          "input_width": 18.54912959999992,
+          "input_height": 14.142152727272672
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0036521379370242357,
+          "input_width": 34.03142400000009,
+          "input_height": 23.092525714285745
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0036521379370242357,
+          "input_width": 21.44999039999994,
+          "input_height": 15.300679480519397
+        },
+        {
+          "image": "real_14_signals_station_14.2_17.png",
+          "best_iou": 0.5626457965960567,
+          "confidence_at_best_iou": 0.0023225094191730022,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_17.png",
+          "best_iou": 0.43095715529344764,
+          "confidence_at_best_iou": 0.0029965704306960106,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.022335294634103775,
+          "input_width": 116.02715520000001,
+          "input_height": 49.35276467532468
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.022335294634103775,
+          "input_width": 30.5110848,
+          "input_height": 23.5565361038961
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.022335294634103775,
+          "input_width": 9.534192,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.022335294634103775,
+          "input_width": 20.1535392,
+          "input_height": 23.985631168831134
+        }
+      ]
+    },
+    "synthetic_on_real_test": {
+      "thresholds": {
+        "0.001": {
+          "tp": 0,
+          "fp": 239,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "0.01": {
+          "tp": 0,
+          "fp": 51,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "0.05": {
+          "tp": 0,
+          "fp": 13,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "0.25": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 36,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "objects": [
+        {
+          "image": "real_21_station_wedel_21.3_580.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.006024027243256569,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_21_station_wedel_21.2_528.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.006498563103377819,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_21_station_wedel_21.2_528.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.006498563103377819,
+          "input_width": 44.846515199999935,
+          "input_height": 18.647763116883052
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.2_211.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0010190847096964717,
+          "input_width": 37.91477759999993,
+          "input_height": 12.709234285714324
+        },
+        {
+          "image": "real_21_station_wedel_21.1_390.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.006534236017614603,
+          "input_width": 28.65108480000005,
+          "input_height": 12.607592727272793
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.1872553676366806,
+          "input_width": 27.69302400000009,
+          "input_height": 9.541564675324663
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.1872553676366806,
+          "input_width": 24.230735999999997,
+          "input_height": 7.127233246753287
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.1872553676366806,
+          "input_width": 27.566899199999956,
+          "input_height": 7.847052467532504
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_227.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.1872553676366806,
+          "input_width": 25.75851840000003,
+          "input_height": 8.221564675324695
+        },
+        {
+          "image": "real_21_station_wedel_21.2_545.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0027140495367348194,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_21_station_wedel_21.3_605.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.00785085093230009,
+          "input_width": 24.79553280000009,
+          "input_height": 9.246944415584426
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.004166382364928722,
+          "input_width": 30.521702399999903,
+          "input_height": 12.75253402597406
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.004166382364928722,
+          "input_width": 20.741107199999963,
+          "input_height": 9.07057870129871
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.004166382364928722,
+          "input_width": 20.263171199999956,
+          "input_height": 7.979594805194842
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_137.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.004166382364928722,
+          "input_width": 30.583900800000105,
+          "input_height": 11.658582857142882
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_57.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.19572120904922485,
+          "input_width": 50.498352000000025,
+          "input_height": 14.175453506493533
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_57.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.19572120904922485,
+          "input_width": 64.37337600000001,
+          "input_height": 15.567322597402612
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_57.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.19572120904922485,
+          "input_width": 55.603814400000076,
+          "input_height": 20.188550649350642
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.1_84.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.00506235845386982,
+          "input_width": 20.113171200000046,
+          "input_height": 7.728654545454571
+        },
+        {
+          "image": "real_21_station_wedel_21.1_373.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.009805641137063503,
+          "input_width": 21.30997439999995,
+          "input_height": 10.671646753246684
+        },
+        {
+          "image": "real_21_station_wedel_21.1_407.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.006165072787553072,
+          "input_width": 25.502399999999984,
+          "input_height": 10.320504935065012
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.1_81.png",
+          "best_iou": 0,
+          "confidence_at_best_iou": 0,
+          "input_width": 18.389183999999997,
+          "input_height": 7.140567272727266
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.1_78.png",
+          "best_iou": 0,
+          "confidence_at_best_iou": 0,
+          "input_width": 18.069273600000063,
+          "input_height": 7.497705974026008
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.2_209.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.0012331135803833604,
+          "input_width": 36.44250239999991,
+          "input_height": 13.397884675324738
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_221.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.24592985212802887,
+          "input_width": 22.94199360000008,
+          "input_height": 7.809450389610441
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_221.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.24592985212802887,
+          "input_width": 26.195126399999918,
+          "input_height": 7.394188051948067
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.3_221.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.24592985212802887,
+          "input_width": 20.755948799999967,
+          "input_height": 7.607195844155834
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.5_52.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.14450399577617645,
+          "input_width": 50.498352000000025,
+          "input_height": 14.175453506493533
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.002270030090585351,
+          "input_width": 24.01737599999998,
+          "input_height": 10.262244155844138
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.002270030090585351,
+          "input_width": 20.741107199999874,
+          "input_height": 8.55392415584419
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.002270030090585351,
+          "input_width": 19.694112000000032,
+          "input_height": 7.607177142857136
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_140.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.002270030090585351,
+          "input_width": 32.48316479999993,
+          "input_height": 9.939964675324706
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.2_206.png",
+          "best_iou": 0,
+          "confidence_at_best_iou": 0,
+          "input_width": 35.72794559999997,
+          "input_height": 13.191372467532457
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_136.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.02644447796046734,
+          "input_width": 22.73436480000006,
+          "input_height": 8.55392415584419
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_136.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.02644447796046734,
+          "input_width": 24.245078400000068,
+          "input_height": 7.746065454545416
+        },
+        {
+          "image": "real_9_station_ruebenkamp_9.4_136.png",
+          "best_iou": 0.0,
+          "confidence_at_best_iou": 0.02644447796046734,
+          "input_width": 30.583900800000105,
+          "input_height": 9.939964675324706
+        }
+      ]
+    },
+    "coco_initial_on_real_val": {
+      "thresholds": {
+        "0.001": {
+          "tp": 19,
+          "fp": 439,
+          "fn": 15,
+          "precision": 0.04148471615720524,
+          "recall": 0.5588235294117647
+        },
+        "0.01": {
+          "tp": 11,
+          "fp": 69,
+          "fn": 23,
+          "precision": 0.1375,
+          "recall": 0.3235294117647059
+        },
+        "0.05": {
+          "tp": 9,
+          "fp": 12,
+          "fn": 25,
+          "precision": 0.42857142857142855,
+          "recall": 0.2647058823529412
+        },
+        "0.25": {
+          "tp": 2,
+          "fp": 1,
+          "fn": 32,
+          "precision": 0.6666666666666666,
+          "recall": 0.058823529411764705
+        }
+      },
+      "objects": [
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.3672059647735323,
+          "confidence_at_best_iou": 0.04379797354340553,
+          "input_width": 18.195196799999998,
+          "input_height": 14.218460259740311
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.3972354914404379,
+          "confidence_at_best_iou": 0.04379797354340553,
+          "input_width": 18.22855679999993,
+          "input_height": 13.552401038961035
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.5376653476233011,
+          "confidence_at_best_iou": 0.006601715926080942,
+          "input_width": 34.66219199999992,
+          "input_height": 23.921978181818158
+        },
+        {
+          "image": "real_14_signals_station_14.3_24.png",
+          "best_iou": 0.5663819781942679,
+          "confidence_at_best_iou": 0.027314141392707825,
+          "input_width": 21.12156480000008,
+          "input_height": 15.32599480519481
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.4886393221320735,
+          "confidence_at_best_iou": 0.005488858092576265,
+          "input_width": 18.195196799999998,
+          "input_height": 13.343152207792262
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.3849858210968086,
+          "confidence_at_best_iou": 0.0011877414071932435,
+          "input_width": 17.393520000000002,
+          "input_height": 14.423582337662387
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.7061328381348884,
+          "confidence_at_best_iou": 0.00120158726349473,
+          "input_width": 34.99110719999998,
+          "input_height": 23.17796571428565
+        },
+        {
+          "image": "real_14_signals_station_14.3_21.png",
+          "best_iou": 0.6494674857374173,
+          "confidence_at_best_iou": 0.005488858092576265,
+          "input_width": 22.34016959999995,
+          "input_height": 16.25238233766236
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.12255166311734025,
+          "confidence_at_best_iou": 0.0012431673239916563,
+          "input_width": 94.55448960000001,
+          "input_height": 46.72261402597399
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.4970932340610088,
+          "confidence_at_best_iou": 0.020136332139372826,
+          "input_width": 31.404048000000007,
+          "input_height": 24.53859116883118
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.7927672869075565,
+          "confidence_at_best_iou": 0.18935005366802216,
+          "input_width": 10.856515200000002,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_19.png",
+          "best_iou": 0.5748432591057547,
+          "confidence_at_best_iou": 0.3007836937904358,
+          "input_width": 23.3664288,
+          "input_height": 25.381620779220828
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.06926809160624664,
+          "confidence_at_best_iou": 0.0022622612304985523,
+          "input_width": 98.20429439999998,
+          "input_height": 40.72809974025972
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.5027425837338436,
+          "confidence_at_best_iou": 0.0020084402058273554,
+          "input_width": 28.637356800000003,
+          "input_height": 22.35956571428575
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.5106211946364101,
+          "confidence_at_best_iou": 0.13854064047336578,
+          "input_width": 9.534192,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_20.png",
+          "best_iou": 0.5026411212269543,
+          "confidence_at_best_iou": 0.13854064047336578,
+          "input_width": 20.1535392,
+          "input_height": 23.985631168831134
+        },
+        {
+          "image": "real_14_signals_station_14.2_24.png",
+          "best_iou": 0.7253138501921493,
+          "confidence_at_best_iou": 0.05224096402525902,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_24.png",
+          "best_iou": 0.7309692994650283,
+          "confidence_at_best_iou": 0.04345589131116867,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_14_signals_station_14.2_21.png",
+          "best_iou": 0.7300989955365241,
+          "confidence_at_best_iou": 0.08292993903160095,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_21.png",
+          "best_iou": 0.7644057104349711,
+          "confidence_at_best_iou": 0.07674216479063034,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.3851868079681469,
+          "confidence_at_best_iou": 0.010299460031092167,
+          "input_width": 18.149711999999926,
+          "input_height": 13.87579636363633
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.4766983485837605,
+          "confidence_at_best_iou": 0.010299460031092167,
+          "input_width": 20.406873600000043,
+          "input_height": 13.183773506493546
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.6686314702495919,
+          "confidence_at_best_iou": 0.0062469900585711,
+          "input_width": 35.1543936000002,
+          "input_height": 23.921978181818158
+        },
+        {
+          "image": "real_14_signals_station_14.3_26.png",
+          "best_iou": 0.6786086645818316,
+          "confidence_at_best_iou": 0.008965574204921722,
+          "input_width": 19.05585599999995,
+          "input_height": 15.32599480519481
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.6606965797079646,
+          "confidence_at_best_iou": 0.004784594755619764,
+          "input_width": 18.195196799999998,
+          "input_height": 13.343152207792262
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.20920177712955276,
+          "confidence_at_best_iou": 0.0024057889822870493,
+          "input_width": 18.54912959999992,
+          "input_height": 14.142152727272672
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.7598708301008811,
+          "confidence_at_best_iou": 0.0024057889822870493,
+          "input_width": 34.03142400000009,
+          "input_height": 23.092525714285745
+        },
+        {
+          "image": "real_14_signals_station_14.3_20.png",
+          "best_iou": 0.397889008138224,
+          "confidence_at_best_iou": 0.004784594755619764,
+          "input_width": 21.44999039999994,
+          "input_height": 15.300679480519397
+        },
+        {
+          "image": "real_14_signals_station_14.2_17.png",
+          "best_iou": 0.6983449646995946,
+          "confidence_at_best_iou": 0.07058887183666229,
+          "input_width": 8.012198399999926,
+          "input_height": 13.548205714285716
+        },
+        {
+          "image": "real_14_signals_station_14.2_17.png",
+          "best_iou": 0.759266033850674,
+          "confidence_at_best_iou": 0.07289505004882812,
+          "input_width": 10.263724799999931,
+          "input_height": 10.077462857142956
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.10085899038419895,
+          "confidence_at_best_iou": 0.0010640713153406978,
+          "input_width": 116.02715520000001,
+          "input_height": 49.35276467532468
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.7572610751840918,
+          "confidence_at_best_iou": 0.5388400554656982,
+          "input_width": 30.5110848,
+          "input_height": 23.5565361038961
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.1678329374740845,
+          "confidence_at_best_iou": 0.01281291339546442,
+          "input_width": 9.534192,
+          "input_height": 27.356552727272764
+        },
+        {
+          "image": "real_6_station_klein_flottbek_6.1_23.png",
+          "best_iou": 0.3499282468551769,
+          "confidence_at_best_iou": 0.01281291339546442,
+          "input_width": 20.1535392,
+          "input_height": 23.985631168831134
+        }
+      ]
+    }
+  },
+  "curves": {
+    "real": {
+      "first": {
+        "epoch": "1",
+        "time": "9.58647",
+        "train/box_loss": "2.55517",
+        "train/cls_loss": "11.9885",
+        "train/l1_loss": "0.00525",
+        "metrics/precision(B)": "0.00133",
+        "metrics/recall(B)": "0.23529",
+        "metrics/mAP50(B)": "0.00348",
+        "metrics/mAP50-95(B)": "0.00129",
+        "val/box_loss": "2.43513",
+        "val/cls_loss": "16.2022",
+        "val/l1_loss": "0.00527",
+        "lr/pg0": "0.003125",
+        "lr/pg1": "0.003125",
+        "lr/pg2": "0.071875"
+      },
+      "last": {
+        "epoch": "30",
+        "time": "258.854",
+        "train/box_loss": "1.3052",
+        "train/cls_loss": "0.8639",
+        "train/l1_loss": "0.00227",
+        "metrics/precision(B)": "0.04164",
+        "metrics/recall(B)": "0.38235",
+        "metrics/mAP50(B)": "0.05902",
+        "metrics/mAP50-95(B)": "0.02294",
+        "val/box_loss": "3.16211",
+        "val/cls_loss": "3.61374",
+        "val/l1_loss": "0.00598",
+        "lr/pg0": "0.00043",
+        "lr/pg1": "0.00043",
+        "lr/pg2": "0.00043"
+      },
+      "max_validation_AP50": 0.145
+    },
+    "synthetic": {
+      "first": {
+        "epoch": "1",
+        "time": "6.21268",
+        "train/box_loss": "2.01943",
+        "train/cls_loss": "23.5959",
+        "train/l1_loss": "0.00172",
+        "metrics/precision(B)": "0.00117",
+        "metrics/recall(B)": "0.20588",
+        "metrics/mAP50(B)": "0.00144",
+        "metrics/mAP50-95(B)": "0.00029",
+        "val/box_loss": "2.61457",
+        "val/cls_loss": "12.7425",
+        "val/l1_loss": "0.00513",
+        "lr/pg0": "0.003125",
+        "lr/pg1": "0.003125",
+        "lr/pg2": "0.071875"
+      },
+      "last": {
+        "epoch": "30",
+        "time": "196.493",
+        "train/box_loss": "1.02096",
+        "train/cls_loss": "0.47708",
+        "train/l1_loss": "0.00068",
+        "metrics/precision(B)": "0.01961",
+        "metrics/recall(B)": "0.08824",
+        "metrics/mAP50(B)": "0.00202",
+        "metrics/mAP50-95(B)": "0.0003",
+        "val/box_loss": "3.4048",
+        "val/cls_loss": "6.55288",
+        "val/l1_loss": "0.00686",
+        "lr/pg0": "0.00043",
+        "lr/pg1": "0.00043",
+        "lr/pg2": "0.00043"
+      },
+      "max_validation_AP50": 0.05599
+    }
+  }
+}

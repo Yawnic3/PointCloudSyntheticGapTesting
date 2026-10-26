@@ -1,0 +1,13 @@
+{
+  "images_and_labels_checked": 186,
+  "normalized_boxes_valid": true,
+  "real_locations_disjoint": true,
+  "no_identical_real_images_across_splits": true,
+  "training_image_counts_matched": true,
+  "training_positive_image_counts_matched": true,
+  "limits": [
+    "Visible-mask synthetic boxes and original real boxes still require human policy review.",
+    "One synthetic route and few unique vehicles; matched image counts do not imply matched unique-object counts.",
+    "This is a small sampled pilot, not the full published OSDaR23 split."
+  ]
+}

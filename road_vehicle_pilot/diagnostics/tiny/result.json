@@ -1,0 +1,9 @@
+{
+  "purpose": "Training-only crop memorization diagnostic, NOT held-out performance",
+  "source_images": 5,
+  "epochs": 80,
+  "AP50_conf_floor_025": 0.7083333333333334,
+  "AP50_95_conf_floor_025": 0.2833541666666667,
+  "precision_at_library_selected_operating_point": 0.6363636363636364,
+  "recall_at_library_selected_operating_point": 0.875
+}

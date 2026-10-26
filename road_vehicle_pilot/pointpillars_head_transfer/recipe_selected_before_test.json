@@ -1,0 +1,13 @@
+{
+  "real_recipe": "real_lr1e5",
+  "learning_rate": 1e-05,
+  "pretrained_validation_fitness": [
+    0.0,
+    0.0
+  ],
+  "selected_real_validation_fitness": [
+    0.0,
+    0.0
+  ],
+  "rule": "Choose LR by real-validation best 3D AP50 then AP25; ties prefer lower LR. Apply chosen LR to both synthetic arms. Select each checkpoint by the same validation metric. Freeze all before test. Report pretrained, selected and final checkpoints."
+}

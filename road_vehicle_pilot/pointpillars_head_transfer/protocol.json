@@ -1,0 +1,29 @@
+{
+  "epochs": 20,
+  "seed": 23,
+  "batch": 1,
+  "real_learning_rates": [
+    1e-05,
+    0.0001
+  ],
+  "model": "Same published PointPillars, only bbox_head trainable",
+  "selection": "Choose LR by real-validation best 3D AP50 then AP25; ties prefer lower LR. Apply chosen LR to both synthetic arms. Select each checkpoint by the same validation metric. Freeze all before test. Report pretrained, selected and final checkpoints.",
+  "other_settings": "Reuse previous preprocessing, augmentation, loss, inference and training lists. Feature extractor including BN buffers frozen. AdamW weight decay .01; cosine LR to initial/100; clip10. No test threshold or height changes.",
+  "limitations": "Retrospective known fold; not fresh blind. Common KITTI pretraining; fine-tuning, not training from scratch. Coverage uses real TRAIN priors.",
+  "source_hashes": {
+    "train_pointpillars_head.py": "f660d0a7c3ce593d5751023c61d46b60c7ae3b8318d2c89c108b2f7e74d0d2ac",
+    "official_pointpillars_windows.py": "4c4f4d7c72840e1c500e461dd91cd345a849a7409fbe88c6d92577158b7019fd",
+    "train_pretrained_pointpillars.py": "6d08c2ffb13691d04d23d228126930bef52df81c06bcbbae7180d28bf9978472",
+    "train_lidar3d.py": "79b1909429a38e80452b4354af0d737e7f22d37f67083edffb04f2401ff01f6c",
+    "lidar3d_geometry.py": "68977f4b308dc2e128da255e77eefdc4bf6de0559e507907d45c1bd23aec2c87"
+  },
+  "checkpoint_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+  "priors_sha256": "713f4b2375460faeaa2526aac02975d2f30bae50ccdd7f0ca03eddd43b32c519",
+  "input_manifest_sha256": "b46162441a291dd66c53d84f5822e6498f83e49db73aa5c199adc867b5fd81ff",
+  "list_hashes": {
+    "real_train.txt": "3a209b7e754a04ea9393f91a8aa54db1e1957a27c07c05d37c12a4adbabc4aab",
+    "synthetic_train.txt": "fac813729b1bfedcf014bfe910d472213f0ddc4ed0b3df5f0aea212ee005cce8",
+    "real_val.txt": "dee3f5b39ab39cf26ffd8642d3b886eb83137ae8c107e60b87aa7e36a7d4d400",
+    "real_test.txt": "27c270114194a4010c5a2b0fe4d8d97d6a218965b0dd336af6a235cf3ff2fdef"
+  }
+}

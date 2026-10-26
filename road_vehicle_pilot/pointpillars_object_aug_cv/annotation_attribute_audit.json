@@ -1,0 +1,186 @@
+{
+  "scope": "Descriptive audit only; no frozen eligibility or model changes",
+  "folds": [
+    {
+      "fold": 0,
+      "occlusion": {
+        "0-25 %": 73
+      },
+      "types": {
+        "car": 73
+      },
+      "fully_occluded_eligible": []
+    },
+    {
+      "fold": 1,
+      "occlusion": {
+        "50-75 %": 168,
+        "0-25 %": 10,
+        "75-99 %": 158
+      },
+      "types": {
+        "car": 336
+      },
+      "fully_occluded_eligible": []
+    },
+    {
+      "fold": 2,
+      "occlusion": {
+        "100 %": 24,
+        "0-25 %": 29,
+        "75-99 %": 6
+      },
+      "types": {
+        "car": 54,
+        "van": 5
+      },
+      "fully_occluded_eligible": [
+        {
+          "sample": "5_station_bergedorf_5.1__0",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 37
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__1",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 44
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__10",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 70
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__11",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 72
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__12",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 73
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__13",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 70
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__14",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 39
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__15",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 19
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__16",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 57
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__17",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 43
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__18",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 31
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__19",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 72
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__2",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 46
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__20",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 66
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__21",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 76
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__22",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 89
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__23",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 77
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__3",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 75
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__4",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 69
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__5",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 59
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__6",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 12
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__7",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 63
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__8",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 70
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__9",
+          "instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+          "support": 34
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "occlusion": {
+        "0-25 %": 79,
+        "25-50 %": 5,
+        "50-75 %": 2
+      },
+      "types": {
+        "car": 86
+      },
+      "fully_occluded_eligible": []
+    },
+    {
+      "fold": 4,
+      "occlusion": {
+        "75-99 %": 13,
+        "50-75 %": 20,
+        "0-25 %": 2
+      },
+      "types": {
+        "van": 6,
+        "car": 29
+      },
+      "fully_occluded_eligible": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "input_and_checkpoint_hashes_unchanged": true,
+  "all_ten_runs_completed_30_epochs": true,
+  "exact_train_lists_verified": true,
+  "each_real_frame_scored_once_per_source": true,
+  "independent_fixed_IoU_counts": {
+    "real": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 589,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "synthetic": {
+      "tp": 43,
+      "fp": 3210,
+      "fn": 546,
+      "precision": 0.013218567476175837,
+      "recall": 0.0730050933786078
+    }
+  }
+}

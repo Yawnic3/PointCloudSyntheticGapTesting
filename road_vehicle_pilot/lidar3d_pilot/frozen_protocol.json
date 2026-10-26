@@ -1,0 +1,59 @@
+{
+  "class": "road_vehicle only",
+  "raw_input_manifest_sha256": "b46162441a291dd66c53d84f5822e6498f83e49db73aa5c199adc867b5fd81ff",
+  "input": "raw XYZ; learned pillar features, no hand-rendered BEV images",
+  "architectures": [
+    "pillar_cnn",
+    "pillar_transformer"
+  ],
+  "epochs": 60,
+  "batch": 2,
+  "seed": 23,
+  "optimizer": "AdamW lr .001, weight decay .0001, cosine decay to .00001, gradient clip 10",
+  "mixed_precision": "bfloat16 autocast, float32 parameters and losses",
+  "voxel_xy_m": 0.4,
+  "max_input_points": 160000,
+  "augmentation": {
+    "mirror_y_probability": 0.5,
+    "yaw_radians": [
+      -0.12,
+      0.12
+    ],
+    "x_translation_m": [
+      -4,
+      4
+    ],
+    "y_translation_m": [
+      -8,
+      8
+    ],
+    "z_translation_m": [
+      -0.1,
+      0.1
+    ],
+    "scale": [
+      0.95,
+      1.05
+    ],
+    "point_retention": [
+      0.8,
+      1
+    ]
+  },
+  "selection": "Every 5 epochs: maximize validation 3D AP50, then AP25, then minimize supervised loss. Test all four runs only after training finishes.",
+  "test_scope": "Existing retrospective grouped fold 3; all test data already diagnosed previously. Not fresh blind evaluation.",
+  "metric": "101 recall-level interpolated AP, exact convex cuboid intersection including source roll/pitch. Experimental evaluator, not official OSDaR23 benchmark.",
+  "architecture_limit": "Small custom PointPillars-style CNN and local-window-attention hybrid, not official pretrained model implementations.",
+  "source_sha256": {
+    "lidar3d_models.py": "8becd179260a123a8be68dbbe314f78a5c72ab1bc59fa7cd48bcf2379eb05cb5",
+    "lidar3d_geometry.py": "68977f4b308dc2e128da255e77eefdc4bf6de0559e507907d45c1bd23aec2c87",
+    "train_lidar3d.py": "79b1909429a38e80452b4354af0d737e7f22d37f67083edffb04f2401ff01f6c"
+  },
+  "lists": {
+    "real_train.txt": "3a209b7e754a04ea9393f91a8aa54db1e1957a27c07c05d37c12a4adbabc4aab",
+    "synthetic_train.txt": "fac813729b1bfedcf014bfe910d472213f0ddc4ed0b3df5f0aea212ee005cce8",
+    "real_val.txt": "dee3f5b39ab39cf26ffd8642d3b886eb83137ae8c107e60b87aa7e36a7d4d400",
+    "real_test.txt": "27c270114194a4010c5a2b0fe4d8d97d6a218965b0dd336af6a235cf3ff2fdef"
+  },
+  "torch": "2.7.1+cu128"
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Read-only visibility audit. Ground-truth ray-hit instance IDs used only for annotation verification, never as model inputs. Frozen current labels unchanged.",
+  "unique_training_frames": 165,
+  "evaluated_object_observations": 520,
+  "under5_actual_actor_return_observations": []
+}

@@ -1,0 +1,16 @@
+{
+  "source": "synthetic",
+  "coverage": true,
+  "learning_rate": 1e-05,
+  "epochs": 20,
+  "trainable_parameters": 7700,
+  "initial_checkpoint_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+  "frozen_feature_weights_unchanged": true,
+  "frozen_feature_sha256": "6b03f10ddb5457a01e984899331aef8baac8d5998b3ca56c2a1942b17372dac3",
+  "best_validation_fitness": [
+    0.0,
+    0.0
+  ],
+  "best_sha256": "26d5fdf161a2ee3ac5630154fd13d2fe912f9c421902d2fe59a21f64b67318e4",
+  "last_sha256": "71bc5c1db577bee1fdcde6dc0603f69f4e7e74144eab14bbbc871cf99c1620c4"
+}

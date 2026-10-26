@@ -1,0 +1,242 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 29.93699999999808,
+    "training_loss": 4.160270489993747,
+    "pasted_instances_before_final_support_filter": 158,
+    "partial_visibility_pastes": 70,
+    "supervised_boxes": 421
+  },
+  {
+    "epoch": 2,
+    "seconds": 29.31300000000192,
+    "training_loss": 3.4864897846623704,
+    "pasted_instances_before_final_support_filter": 169,
+    "partial_visibility_pastes": 83,
+    "supervised_boxes": 439,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.03591868976686534,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 32,
+        "fp": 733,
+        "fn": 97,
+        "precision": 0.04183006535947712,
+        "recall": 0.24806201550387597
+      },
+      "3D_AP25": {
+        "AP101": 0.1415942779374757,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 55,
+        "fp": 710,
+        "fn": 74,
+        "precision": 0.0718954248366013,
+        "recall": 0.4263565891472868
+      },
+      "3D_AP70": {
+        "AP101": 0.001288249490375229,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 5,
+        "fp": 760,
+        "fn": 124,
+        "precision": 0.006535947712418301,
+        "recall": 0.03875968992248062
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.06559588341859554,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 42,
+        "fp": 723,
+        "fn": 87,
+        "precision": 0.054901960784313725,
+        "recall": 0.32558139534883723
+      }
+    },
+    "validation_fitness": [
+      0.055418609583427855,
+      0.12669402237022576
+    ],
+    "validation_locations": {
+      "5": {
+        "AP50": 0.09911073631616786,
+        "AP25": 0.11863087163983839
+      },
+      "6": {
+        "AP50": 0.011726482850687853,
+        "AP25": 0.1347571731006131
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "seconds": 28.453999999997905,
+    "training_loss": 2.9701947106255426,
+    "pasted_instances_before_final_support_filter": 164,
+    "partial_visibility_pastes": 81,
+    "supervised_boxes": 433
+  },
+  {
+    "epoch": 4,
+    "seconds": 59.76499999999942,
+    "training_loss": 2.478185348212719,
+    "pasted_instances_before_final_support_filter": 165,
+    "partial_visibility_pastes": 73,
+    "supervised_boxes": 431,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.024352549594733337,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 26,
+        "fp": 552,
+        "fn": 103,
+        "precision": 0.04498269896193772,
+        "recall": 0.20155038759689922
+      },
+      "3D_AP25": {
+        "AP101": 0.1262882875474153,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 49,
+        "fp": 529,
+        "fn": 80,
+        "precision": 0.0847750865051903,
+        "recall": 0.3798449612403101
+      },
+      "3D_AP70": {
+        "AP101": 0.0045064080033577255,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 8,
+        "fp": 570,
+        "fn": 121,
+        "precision": 0.01384083044982699,
+        "recall": 0.06201550387596899
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.053494489670230384,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 37,
+        "fp": 541,
+        "fn": 92,
+        "precision": 0.06401384083044982,
+        "recall": 0.2868217054263566
+      }
+    },
+    "validation_fitness": [
+      0.05021271419616022,
+      0.12007835907004116
+    ],
+    "validation_locations": {
+      "5": {
+        "AP50": 0.09415514331816233,
+        "AP25": 0.11349495474299198
+      },
+      "6": {
+        "AP50": 0.006270285074158108,
+        "AP25": 0.12666176339709034
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "seconds": 83.51499999999942,
+    "training_loss": 2.360529090933226,
+    "pasted_instances_before_final_support_filter": 160,
+    "partial_visibility_pastes": 83,
+    "supervised_boxes": 428
+  },
+  {
+    "epoch": 6,
+    "seconds": 77.45300000000134,
+    "training_loss": 2.31520634530871,
+    "pasted_instances_before_final_support_filter": 149,
+    "partial_visibility_pastes": 65,
+    "supervised_boxes": 412,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.02604263170094352,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 25,
+        "fp": 446,
+        "fn": 104,
+        "precision": 0.05307855626326964,
+        "recall": 0.1937984496124031
+      },
+      "3D_AP25": {
+        "AP101": 0.10394434860928281,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 43,
+        "fp": 428,
+        "fn": 86,
+        "precision": 0.09129511677282377,
+        "recall": 0.3333333333333333
+      },
+      "3D_AP70": {
+        "AP101": 0.005524028188422116,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 10,
+        "fp": 461,
+        "fn": 119,
+        "precision": 0.021231422505307854,
+        "recall": 0.07751937984496124
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.05394551938850144,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 35,
+        "fp": 436,
+        "fn": 94,
+        "precision": 0.07430997876857749,
+        "recall": 0.2713178294573643
+      }
+    },
+    "validation_fitness": [
+      0.05222771335511897,
+      0.10520699221660867
+    ],
+    "validation_locations": {
+      "5": {
+        "AP50": 0.09776331339048329,
+        "AP25": 0.11838467745175323
+      },
+      "6": {
+        "AP50": 0.00669211331975466,
+        "AP25": 0.09202930698146411
+      }
+    }
+  }
+]

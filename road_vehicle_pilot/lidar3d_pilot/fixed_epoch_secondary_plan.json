@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-25T19:30:00.824568+00:00",
+  "policy": "Secondary evaluation of last.pt at fixed epoch 60 for all four runs; primary best-validation comparison unchanged. Declared before primary test inference.",
+  "primary_protocol_sha256": "56e4f4633f481c6f95f4a9ac742be77b4195fdbff854344f05d8427bfb43f10c",
+  "runner_sha256": "a689f2edf9216d701aec00d89f5cb3984528e2f5415aadc53c22ab5db4a638e5",
+  "checkpoint_epoch": 60,
+  "models": [
+    "pillar_cnn",
+    "pillar_transformer"
+  ],
+  "sources": [
+    "real",
+    "synthetic"
+  ]
+}

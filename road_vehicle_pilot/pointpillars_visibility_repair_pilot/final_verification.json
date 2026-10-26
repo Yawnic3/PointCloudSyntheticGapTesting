@@ -1,0 +1,8 @@
+{
+  "all_four_runs_six_epochs_same_published_initialization": true,
+  "all_eight_frozen_checkpoint_hashes_match": true,
+  "same_original_raw_inputs_and_test_frames": true,
+  "all_original_model_weights_unchanged": true,
+  "saved_prediction_AP_recomputed": true,
+  "checkpoints_selected_only_by_unaffected_validation_locations": true
+}

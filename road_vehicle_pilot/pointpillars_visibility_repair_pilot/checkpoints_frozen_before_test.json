@@ -1,0 +1,10 @@
+{
+  "fold_3/real_control/best": "dc625be81d97f3563cb2922ad0aed1eb789c6df8e100b233b7a4491f3ea0a976",
+  "fold_3/real_control/last": "71cabdeb36689d34bd7ed5c04a61d83edaaff5408f4dfe9a609925fc1dcc4dc2",
+  "fold_3/real_augmented/best": "524379304dc55d67c8b17ac03eb50304103c56c30e99f67a810aedbb0b15d806",
+  "fold_3/real_augmented/last": "bc3ffb31d84b9389fe9f4649f9163c16b11d70fd799b7ae191ad8460286e035f",
+  "fold_4/real_control/best": "76631b4e4d7d4c92b90cac9f954118c893d9a9e03e354a30c0da4621b531aa8a",
+  "fold_4/real_control/last": "dc4ce2b0a5b0187e5811f64502282531fa9d7e9483a08d3afeb20286ab149c0c",
+  "fold_4/real_augmented/best": "b685b08963af649a1db7208d5bdd7a248f89f56c7b7f3d5faf4e81274f3d046c",
+  "fold_4/real_augmented/last": "466ca60246b868a67adaeacac9090dd2abf436794c57992e6f66ace1dbc8a4fe"
+}

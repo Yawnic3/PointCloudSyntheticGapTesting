@@ -1,0 +1,6 @@
+{
+  "random_SAT_vs_independent_BEV_pairs": 120,
+  "overlapping_pairs": 29,
+  "all_collision_decisions_match": true,
+  "tilted_width_length_canonicalization_max_error_m": 6.428900611865629e-08
+}

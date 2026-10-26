@@ -1,0 +1,11 @@
+{
+  "epochs": 6,
+  "initial_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+  "best_validation_fitness": [
+    0.02273713829215315,
+    0.10339509240190553
+  ],
+  "validation_prefers_finetune_over_pretrained": false,
+  "best_sha256": "dedd7121d8f08b228334642511f57c73826f72369502ae01f52020d17441e62b",
+  "last_sha256": "25f5d1de1ee8e15913a94bf68e3a48f924251a6ad4ef2278d27a971d4ecfcfec"
+}

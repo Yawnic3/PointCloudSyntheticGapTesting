@@ -1,0 +1,6 @@
+path: C:/Users/qingy/OneDrive/Desktop/CROSS/osdar23_synthetic/road_vehicle_pilot/lidar_grouped_v3/fold_0
+train: real_train.txt
+val: real_val.txt
+test: real_test.txt
+names:
+  0: road_vehicle

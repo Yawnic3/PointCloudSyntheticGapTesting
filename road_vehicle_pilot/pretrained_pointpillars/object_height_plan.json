@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-25T21:01:20.907780+00:00",
+  "policy": "Secondary object-height alignment. Translate real input Z to align its TRAIN median cuboid bottom to the source-domain TRAIN median after the original normalization; restore predicted Z by the inverse shift. No test/validation fitting. Weights and ground truth unchanged. Zero-shot uses published anchor bottom -1.78m as its reference. Primary trackbed-normalized scores remain separate.",
+  "source_train_median_bottom_z": {
+    "real": -0.20000000000000007,
+    "synthetic": 1.4380484834318352
+  },
+  "real_input_z_shift_by_source": {
+    "real": -1.4100000000000006,
+    "synthetic": 0.04804848343183432,
+    "zero_shot": -1.58
+  },
+  "protocol_sha256": "91ef68b17d36618a16fc60f65b4821de9c8170c8f8a01f0ef8e2f940dca27f80",
+  "priors_sha256": "713f4b2375460faeaa2526aac02975d2f30bae50ccdd7f0ca03eddd43b32c519",
+  "runner_sha256": "c259acbe560832e37184ae0baeeca6953d73dfc37ed5dad244e73c5a3a78b86f"
+}

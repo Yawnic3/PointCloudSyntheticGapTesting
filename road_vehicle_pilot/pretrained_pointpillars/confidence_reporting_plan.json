@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-25T20:15:53.173277+00:00",
+  "policy": "Report fixed-confidence counts at 0.10 (published native score threshold) in addition to the existing 0.25 counts, identically for every baseline/checkpoint. AP and checkpoint selection unchanged; no test-based threshold selection.",
+  "confidence_thresholds": [
+    0.1,
+    0.25
+  ],
+  "protocol_sha256": "91ef68b17d36618a16fc60f65b4821de9c8170c8f8a01f0ef8e2f940dca27f80"
+}

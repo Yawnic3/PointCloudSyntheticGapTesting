@@ -1,0 +1,95 @@
+{
+  "official_reference_tag": "v1.4.0",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/LICENSE",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\LICENSE",
+      "bytes": 11400,
+      "sha256": "02c5c55e19772184872c6c455553b15e4acac4b3a757550e7374f47723868ce1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/configs/_base_/models/pointpillars_hv_secfpn_kitti.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\configs\\_base_\\models\\pointpillars_hv_secfpn_kitti.py",
+      "bytes": 3318,
+      "sha256": "1f9e97f2ccd634b58196119face71c0bba9e416be1830ad61e7c30d5dd6e6000"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/configs/pointpillars/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-3class.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\configs\\pointpillars\\pointpillars_hv_secfpn_8xb6-160e_kitti-3d-3class.py",
+      "bytes": 4307,
+      "sha256": "51836588c00336b29c8e3301ba28e06e4dc332fafe91b8cbe904ede48a17b7cb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/configs/pointpillars/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-car.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\configs\\pointpillars\\pointpillars_hv_secfpn_8xb6-160e_kitti-3d-car.py",
+      "bytes": 3239,
+      "sha256": "75145966859d3f9f4bc3fcd364ee12e6b3edc221cf1cdea7c70e4274443891dc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/configs/pointpillars/metafile.yml",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\configs\\pointpillars\\metafile.yml",
+      "bytes": 8206,
+      "sha256": "eae0c184ee483b5e7ab1bc93541bd12a0bd6f85a8ecfa2f056287022cfd5d05d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/voxel_encoders/pillar_encoder.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\voxel_encoders\\pillar_encoder.py",
+      "bytes": 14462,
+      "sha256": "c06cc44b015cb99fd6aceb7b662bafc5215cb92199c1edee897044d733a816c5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/voxel_encoders/utils.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\voxel_encoders\\utils.py",
+      "bytes": 7129,
+      "sha256": "bcd942552a941f6b2c4e92421f6296304f69700837a09bf922a3475e66702e4f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/backbones/second.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\backbones\\second.py",
+      "bytes": 3553,
+      "sha256": "8ea4f70db9db4df6ca31bd9ecb43f8dcec7de5a8103193bb22427213b5d0a9be"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/necks/second_fpn.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\necks\\second_fpn.py",
+      "bytes": 3759,
+      "sha256": "62bdd452a90fec2c669f9b9bc21837f037391c6e6b8a59c9d6cf2dd04500f83e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/middle_encoders/pillar_scatter.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\middle_encoders\\pillar_scatter.py",
+      "bytes": 3826,
+      "sha256": "794cbbf8fe0129573069854253233aed7a729b116aae777350e720ac365c7ea2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/dense_heads/anchor3d_head.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\dense_heads\\anchor3d_head.py",
+      "bytes": 18722,
+      "sha256": "b9f3df7f0127804aaf04f2ea429813e2a225180d13e7673fb1938f22535e61f6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/task_modules/coders/delta_xyzwhlr_bbox_coder.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\task_modules\\coders\\delta_xyzwhlr_bbox_coder.py",
+      "bytes": 3260,
+      "sha256": "45aaa5275bfb1638dbbdb8158281717ce657bcbda10e97115252e412fe044f0a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/mmdet3d/models/task_modules/anchor/anchor_3d_generator.py",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\mmdet3d\\models\\task_modules\\anchor\\anchor_3d_generator.py",
+      "bytes": 18571,
+      "sha256": "bbd1d6b6fa5a4a3eafb19ebc97e438026cd047325b531f57a81c1a7bbf28c11d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/open-mmlab/mmdetection3d/v1.4.0/demo/data/kitti/000008.bin",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\official\\demo\\data\\kitti\\000008.bin",
+      "bytes": 275808,
+      "sha256": "3b9de6cc966534900f6a1bdc93b21772e47a334eb2ef18082021956520d902d1"
+    },
+    {
+      "url": "https://download.openmmlab.com/mmdetection3d/v1.0.0_models/pointpillars/hv_pointpillars_secfpn_6x8_160e_kitti-3d-car/hv_pointpillars_secfpn_6x8_160e_kitti-3d-car_20220331_134606-d42d15ed.pth",
+      "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pretrained_pointpillars\\weights\\hv_pointpillars_secfpn_6x8_160e_kitti-3d-car_20220331_134606-d42d15ed.pth",
+      "bytes": 19342405,
+      "sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e"
+    }
+  ]
+}

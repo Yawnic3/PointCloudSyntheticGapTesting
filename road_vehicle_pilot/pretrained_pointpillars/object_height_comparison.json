@@ -1,0 +1,391 @@
+{
+  "plan": {
+    "created_utc": "2026-10-25T21:01:20.907780+00:00",
+    "policy": "Secondary object-height alignment. Translate real input Z to align its TRAIN median cuboid bottom to the source-domain TRAIN median after the original normalization; restore predicted Z by the inverse shift. No test/validation fitting. Weights and ground truth unchanged. Zero-shot uses published anchor bottom -1.78m as its reference. Primary trackbed-normalized scores remain separate.",
+    "source_train_median_bottom_z": {
+      "real": -0.20000000000000007,
+      "synthetic": 1.4380484834318352
+    },
+    "real_input_z_shift_by_source": {
+      "real": -1.4100000000000006,
+      "synthetic": 0.04804848343183432,
+      "zero_shot": -1.58
+    },
+    "protocol_sha256": "91ef68b17d36618a16fc60f65b4821de9c8170c8f8a01f0ef8e2f940dca27f80",
+    "priors_sha256": "713f4b2375460faeaa2526aac02975d2f30bae50ccdd7f0ca03eddd43b32c519",
+    "runner_sha256": "c259acbe560832e37184ae0baeeca6953d73dfc37ed5dad244e73c5a3a78b86f"
+  },
+  "results": {
+    "zero_shot": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.07256817984007952,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 139,
+          "fn": 73,
+          "precision": 0.08552631578947369,
+          "recall": 0.1511627906976744
+        },
+        "3D_AP25": {
+          "AP101": 0.2962791939890289,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 37,
+          "fp": 115,
+          "fn": 49,
+          "precision": 0.24342105263157895,
+          "recall": 0.43023255813953487
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 152,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.10026698751339128,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 17,
+          "fp": 135,
+          "fn": 69,
+          "precision": 0.1118421052631579,
+          "recall": 0.19767441860465115
+        }
+      },
+      "input_z_shift": -1.58
+    },
+    "real_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.013474399120584327,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 5,
+          "fn": 85,
+          "precision": 0.16666666666666666,
+          "recall": 0.011627906976744186
+        },
+        "3D_AP25": {
+          "AP101": 0.023340858160944156,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 5,
+          "fn": 85,
+          "precision": 0.16666666666666666,
+          "recall": 0.011627906976744186
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 6,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.014910226441918284,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 5,
+          "fn": 85,
+          "precision": 0.16666666666666666,
+          "recall": 0.011627906976744186
+        }
+      },
+      "input_z_shift": -1.4100000000000006
+    },
+    "real_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.006508516218405274,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 3,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 0.01368898192372369,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 3,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 3,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.00683445718532977,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 3,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "input_z_shift": -1.4100000000000006
+    },
+    "synthetic_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.0,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 679,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 4.449883190566248e-05,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 678,
+          "fn": 85,
+          "precision": 0.0014727540500736377,
+          "recall": 0.011627906976744186
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 679,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 4.449883190566248e-05,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 678,
+          "fn": 85,
+          "precision": 0.0014727540500736377,
+          "recall": 0.011627906976744186
+        }
+      },
+      "input_z_shift": 0.04804848343183432
+    },
+    "synthetic_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.0,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 713,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 5.5937797169547465e-05,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 712,
+          "fn": 85,
+          "precision": 0.001402524544179523,
+          "recall": 0.011627906976744186
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 713,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.00021337009441819716,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 710,
+          "fn": 83,
+          "precision": 0.004207573632538569,
+          "recall": 0.03488372093023256
+        }
+      },
+      "input_z_shift": 0.04804848343183432
+    },
+    "synthetic_coverage_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.0,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 421,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 0.0,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 421,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 421,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.0003158210557897895,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 421,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "input_z_shift": 0.04804848343183432
+    },
+    "synthetic_coverage_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.0,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 618,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 2.890800028908e-05,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 618,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 618,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.001993023400211924,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 7,
+          "fp": 611,
+          "fn": 79,
+          "precision": 0.011326860841423949,
+          "recall": 0.08139534883720931
+        }
+      },
+      "input_z_shift": 0.04804848343183432
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "all_raw_inputs_unchanged": true,
+  "initial_weights_identical_within_each_real_synthetic_pair": true,
+  "all_four_runs_60_epochs": true,
+  "selected_and_final_weights_unchanged": true,
+  "same_27_test_frames_and_86_boxes": true,
+  "python": "3.12.3",
+  "torch": "2.7.1+cu128",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU"
+}

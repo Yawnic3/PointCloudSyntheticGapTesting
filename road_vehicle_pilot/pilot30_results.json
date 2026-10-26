@@ -1,0 +1,52 @@
+{
+  "purpose": "Small single-route pilot, not a definitive benchmark",
+  "architecture": "yolo26s",
+  "initial_checkpoint_sha256": "646f8bc3fe0a656803d95c294f7852321748cb29d13466a1af8862e2db384a1b",
+  "seed": 23,
+  "epochs": 30,
+  "imgsz": 960,
+  "batch": 4,
+  "checkpoint_policy": "last.pt at fixed epoch budget; validation does not select the checkpoint",
+  "validation": "same held-out real validation locations, used for monitoring only",
+  "test": "identical held-out real location test set for both models",
+  "versions": {
+    "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.7.1+cu128",
+    "ultralytics": "8.4.188",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "results": {
+    "real": {
+      "checkpoint": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\runs\\pilot30_real\\weights\\last.pt",
+      "AP50": 0.0019955644117257264,
+      "AP50_95": 0.0006529097078131727,
+      "fixed_operating_point": {
+        "confidence": 0.25,
+        "matching_iou": 0.5,
+        "tp": 0,
+        "fp": 12,
+        "fn": 36,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    },
+    "synthetic": {
+      "checkpoint": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\runs\\pilot30_synthetic\\weights\\last.pt",
+      "AP50": 0.0,
+      "AP50_95": 0.0,
+      "fixed_operating_point": {
+        "confidence": 0.25,
+        "matching_iou": 0.5,
+        "tp": 0,
+        "fp": 0,
+        "fn": 36,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  "synthetic_minus_real": {
+    "AP50": -0.0019955644117257264,
+    "AP50_95": -0.0006529097078131727
+  }
+}

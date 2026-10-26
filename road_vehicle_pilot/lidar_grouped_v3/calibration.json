@@ -1,0 +1,68 @@
+{
+  "generator_sha256": "20fd046328ecbd6c59d095e3cb5fdeef05dffe3b5b7c9920dfb4a71f7cc64a5e",
+  "sensor_mounts_m": [
+    [
+      0.0,
+      0.0,
+      2.5999999046325684
+    ],
+    [
+      0.10000000149011612,
+      -0.5,
+      2.799999952316284
+    ],
+    [
+      0.10000000149011612,
+      0.0,
+      2.799999952316284
+    ],
+    [
+      0.10000000149011612,
+      0.5,
+      2.799999952316284
+    ],
+    [
+      0.0,
+      -0.699999988079071,
+      1.100000023841858
+    ],
+    [
+      0.0,
+      0.699999988079071,
+      1.100000023841858
+    ]
+  ],
+  "placement_grid_x_m": [
+    15,
+    45,
+    85,
+    125
+  ],
+  "placement_grid_y_m": [
+    -30,
+    -22,
+    -14,
+    -6,
+    6,
+    14,
+    22,
+    30
+  ],
+  "bottom_z_m": [
+    0,
+    0.5,
+    1.5,
+    3
+  ],
+  "headings": "8 uniformly spaced headings, plus 5-degree jitter",
+  "range_x_jitter_sigma_m": 4,
+  "lateral_jitter_sigma_m": 0.6,
+  "vertical_beam_counts": [
+    64,
+    96,
+    128
+  ],
+  "real_sensor_templates_used": false,
+  "real_placement_records_used": false,
+  "limit": "Procedural six-fan directions and assumed mounts; no real intensity/material response/timing. Broad pose and dropout ranges were designed after prior project diagnostics, so this is retrospective development. Eight existing mesh families and route backgrounds reused; no matching RGB renders."
+}

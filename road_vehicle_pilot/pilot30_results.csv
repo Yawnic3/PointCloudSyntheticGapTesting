@@ -1,0 +1,3 @@
+training_domain,AP50,AP50_95,precision_conf025_iou050,recall_conf025_iou050
+real,0.0019955644117257264,0.0006529097078131727,0.0,0.0
+synthetic,0.0,0.0,0.0,0.0

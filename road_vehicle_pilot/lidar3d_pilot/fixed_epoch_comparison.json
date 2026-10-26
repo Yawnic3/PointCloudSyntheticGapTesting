@@ -1,0 +1,239 @@
+{
+  "plan": {
+    "created_utc": "2026-10-25T19:30:00.824568+00:00",
+    "policy": "Secondary evaluation of last.pt at fixed epoch 60 for all four runs; primary best-validation comparison unchanged. Declared before primary test inference.",
+    "primary_protocol_sha256": "56e4f4633f481c6f95f4a9ac742be77b4195fdbff854344f05d8427bfb43f10c",
+    "runner_sha256": "a689f2edf9216d701aec00d89f5cb3984528e2f5415aadc53c22ab5db4a638e5",
+    "checkpoint_epoch": 60,
+    "models": [
+      "pillar_cnn",
+      "pillar_transformer"
+    ],
+    "sources": [
+      "real",
+      "synthetic"
+    ]
+  },
+  "results": {
+    "pillar_cnn": {
+      "real": {
+        "checkpoint_sha256": "74b154f57a90039bbe27715ffc07b9802500e6fef746faad35a0e5f3145a9ab1",
+        "metrics": {
+          "3D_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP25": {
+            "AP101": 2.2656727915354465e-05,
+            "IoU": 0.25,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP70": {
+            "AP101": 0.0,
+            "IoU": 0.7,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "oriented_BEV_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "bev",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "mean_supervised_loss": 4.427743589866117
+        }
+      },
+      "synthetic": {
+        "checkpoint_sha256": "02d8c67edddc4f6b8e4383a3eb56b27310fba95d2a45400734dae123d698e281",
+        "metrics": {
+          "3D_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 17,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP25": {
+            "AP101": 0.0,
+            "IoU": 0.25,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 17,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP70": {
+            "AP101": 0.0,
+            "IoU": 0.7,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 17,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "oriented_BEV_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "bev",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 17,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "mean_supervised_loss": 5.267121503474535
+        }
+      }
+    },
+    "pillar_transformer": {
+      "real": {
+        "checkpoint_sha256": "4bbbbe6aa62619f95e30f771667516ce8607bd6bb53584c9784f6fce4caf5326",
+        "metrics": {
+          "3D_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP25": {
+            "AP101": 0.0,
+            "IoU": 0.25,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP70": {
+            "AP101": 0.0,
+            "IoU": 0.7,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "oriented_BEV_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "bev",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 0,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "mean_supervised_loss": 4.335184549553863
+        }
+      },
+      "synthetic": {
+        "checkpoint_sha256": "a0401a1b919b8569e9576caf7d68c6a125f3f930b53a91654d9fa55d560b4c1d",
+        "metrics": {
+          "3D_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 82,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP25": {
+            "AP101": 0.0,
+            "IoU": 0.25,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 82,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "3D_AP70": {
+            "AP101": 0.0,
+            "IoU": 0.7,
+            "mode": "3d",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 82,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "oriented_BEV_AP50": {
+            "AP101": 0.0,
+            "IoU": 0.5,
+            "mode": "bev",
+            "ground_truth_boxes": 86,
+            "confidence": 0.25,
+            "tp": 0,
+            "fp": 82,
+            "fn": 86,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "mean_supervised_loss": 5.321349600950877
+        }
+      }
+    }
+  }
+}

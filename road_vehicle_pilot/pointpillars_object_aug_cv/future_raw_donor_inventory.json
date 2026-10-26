@@ -1,0 +1,60 @@
+{
+  "scope": "Read-only inventory for a possible future source-only database expansion. These donors are NOT used by the frozen current experiment. Raw NPZ preserves full sensor XYZ. Excludes all validation/test annotation IDs.",
+  "folds": [
+    {
+      "fold": 0,
+      "current_eligible_donor_IDs": 16,
+      "additional_source_TRAIN_outside_ROI_IDs": 0,
+      "additional_IDs": []
+    },
+    {
+      "fold": 1,
+      "current_eligible_donor_IDs": 7,
+      "additional_source_TRAIN_outside_ROI_IDs": 6,
+      "additional_IDs": [
+        "3ed87b9e-e193-4044-b662-24408a3ed1c8",
+        "6efc0d9c-259e-45ab-af5b-04c07bad8551",
+        "b20d5d00-170a-4f8a-8953-8b1752a8df33",
+        "c9cb7a3d-e659-49d1-9c08-455ce72c88cc",
+        "db3f5d36-045f-4344-b748-305a3b5ad673",
+        "f4867e0c-9bec-40ff-b3e0-c13699658998"
+      ]
+    },
+    {
+      "fold": 2,
+      "current_eligible_donor_IDs": 11,
+      "additional_source_TRAIN_outside_ROI_IDs": 7,
+      "additional_IDs": [
+        "3ed87b9e-e193-4044-b662-24408a3ed1c8",
+        "6efc0d9c-259e-45ab-af5b-04c07bad8551",
+        "911f3432-a562-48f7-a90b-b875fddcb2e7",
+        "b20d5d00-170a-4f8a-8953-8b1752a8df33",
+        "c9cb7a3d-e659-49d1-9c08-455ce72c88cc",
+        "db3f5d36-045f-4344-b748-305a3b5ad673",
+        "f4867e0c-9bec-40ff-b3e0-c13699658998"
+      ]
+    },
+    {
+      "fold": 3,
+      "current_eligible_donor_IDs": 12,
+      "additional_source_TRAIN_outside_ROI_IDs": 4,
+      "additional_IDs": [
+        "4d19dfa7-4662-44c3-9b3a-65d52994c6b3",
+        "60dcce2e-4b86-4acc-817b-135bf21707a7",
+        "839d7066-ed73-4e03-9343-fe18bd931d02",
+        "911f3432-a562-48f7-a90b-b875fddcb2e7"
+      ]
+    },
+    {
+      "fold": 4,
+      "current_eligible_donor_IDs": 16,
+      "additional_source_TRAIN_outside_ROI_IDs": 4,
+      "additional_IDs": [
+        "4d19dfa7-4662-44c3-9b3a-65d52994c6b3",
+        "60dcce2e-4b86-4acc-817b-135bf21707a7",
+        "839d7066-ed73-4e03-9343-fe18bd931d02",
+        "911f3432-a562-48f7-a90b-b875fddcb2e7"
+      ]
+    }
+  ]
+}

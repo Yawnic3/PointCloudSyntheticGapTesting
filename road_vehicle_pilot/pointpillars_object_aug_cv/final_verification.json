@@ -1,0 +1,12 @@
+{
+  "all20_runs_completed_six_epochs": true,
+  "all40_frozen_checkpoint_hashes_match": true,
+  "all_runs_same_published_initialization": true,
+  "all_raw_inputs_sources_and_lists_unchanged": true,
+  "matched_real_synthetic_total_and_positive_training_frames": true,
+  "two_positive_validation_locations_each_fold": true,
+  "training_validation_test_locations_disjoint": true,
+  "same400_test_frames_once_per_arm_and_policy": true,
+  "all_selected_final_and_pooled_AP_recomputed": true,
+  "validation_gates_use_only_pretest_validation_decisions": true
+}

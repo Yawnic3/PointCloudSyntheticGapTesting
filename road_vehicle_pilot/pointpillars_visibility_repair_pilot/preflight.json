@@ -1,0 +1,36 @@
+{
+  "source_sha256": "78ae50b370e4b56afaec74cc0922431d451afd8470f84d93cd632f74c883fcb8",
+  "folds": [
+    {
+      "fold": 3,
+      "removed_eligible_training_boxes": 24,
+      "annotation_IDs_with_removed_observations": [
+        "138d2704-8758-4f73-a43d-93d917c9f0b5"
+      ],
+      "excluded_hidden_donor_observations": 24,
+      "remaining_donor_ids": 12,
+      "original_positive_frames": 70,
+      "visible_positive_frames": 62,
+      "same_training_frames_retained": true,
+      "validation_test_synthetic_training_have_no_eligible_100pct_occluded_GT": true,
+      "unaugmented_XYZ_transforms_unchanged": true
+    },
+    {
+      "fold": 4,
+      "removed_eligible_training_boxes": 24,
+      "annotation_IDs_with_removed_observations": [
+        "138d2704-8758-4f73-a43d-93d917c9f0b5"
+      ],
+      "excluded_hidden_donor_observations": 24,
+      "remaining_donor_ids": 16,
+      "original_positive_frames": 40,
+      "visible_positive_frames": 32,
+      "same_training_frames_retained": true,
+      "validation_test_synthetic_training_have_no_eligible_100pct_occluded_GT": true,
+      "unaugmented_XYZ_transforms_unchanged": true
+    }
+  ],
+  "ignored_anchor_gradients_zero": true,
+  "visible_positive_gradients_take_priority": true,
+  "passed": true
+}

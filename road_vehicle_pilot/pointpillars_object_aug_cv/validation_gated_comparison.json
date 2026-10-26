@@ -1,0 +1,170 @@
+{
+  "real_control": {
+    "folds": [
+      {
+        "fold": 0,
+        "chosen": "pretrained",
+        "AP50": 0.9392046370315791
+      },
+      {
+        "fold": 1,
+        "chosen": "real_control_best",
+        "AP50": 0.0
+      },
+      {
+        "fold": 2,
+        "chosen": "pretrained",
+        "AP50": 0.3420031825787461
+      },
+      {
+        "fold": 3,
+        "chosen": "pretrained",
+        "AP50": 0.03476098741095829
+      },
+      {
+        "fold": 4,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      }
+    ],
+    "macro_3D_AP50": 0.26319376140425665,
+    "pooled_3D_AP50": {
+      "AP101": 0.15537169203684945,
+      "IoU": 0.5,
+      "mode": "3d",
+      "ground_truth_boxes": 589,
+      "confidence": 0.25,
+      "tp": 113,
+      "fp": 1464,
+      "fn": 476,
+      "precision": 0.07165504121750159,
+      "recall": 0.19185059422750425
+    }
+  },
+  "real_augmented": {
+    "folds": [
+      {
+        "fold": 0,
+        "chosen": "pretrained",
+        "AP50": 0.9392046370315791
+      },
+      {
+        "fold": 1,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      },
+      {
+        "fold": 2,
+        "chosen": "real_augmented_best",
+        "AP50": 0.3337319216092911
+      },
+      {
+        "fold": 3,
+        "chosen": "pretrained",
+        "AP50": 0.03476098741095829
+      },
+      {
+        "fold": 4,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      }
+    ],
+    "macro_3D_AP50": 0.2615395092103657,
+    "pooled_3D_AP50": {
+      "AP101": 0.13194522419881055,
+      "IoU": 0.5,
+      "mode": "3d",
+      "ground_truth_boxes": 589,
+      "confidence": 0.25,
+      "tp": 103,
+      "fp": 1967,
+      "fn": 486,
+      "precision": 0.049758454106280194,
+      "recall": 0.17487266553480477
+    }
+  },
+  "synthetic_control": {
+    "folds": [
+      {
+        "fold": 0,
+        "chosen": "pretrained",
+        "AP50": 0.9392046370315791
+      },
+      {
+        "fold": 1,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      },
+      {
+        "fold": 2,
+        "chosen": "pretrained",
+        "AP50": 0.3420031825787461
+      },
+      {
+        "fold": 3,
+        "chosen": "pretrained",
+        "AP50": 0.03476098741095829
+      },
+      {
+        "fold": 4,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      }
+    ],
+    "macro_3D_AP50": 0.26319376140425665,
+    "pooled_3D_AP50": {
+      "AP101": 0.15029504075423536,
+      "IoU": 0.5,
+      "mode": "3d",
+      "ground_truth_boxes": 589,
+      "confidence": 0.25,
+      "tp": 113,
+      "fp": 2262,
+      "fn": 476,
+      "precision": 0.047578947368421054,
+      "recall": 0.19185059422750425
+    }
+  },
+  "synthetic_augmented": {
+    "folds": [
+      {
+        "fold": 0,
+        "chosen": "pretrained",
+        "AP50": 0.9392046370315791
+      },
+      {
+        "fold": 1,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      },
+      {
+        "fold": 2,
+        "chosen": "pretrained",
+        "AP50": 0.3420031825787461
+      },
+      {
+        "fold": 3,
+        "chosen": "pretrained",
+        "AP50": 0.03476098741095829
+      },
+      {
+        "fold": 4,
+        "chosen": "pretrained",
+        "AP50": 0.0
+      }
+    ],
+    "macro_3D_AP50": 0.26319376140425665,
+    "pooled_3D_AP50": {
+      "AP101": 0.15029504075423536,
+      "IoU": 0.5,
+      "mode": "3d",
+      "ground_truth_boxes": 589,
+      "confidence": 0.25,
+      "tp": 113,
+      "fp": 2262,
+      "fn": 476,
+      "precision": 0.047578947368421054,
+      "recall": 0.19185059422750425
+    }
+  }
+}

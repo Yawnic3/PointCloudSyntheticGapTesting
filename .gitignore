@@ -1,0 +1,81 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+!.env.template
+.ultralytics/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# Downloaded and generated datasets (share separately)
+/downloads/
+/dataset/
+/moving_dataset/
+/comparison/
+/road_vehicle_pilot/data/
+/road_vehicle_pilot/real_raw/
+/road_vehicle_pilot/synthetic_masks/
+/road_vehicle_pilot/synthetic_v2/
+/road_vehicle_pilot/lidar_calibrated/
+/road_vehicle_pilot/lidar_vehicle_v2/
+/road_vehicle_pilot/lidar_grouped_v3/expanded/
+*.cache
+/railway_lidar/outputs/
+/railway_masts/dataset/
+
+# Large model weights, point clouds, and array caches
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.npy
+*.npz
+*.pcd
+*.ply
+*.las
+*.laz
+*.bin
+*.h5
+*.hdf5
+
+# Blender scene files and automatic backups (share separately)
+*.blend
+*.blend[0-9]*
+
+# Dataset bundles and downloaded reference documents
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+/road_vehicle_pilot/pointpillars_object_aug_cv/osdar23_research_report.pdf
+
+# Keep scripts, configs, split manifests, JSON/CSV metrics, reports,
+# and small preview images eligible for version control.

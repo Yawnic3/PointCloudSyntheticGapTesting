@@ -1,0 +1,242 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 36.39100000000326,
+    "training_loss": 1.0912931363542426,
+    "pasted_instances_before_final_support_filter": 0,
+    "partial_visibility_pastes": 0,
+    "supervised_boxes": 81
+  },
+  {
+    "epoch": 2,
+    "seconds": 49.25,
+    "training_loss": 0.5162635952761371,
+    "pasted_instances_before_final_support_filter": 0,
+    "partial_visibility_pastes": 0,
+    "supervised_boxes": 80,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.1984429163746654,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 23,
+        "fp": 15,
+        "fn": 106,
+        "precision": 0.6052631578947368,
+        "recall": 0.17829457364341086
+      },
+      "3D_AP25": {
+        "AP101": 0.36664731328337485,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 32,
+        "fp": 6,
+        "fn": 97,
+        "precision": 0.8421052631578947,
+        "recall": 0.24806201550387597
+      },
+      "3D_AP70": {
+        "AP101": 0.0019857045228332355,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 2,
+        "fp": 36,
+        "fn": 127,
+        "precision": 0.05263157894736842,
+        "recall": 0.015503875968992248
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.2648649621336556,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 27,
+        "fp": 11,
+        "fn": 102,
+        "precision": 0.7105263157894737,
+        "recall": 0.20930232558139536
+      }
+    },
+    "validation_fitness": [
+      0.2686992955188314,
+      0.4363629856275108
+    ],
+    "validation_locations": {
+      "5": {
+        "AP50": 0.4741437849920984,
+        "AP25": 0.6700905599288802
+      },
+      "6": {
+        "AP50": 0.0632548060455645,
+        "AP25": 0.20263541132614138
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "seconds": 25.859000000004016,
+    "training_loss": 0.3658651934906461,
+    "pasted_instances_before_final_support_filter": 0,
+    "partial_visibility_pastes": 0,
+    "supervised_boxes": 80
+  },
+  {
+    "epoch": 4,
+    "seconds": 24.79699999999866,
+    "training_loss": 0.28991492668056806,
+    "pasted_instances_before_final_support_filter": 0,
+    "partial_visibility_pastes": 0,
+    "supervised_boxes": 80,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.13652097364339466,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 19,
+        "fp": 21,
+        "fn": 110,
+        "precision": 0.475,
+        "recall": 0.14728682170542637
+      },
+      "3D_AP25": {
+        "AP101": 0.31795545580408613,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 29,
+        "fp": 11,
+        "fn": 100,
+        "precision": 0.725,
+        "recall": 0.2248062015503876
+      },
+      "3D_AP70": {
+        "AP101": 0.002803240084567153,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 1,
+        "fp": 39,
+        "fn": 128,
+        "precision": 0.025,
+        "recall": 0.007751937984496124
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.2456545857469354,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 25,
+        "fp": 15,
+        "fn": 104,
+        "precision": 0.625,
+        "recall": 0.1937984496124031
+      }
+    },
+    "validation_fitness": [
+      0.17907984637216925,
+      0.36948667728564
+    ],
+    "validation_locations": {
+      "5": {
+        "AP50": 0.29442710135545086,
+        "AP25": 0.5657148292984088
+      },
+      "6": {
+        "AP50": 0.06373259138888764,
+        "AP25": 0.17325852527287128
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "seconds": 33.51499999999942,
+    "training_loss": 0.24608081201613122,
+    "pasted_instances_before_final_support_filter": 0,
+    "partial_visibility_pastes": 0,
+    "supervised_boxes": 79
+  },
+  {
+    "epoch": 6,
+    "seconds": 38.65699999999924,
+    "training_loss": 0.24654232447102442,
+    "pasted_instances_before_final_support_filter": 0,
+    "partial_visibility_pastes": 0,
+    "supervised_boxes": 82,
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.14160942208358837,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 19,
+        "fp": 19,
+        "fn": 110,
+        "precision": 0.5,
+        "recall": 0.14728682170542637
+      },
+      "3D_AP25": {
+        "AP101": 0.31844660352460774,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 28,
+        "fp": 10,
+        "fn": 101,
+        "precision": 0.7368421052631579,
+        "recall": 0.21705426356589147
+      },
+      "3D_AP70": {
+        "AP101": 0.0001285842870001286,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 38,
+        "fn": 129,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.2481543264375049,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 129,
+        "confidence": 0.25,
+        "tp": 24,
+        "fp": 14,
+        "fn": 105,
+        "precision": 0.631578947368421,
+        "recall": 0.18604651162790697
+      }
+    },
+    "validation_fitness": [
+      0.17911008376581797,
+      0.36818134003471686
+    ],
+    "validation_locations": {
+      "5": {
+        "AP50": 0.2927340298770403,
+        "AP25": 0.5534443716105215
+      },
+      "6": {
+        "AP50": 0.06548613765459564,
+        "AP25": 0.1829183084589122
+      }
+    }
+  }
+]

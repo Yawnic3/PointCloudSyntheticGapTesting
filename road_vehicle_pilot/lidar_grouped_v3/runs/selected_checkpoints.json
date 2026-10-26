@@ -1,0 +1,42 @@
+{
+  "0/real": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_0\\real\\weights\\best.pt",
+    "sha256": "0c9bb1edb331ea266faeaa28043dcf65493927332f74d5b8e2dd3c502ff11775"
+  },
+  "0/synthetic": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_0\\synthetic\\weights\\best.pt",
+    "sha256": "f3cf5a55e5a15bb31c37ace8081f04567bb1e25912967e7a9eb4f88618e6c082"
+  },
+  "1/real": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_1\\real\\weights\\best.pt",
+    "sha256": "0ff07ce764af7095076fbcf59a9c889c9ebd51936e0bb1790c2f2bc6ceeb14ab"
+  },
+  "1/synthetic": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_1\\synthetic\\weights\\best.pt",
+    "sha256": "ff7f8a59c8b1e6e8ef5683377d2ce1fca41d37656ea25f828eb0acc156b66b95"
+  },
+  "2/real": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_2\\real\\weights\\best.pt",
+    "sha256": "9f14079fc91627b7deb7b7957d1a8763b53e30997f1f3c4047b0be32774335a0"
+  },
+  "2/synthetic": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_2\\synthetic\\weights\\best.pt",
+    "sha256": "3d8a00daeacdda75cf23b7a74f824809e51f9d83f12277583ae21689a3be1864"
+  },
+  "3/real": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_3\\real\\weights\\best.pt",
+    "sha256": "977575aa75de98b88e5a5099ce859b4bd485cdf9947aa30b785a7531d61f6eac"
+  },
+  "3/synthetic": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_3\\synthetic\\weights\\best.pt",
+    "sha256": "7ce25209081ffd8230c3700b5a41f70eb849d5d80fc4a42b75e1bd4c46a345ca"
+  },
+  "4/real": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_4\\real\\weights\\best.pt",
+    "sha256": "e86a1cf8fdebb8b3ac05442666304bcc15c33d8472210e88679a31f12b22fac6"
+  },
+  "4/synthetic": {
+    "path": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\lidar_grouped_v3\\runs\\fold_4\\synthetic\\weights\\best.pt",
+    "sha256": "a04a2db6b1a405271e2d453be8ce02e02170d3fdc5733e479157c5afddf5180c"
+  }
+}

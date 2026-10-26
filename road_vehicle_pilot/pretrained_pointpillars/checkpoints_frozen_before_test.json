@@ -1,0 +1,8 @@
+{
+  "real/best": "0af65153ac81522ad95a0efc3049fd050be5ce3b4d9e122d7690c2ed08b89415",
+  "real/last": "27f11034bf630ca31c4bc7cb764f42ff6b485711945d2831ad42a8a552d12f98",
+  "synthetic/best": "ebd3d2b24993c5ac5591ada182f49671d0da74688bd0bba1e262810dad240aa1",
+  "synthetic/last": "b86d383f5c5b37c5c7fa5f3b4ea3cfce840c9304a3dffd27a277e893a8616106",
+  "synthetic_coverage/best": "fea9f9c22a63b5b22748ff2e8f4a168870149b092f592f778b6f009e96d3e4d8",
+  "synthetic_coverage/last": "b12c4e4c7e1de5741a7b7a33a826bfb95127155d41b15e9a46867994be969727"
+}

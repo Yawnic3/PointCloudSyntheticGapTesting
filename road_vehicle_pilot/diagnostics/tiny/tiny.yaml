@@ -1,0 +1,5 @@
+path: C:/Users/qingy/OneDrive/Desktop/CROSS/osdar23_synthetic/road_vehicle_pilot/diagnostics/tiny
+train: images
+val: images
+names:
+  0: road_vehicle

@@ -1,0 +1,528 @@
+{
+  "protocol": {
+    "epochs": 20,
+    "seed": 23,
+    "batch": 1,
+    "real_learning_rates": [
+      1e-05,
+      0.0001
+    ],
+    "model": "Same published PointPillars, only bbox_head trainable",
+    "selection": "Choose LR by real-validation best 3D AP50 then AP25; ties prefer lower LR. Apply chosen LR to both synthetic arms. Select each checkpoint by the same validation metric. Freeze all before test. Report pretrained, selected and final checkpoints.",
+    "other_settings": "Reuse previous preprocessing, augmentation, loss, inference and training lists. Feature extractor including BN buffers frozen. AdamW weight decay .01; cosine LR to initial/100; clip10. No test threshold or height changes.",
+    "limitations": "Retrospective known fold; not fresh blind. Common KITTI pretraining; fine-tuning, not training from scratch. Coverage uses real TRAIN priors.",
+    "source_hashes": {
+      "train_pointpillars_head.py": "f660d0a7c3ce593d5751023c61d46b60c7ae3b8318d2c89c108b2f7e74d0d2ac",
+      "official_pointpillars_windows.py": "4c4f4d7c72840e1c500e461dd91cd345a849a7409fbe88c6d92577158b7019fd",
+      "train_pretrained_pointpillars.py": "6d08c2ffb13691d04d23d228126930bef52df81c06bcbbae7180d28bf9978472",
+      "train_lidar3d.py": "79b1909429a38e80452b4354af0d737e7f22d37f67083edffb04f2401ff01f6c",
+      "lidar3d_geometry.py": "68977f4b308dc2e128da255e77eefdc4bf6de0559e507907d45c1bd23aec2c87"
+    },
+    "checkpoint_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+    "priors_sha256": "713f4b2375460faeaa2526aac02975d2f30bae50ccdd7f0ca03eddd43b32c519",
+    "input_manifest_sha256": "b46162441a291dd66c53d84f5822e6498f83e49db73aa5c199adc867b5fd81ff",
+    "list_hashes": {
+      "real_train.txt": "3a209b7e754a04ea9393f91a8aa54db1e1957a27c07c05d37c12a4adbabc4aab",
+      "synthetic_train.txt": "fac813729b1bfedcf014bfe910d472213f0ddc4ed0b3df5f0aea212ee005cce8",
+      "real_val.txt": "dee3f5b39ab39cf26ffd8642d3b886eb83137ae8c107e60b87aa7e36a7d4d400",
+      "real_test.txt": "27c270114194a4010c5a2b0fe4d8d97d6a218965b0dd336af6a235cf3ff2fdef"
+    }
+  },
+  "selection": {
+    "real_recipe": "real_lr1e5",
+    "learning_rate": 1e-05,
+    "pretrained_validation_fitness": [
+      0.0,
+      0.0
+    ],
+    "selected_real_validation_fitness": [
+      0.0,
+      0.0
+    ],
+    "rule": "Choose LR by real-validation best 3D AP50 then AP25; ties prefer lower LR. Apply chosen LR to both synthetic arms. Select each checkpoint by the same validation metric. Freeze all before test. Report pretrained, selected and final checkpoints."
+  },
+  "results": {
+    "pretrained": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.049954506435760514,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 8,
+          "fp": 143,
+          "fn": 78,
+          "precision": 0.052980132450331126,
+          "recall": 0.09302325581395349
+        },
+        "3D_AP25": {
+          "AP101": 0.2825851912328159,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 34,
+          "fp": 117,
+          "fn": 52,
+          "precision": 0.2251655629139073,
+          "recall": 0.3953488372093023
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 151,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.08917881339894897,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 14,
+          "fp": 137,
+          "fn": 72,
+          "precision": 0.09271523178807947,
+          "recall": 0.16279069767441862
+        }
+      },
+      "epoch": 0
+    },
+    "real_lr1e5_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.049954506435760514,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 8,
+          "fp": 142,
+          "fn": 78,
+          "precision": 0.05333333333333334,
+          "recall": 0.09302325581395349
+        },
+        "3D_AP25": {
+          "AP101": 0.28326750857014377,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 34,
+          "fp": 116,
+          "fn": 52,
+          "precision": 0.22666666666666666,
+          "recall": 0.3953488372093023
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 150,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.08917629929763184,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 14,
+          "fp": 136,
+          "fn": 72,
+          "precision": 0.09333333333333334,
+          "recall": 0.16279069767441862
+        }
+      },
+      "epoch": 2
+    },
+    "real_lr1e5_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.05142249511497032,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 133,
+          "fn": 77,
+          "precision": 0.06338028169014084,
+          "recall": 0.10465116279069768
+        },
+        "3D_AP25": {
+          "AP101": 0.2945053217525853,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 35,
+          "fp": 107,
+          "fn": 51,
+          "precision": 0.24647887323943662,
+          "recall": 0.4069767441860465
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 142,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.09074280344207286,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 14,
+          "fp": 128,
+          "fn": 72,
+          "precision": 0.09859154929577464,
+          "recall": 0.16279069767441862
+        }
+      },
+      "epoch": 20
+    },
+    "real_lr1e4_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.050301235722376186,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 8,
+          "fp": 128,
+          "fn": 78,
+          "precision": 0.058823529411764705,
+          "recall": 0.09302325581395349
+        },
+        "3D_AP25": {
+          "AP101": 0.28443091438515056,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 34,
+          "fp": 102,
+          "fn": 52,
+          "precision": 0.25,
+          "recall": 0.3953488372093023
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 136,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.08666016560261854,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 123,
+          "fn": 73,
+          "precision": 0.09558823529411764,
+          "recall": 0.1511627906976744
+        }
+      },
+      "epoch": 2
+    },
+    "real_lr1e4_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.055443127702594346,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 7,
+          "fp": 92,
+          "fn": 79,
+          "precision": 0.0707070707070707,
+          "recall": 0.08139534883720931
+        },
+        "3D_AP25": {
+          "AP101": 0.2564162353141129,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 30,
+          "fp": 69,
+          "fn": 56,
+          "precision": 0.30303030303030304,
+          "recall": 0.3488372093023256
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 99,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.09379286092136029,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 86,
+          "fn": 73,
+          "precision": 0.13131313131313133,
+          "recall": 0.1511627906976744
+        }
+      },
+      "epoch": 20
+    },
+    "synthetic_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.049884589941848675,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 8,
+          "fp": 143,
+          "fn": 78,
+          "precision": 0.052980132450331126,
+          "recall": 0.09302325581395349
+        },
+        "3D_AP25": {
+          "AP101": 0.28260612748240665,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 34,
+          "fp": 117,
+          "fn": 52,
+          "precision": 0.2251655629139073,
+          "recall": 0.3953488372093023
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 151,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.09617780931286098,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 15,
+          "fp": 136,
+          "fn": 71,
+          "precision": 0.09933774834437085,
+          "recall": 0.1744186046511628
+        }
+      },
+      "epoch": 2
+    },
+    "synthetic_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.051437929170629615,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 137,
+          "fn": 77,
+          "precision": 0.06164383561643835,
+          "recall": 0.10465116279069768
+        },
+        "3D_AP25": {
+          "AP101": 0.27254470874530035,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 33,
+          "fp": 113,
+          "fn": 53,
+          "precision": 0.22602739726027396,
+          "recall": 0.38372093023255816
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 146,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.09785999900203328,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 15,
+          "fp": 131,
+          "fn": 71,
+          "precision": 0.10273972602739725,
+          "recall": 0.1744186046511628
+        }
+      },
+      "epoch": 20
+    },
+    "synthetic_coverage_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.04996614439062271,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 8,
+          "fp": 143,
+          "fn": 78,
+          "precision": 0.052980132450331126,
+          "recall": 0.09302325581395349
+        },
+        "3D_AP25": {
+          "AP101": 0.283379322860436,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 34,
+          "fp": 117,
+          "fn": 52,
+          "precision": 0.2251655629139073,
+          "recall": 0.3953488372093023
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 151,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.08923705639533004,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 14,
+          "fp": 137,
+          "fn": 72,
+          "precision": 0.09271523178807947,
+          "recall": 0.16279069767441862
+        }
+      },
+      "epoch": 2
+    },
+    "synthetic_coverage_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.05195409453124151,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 136,
+          "fn": 77,
+          "precision": 0.06206896551724138,
+          "recall": 0.10465116279069768
+        },
+        "3D_AP25": {
+          "AP101": 0.27253607170487903,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 33,
+          "fp": 112,
+          "fn": 53,
+          "precision": 0.22758620689655173,
+          "recall": 0.38372093023255816
+        },
+        "3D_AP70": {
+          "AP101": 0.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 145,
+          "fn": 86,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.09081868746770604,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 86,
+          "confidence": 0.25,
+          "tp": 14,
+          "fp": 131,
+          "fn": 72,
+          "precision": 0.09655172413793103,
+          "recall": 0.16279069767441862
+        }
+      },
+      "epoch": 20
+    }
+  },
+  "verification": {
+    "inputs_and_frozen_checkpoints_unchanged": true,
+    "all_four_feature_extractors_unchanged": true,
+    "all_four_runs_completed_20_epochs": true
+  }
+}

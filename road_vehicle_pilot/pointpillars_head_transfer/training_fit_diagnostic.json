@@ -1,0 +1,353 @@
+{
+  "plan": {
+    "scope": "TRAIN-only fit diagnostic, never held-out performance and never used to select models",
+    "selection": "Greedy coverage of all supported training annotation IDs, four spread positive frames per source location and six spread negatives. No prediction-based frame selection.",
+    "samples": [
+      "11_main_station_11.1__284",
+      "14_signals_station_14.1__98",
+      "16_under_bridge_16.1__440",
+      "1_calibration_1.1__13",
+      "1_calibration_1.2__1",
+      "1_calibration_1.2__28",
+      "1_calibration_1.2__67",
+      "1_calibration_1.2__99",
+      "3_fire_site_3.2__347",
+      "3_fire_site_3.3__64",
+      "4_station_pedestrian_bridge_4.1__88",
+      "4_station_pedestrian_bridge_4.2__26",
+      "4_station_pedestrian_bridge_4.3__12",
+      "4_station_pedestrian_bridge_4.3__29",
+      "4_station_pedestrian_bridge_4.4__112",
+      "4_station_pedestrian_bridge_4.4__192",
+      "4_station_pedestrian_bridge_4.5__201",
+      "4_station_pedestrian_bridge_4.5__263",
+      "5_station_bergedorf_5.1__0",
+      "5_station_bergedorf_5.1__17",
+      "5_station_bergedorf_5.1__27",
+      "5_station_bergedorf_5.1__9",
+      "8_station_altona_8.3__704"
+    ],
+    "physical_annotation_ids": 15,
+    "ground_truth_boxes": 28
+  },
+  "results": {
+    "pretrained": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.23210782616723213,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 152,
+          "fn": 19,
+          "precision": 0.055900621118012424,
+          "recall": 0.32142857142857145
+        },
+        "3D_AP25": {
+          "AP101": 0.39183701868698734,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 148,
+          "fn": 15,
+          "precision": 0.08074534161490683,
+          "recall": 0.4642857142857143
+        },
+        "3D_AP70": {
+          "AP101": 0.0066006600660066,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 160,
+          "fn": 27,
+          "precision": 0.006211180124223602,
+          "recall": 0.03571428571428571
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.3358376769222441,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 11,
+          "fp": 150,
+          "fn": 17,
+          "precision": 0.06832298136645963,
+          "recall": 0.39285714285714285
+        }
+      },
+      "checkpoint_sha256": null
+    },
+    "previous_full_real_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.657654446320208,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 23,
+          "fp": 9,
+          "fn": 5,
+          "precision": 0.71875,
+          "recall": 0.8214285714285714
+        },
+        "3D_AP25": {
+          "AP101": 0.9318361377733699,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 27,
+          "fp": 5,
+          "fn": 1,
+          "precision": 0.84375,
+          "recall": 0.9642857142857143
+        },
+        "3D_AP70": {
+          "AP101": 0.2527273560689402,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 19,
+          "fn": 15,
+          "precision": 0.40625,
+          "recall": 0.4642857142857143
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.8149543853245379,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 25,
+          "fp": 7,
+          "fn": 3,
+          "precision": 0.78125,
+          "recall": 0.8928571428571429
+        }
+      },
+      "checkpoint_sha256": "0af65153ac81522ad95a0efc3049fd050be5ce3b4d9e122d7690c2ed08b89415"
+    },
+    "previous_full_real_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.7185901363245568,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 23,
+          "fp": 6,
+          "fn": 5,
+          "precision": 0.7931034482758621,
+          "recall": 0.8214285714285714
+        },
+        "3D_AP25": {
+          "AP101": 0.9476661951909473,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 27,
+          "fp": 2,
+          "fn": 1,
+          "precision": 0.9310344827586207,
+          "recall": 0.9642857142857143
+        },
+        "3D_AP70": {
+          "AP101": 0.31896719083673075,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 14,
+          "fp": 15,
+          "fn": 14,
+          "precision": 0.4827586206896552,
+          "recall": 0.5
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.8370496713536901,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 25,
+          "fp": 4,
+          "fn": 3,
+          "precision": 0.8620689655172413,
+          "recall": 0.8928571428571429
+        }
+      },
+      "checkpoint_sha256": "27f11034bf630ca31c4bc7cb764f42ff6b485711945d2831ad42a8a552d12f98"
+    },
+    "selected_head_real_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.23210782616723213,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 151,
+          "fn": 19,
+          "precision": 0.05625,
+          "recall": 0.32142857142857145
+        },
+        "3D_AP25": {
+          "AP101": 0.3918024932534568,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 147,
+          "fn": 15,
+          "precision": 0.08125,
+          "recall": 0.4642857142857143
+        },
+        "3D_AP70": {
+          "AP101": 0.0066006600660066,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 159,
+          "fn": 27,
+          "precision": 0.00625,
+          "recall": 0.03571428571428571
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.3358154820006887,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 11,
+          "fp": 149,
+          "fn": 17,
+          "precision": 0.06875,
+          "recall": 0.39285714285714285
+        }
+      },
+      "checkpoint_sha256": "4d04f5630aaee6a5616841b9eac92e4289d4ac3dec44b2ca64a40d97bfaa7585"
+    },
+    "selected_head_real_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.23210782616723213,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 147,
+          "fn": 19,
+          "precision": 0.057692307692307696,
+          "recall": 0.32142857142857145
+        },
+        "3D_AP25": {
+          "AP101": 0.3917469877629726,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 143,
+          "fn": 15,
+          "precision": 0.08333333333333333,
+          "recall": 0.4642857142857143
+        },
+        "3D_AP70": {
+          "AP101": 0.0066006600660066,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 1,
+          "fp": 155,
+          "fn": 27,
+          "precision": 0.00641025641025641,
+          "recall": 0.03571428571428571
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.3357797998996633,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 11,
+          "fp": 145,
+          "fn": 17,
+          "precision": 0.07051282051282051,
+          "recall": 0.39285714285714285
+        }
+      },
+      "checkpoint_sha256": "3b3f41d2513b40abdd6557a8ed937a8323a77252749e91a385d0246832855ca4"
+    },
+    "higher_rate_head_real_last": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.2332079361782332,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 9,
+          "fp": 82,
+          "fn": 19,
+          "precision": 0.0989010989010989,
+          "recall": 0.32142857142857145
+        },
+        "3D_AP25": {
+          "AP101": 0.3885060300901885,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 13,
+          "fp": 78,
+          "fn": 15,
+          "precision": 0.14285714285714285,
+          "recall": 0.4642857142857143
+        },
+        "3D_AP70": {
+          "AP101": 0.04848946433104848,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 4,
+          "fp": 87,
+          "fn": 24,
+          "precision": 0.04395604395604396,
+          "recall": 0.14285714285714285
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.3393273301689143,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 28,
+          "confidence": 0.25,
+          "tp": 12,
+          "fp": 79,
+          "fn": 16,
+          "precision": 0.13186813186813187,
+          "recall": 0.42857142857142855
+        }
+      },
+      "checkpoint_sha256": "6710ab591d0a189e659bce624aa1a92dcb5b86237ee7b170ef4b061474da2f2f"
+    }
+  }
+}

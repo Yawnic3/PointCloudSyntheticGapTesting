@@ -1,0 +1,5 @@
+{
+  "random_cases": 100,
+  "max_equal_height_3D_vs_BEV_IoU_error": 2.1389263138438253e-09,
+  "max_arbitrary_rigid_rotation_translation_IoU_error": 3.017526367665724e-09
+}

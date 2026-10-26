@@ -1,0 +1,13 @@
+{
+  "all_source_and_raw_input_hashes_match": true,
+  "all_four_20_epoch_histories_complete": true,
+  "all_eight_checkpoints_preserve_published_features_and_bn": true,
+  "all_saved_primary_AP_recomputed_exactly": true,
+  "pretrained_control_identical_to_previous_experiment": true,
+  "all_cases_same_27_frames_86_boxes": true,
+  "secondary_plan_and_pretest_validation_snapshot_unchanged": true,
+  "height_rule_only_changes_predicted_Z": true,
+  "secondary_AP_recomputed_from_saved_predictions": true,
+  "secondary_BEV_metrics_identical_to_primary": true,
+  "original_inputs_and_checkpoints_unchanged_after_all_diagnostics": true
+}

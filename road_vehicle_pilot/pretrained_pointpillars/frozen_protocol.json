@@ -1,0 +1,44 @@
+{
+  "model": "Published MMDetection3D PointPillars Car, exact learned layers via verified Windows adapter",
+  "raw_input_manifest_sha256": "b46162441a291dd66c53d84f5822e6498f83e49db73aa5c199adc867b5fd81ff",
+  "transfer_preflight_sha256": "ffb5066b51b0dbe1969ea5e817651742e256ecaa521614e8d228c3941b03201b",
+  "checkpoint_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+  "reference_parity_sha256": "11aceeabb5b10f3d2bf60a2bb03c141d275c155f7e7022278e7355da5217a407",
+  "training_priors_sha256": "713f4b2375460faeaa2526aac02975d2f30bae50ccdd7f0ca03eddd43b32c519",
+  "epochs": 20,
+  "batch": 1,
+  "seed": 23,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW, weight decay .01, cosine decay to 1e-6, gradient clip 10",
+  "batchnorm": "pretrained running statistics frozen, affine parameters trainable",
+  "precision": "bfloat16 autocast, float32 losses and parameters",
+  "arms": {
+    "real": [
+      "real",
+      false
+    ],
+    "synthetic": [
+      "synthetic",
+      false
+    ],
+    "synthetic_coverage": [
+      "synthetic",
+      true
+    ]
+  },
+  "intensity": "fourth channel fixed to zero for every railway cloud; XYZ-only comparison",
+  "geometry": "0.16m XY pillars; expanded 160m range, padded Y +/-40.32m, Z support [-5,8], original pretrained VFE vertical center reference -1m preserved; TRAIN-only ground alignment to -1.6m",
+  "assignment": "nearest-BEV IoU positive .6, negative .45; force best anchors for each GT at IoU >=.1 to cover narrow/large road vehicles",
+  "test_policy": "All three fine-tunes finish before any test inference. Same validation AP50 then AP25 selection; additionally fixed final epoch. Same known diagnostic fold, not fresh blind evaluation.",
+  "supervision_limit": "synthetic_coverage uses real TRAIN annotation shape/support priors; it is real-informed simulation augmentation, not zero-real-data training",
+  "sources": {
+    "official_pointpillars_windows.py": "4c4f4d7c72840e1c500e461dd91cd345a849a7409fbe88c6d92577158b7019fd",
+    "train_pretrained_pointpillars.py": "6d08c2ffb13691d04d23d228126930bef52df81c06bcbbae7180d28bf9978472"
+  },
+  "lists": {
+    "real_train.txt": "3a209b7e754a04ea9393f91a8aa54db1e1957a27c07c05d37c12a4adbabc4aab",
+    "synthetic_train.txt": "fac813729b1bfedcf014bfe910d472213f0ddc4ed0b3df5f0aea212ee005cce8",
+    "real_val.txt": "dee3f5b39ab39cf26ffd8642d3b886eb83137ae8c107e60b87aa7e36a7d4d400",
+    "real_test.txt": "27c270114194a4010c5a2b0fe4d8d97d6a218965b0dd336af6a235cf3ff2fdef"
+  }
+}

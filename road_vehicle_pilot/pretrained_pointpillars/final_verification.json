@@ -1,0 +1,10 @@
+{
+  "all_original_raw_inputs_unchanged": true,
+  "all_arms_same_published_initial_state": true,
+  "all_three_runs_20_epochs": true,
+  "all_selected_final_hashes_unchanged": true,
+  "same_27_test_frames_86_boxes": true,
+  "AP_recomputed_from_saved_predictions": true,
+  "height_probe_real_controls_identical": true,
+  "height_probe_all_seven_cases_complete": true
+}

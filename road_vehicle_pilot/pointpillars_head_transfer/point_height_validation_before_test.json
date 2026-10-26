@@ -1,0 +1,1288 @@
+{
+  "plan": {
+    "policy": "Fixed secondary correction: replace predicted center Z with median raw-point Z inside the predicted yaw-only XY footprint plus a source-TRAIN offset. Require five footprint points, otherwise retain original Z. No changes to XY, size, yaw, score, labels or weights. No clipping or threshold search. Offset is median over per-frame median (GT center Z minus footprint median). All full ROI points are available to this postprocessor, including points beyond the model's 160k cap.",
+    "selection": "Report all cases separately from original primary scores. Validation diagnostic is observed before new test evaluation; no test fitting or checkpoint changes. Pretrained correction uses real TRAIN calibration, so that variant is not zero-shot.",
+    "source_sha256": "95fa59cc5523620493edecfca1baad3ce8fea404c99f469098ac064d85cf9f51",
+    "domains": {
+      "real": {
+        "offset_m": 0.10902961194515226,
+        "frames": [
+          {
+            "sample": "1_calibration_1.1__13",
+            "median_residual_m": -0.011377355456352212,
+            "boxes": 2
+          },
+          {
+            "sample": "1_calibration_1.1__14",
+            "median_residual_m": -0.003644144535064675,
+            "boxes": 2
+          },
+          {
+            "sample": "1_calibration_1.1__15",
+            "median_residual_m": -0.023055946826934792,
+            "boxes": 2
+          },
+          {
+            "sample": "1_calibration_1.1__16",
+            "median_residual_m": -0.010395547747611977,
+            "boxes": 2
+          },
+          {
+            "sample": "1_calibration_1.1__18",
+            "median_residual_m": 0.004996442794799827,
+            "boxes": 2
+          },
+          {
+            "sample": "1_calibration_1.1__21",
+            "median_residual_m": 0.027977132797241233,
+            "boxes": 2
+          },
+          {
+            "sample": "1_calibration_1.2__1",
+            "median_residual_m": 0.28108289241790774,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__10",
+            "median_residual_m": 0.2655313551425934,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__13",
+            "median_residual_m": 0.22850462198257449,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__19",
+            "median_residual_m": 0.16315934658050535,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__23",
+            "median_residual_m": 0.1052610635757446,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__26",
+            "median_residual_m": 0.10154614448547361,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__27",
+            "median_residual_m": 0.1257136821746826,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__28",
+            "median_residual_m": 0.045857346057891823,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__32",
+            "median_residual_m": 0.11279816031455991,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__37",
+            "median_residual_m": 0.1466276407241821,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__40",
+            "median_residual_m": 0.18137756586074827,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__43",
+            "median_residual_m": 0.14194039106369016,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__47",
+            "median_residual_m": 0.2246618032455444,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__48",
+            "median_residual_m": 0.24064568281173704,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__53",
+            "median_residual_m": 0.2592878699302673,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__54",
+            "median_residual_m": 0.2486537158489227,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__56",
+            "median_residual_m": 0.23923063874244688,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__58",
+            "median_residual_m": 0.250156170129776,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__60",
+            "median_residual_m": 0.2701122105121613,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__61",
+            "median_residual_m": 0.26780554056167605,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__67",
+            "median_residual_m": 0.26117449402809145,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__70",
+            "median_residual_m": 0.17935854792594907,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__73",
+            "median_residual_m": 0.1875020623207092,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__76",
+            "median_residual_m": 0.26619073152542116,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__79",
+            "median_residual_m": 0.3030895233154297,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__80",
+            "median_residual_m": 0.19544301033020017,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__87",
+            "median_residual_m": 0.24991307139396668,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__88",
+            "median_residual_m": 0.17480403661727906,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__91",
+            "median_residual_m": 0.20598382234573365,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__92",
+            "median_residual_m": 0.27752480387687684,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__94",
+            "median_residual_m": 0.21277422189712525,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__95",
+            "median_residual_m": 0.2428970980644226,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__98",
+            "median_residual_m": 0.300281320810318,
+            "boxes": 1
+          },
+          {
+            "sample": "1_calibration_1.2__99",
+            "median_residual_m": 0.29737014055252076,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.1__88",
+            "median_residual_m": -0.45758946418762214,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.1__93",
+            "median_residual_m": -0.4498327541351319,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.1__94",
+            "median_residual_m": -0.4275868701934815,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.1__95",
+            "median_residual_m": -0.4964953231811524,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.2__26",
+            "median_residual_m": -0.2412537097930909,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.2__29",
+            "median_residual_m": -0.2700134277343751,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.2__30",
+            "median_residual_m": -0.2595952510833741,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.2__31",
+            "median_residual_m": -0.24790129661560067,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.2__33",
+            "median_residual_m": -0.24777565002441415,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.2__34",
+            "median_residual_m": -0.231716012954712,
+            "boxes": 1
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__12",
+            "median_residual_m": -0.1607942914962769,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__15",
+            "median_residual_m": -0.09762457132339486,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__24",
+            "median_residual_m": 0.028724102973937904,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__29",
+            "median_residual_m": -0.05400625228881839,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__49",
+            "median_residual_m": -0.09901962280273435,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__5",
+            "median_residual_m": -0.10410210609436044,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.3__74",
+            "median_residual_m": -0.135981822013855,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__112",
+            "median_residual_m": -0.08720210790634164,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__119",
+            "median_residual_m": -0.09603759765625008,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__122",
+            "median_residual_m": -0.07627418756484994,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__127",
+            "median_residual_m": -0.07559719800949105,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__130",
+            "median_residual_m": -0.08307942867279061,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__142",
+            "median_residual_m": -0.11033186435699471,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__164",
+            "median_residual_m": -0.0972749352455139,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__165",
+            "median_residual_m": -0.05762466907501229,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__178",
+            "median_residual_m": 0.04235553979873652,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.4__192",
+            "median_residual_m": -0.07546902418136592,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__201",
+            "median_residual_m": 0.007841353416442765,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__213",
+            "median_residual_m": 0.027734229564666757,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__218",
+            "median_residual_m": 0.02254284381866456,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__219",
+            "median_residual_m": 0.06757995843887332,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__222",
+            "median_residual_m": 0.012808570861816415,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__223",
+            "median_residual_m": 0.03205374240875247,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__227",
+            "median_residual_m": 0.03706863880157474,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__228",
+            "median_residual_m": 0.0672363376617432,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__235",
+            "median_residual_m": 0.014691720008850107,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__248",
+            "median_residual_m": -0.03229922056198131,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__254",
+            "median_residual_m": 0.09808048009872428,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__255",
+            "median_residual_m": 0.11289176225662234,
+            "boxes": 2
+          },
+          {
+            "sample": "4_station_pedestrian_bridge_4.5__263",
+            "median_residual_m": 0.14131786823272696,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__0",
+            "median_residual_m": -0.3992092774063349,
+            "boxes": 4
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__1",
+            "median_residual_m": 0.11651648320257664,
+            "boxes": 4
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__10",
+            "median_residual_m": 0.3111293043196201,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__11",
+            "median_residual_m": 0.28073664262890813,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__12",
+            "median_residual_m": 0.2952636161074042,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__13",
+            "median_residual_m": 0.29958328671753404,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__14",
+            "median_residual_m": 0.27743399582803246,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__15",
+            "median_residual_m": 0.23706963352859017,
+            "boxes": 2
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__16",
+            "median_residual_m": 0.5095479202270508,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__17",
+            "median_residual_m": 0.8193286371231079,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__18",
+            "median_residual_m": 0.7538113307952881,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__19",
+            "median_residual_m": 0.608934850692749,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__2",
+            "median_residual_m": -0.14815498679410669,
+            "boxes": 4
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__20",
+            "median_residual_m": 0.5218776774406433,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__21",
+            "median_residual_m": 0.6550417852401733,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__22",
+            "median_residual_m": 0.5460214328765869,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__23",
+            "median_residual_m": 0.6687839341163635,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__24",
+            "median_residual_m": 0.5961089444160461,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__26",
+            "median_residual_m": 0.6806340432167053,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__27",
+            "median_residual_m": 0.5854873275756836,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__28",
+            "median_residual_m": 0.48815145254135134,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__29",
+            "median_residual_m": 0.20794590473175048,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__3",
+            "median_residual_m": 0.07316230814903975,
+            "boxes": 4
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__30",
+            "median_residual_m": 0.2209248161315918,
+            "boxes": 1
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__4",
+            "median_residual_m": 0.04669409614056349,
+            "boxes": 3
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__5",
+            "median_residual_m": -0.03753533124923706,
+            "boxes": 3
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__6",
+            "median_residual_m": -0.06381967574357986,
+            "boxes": 3
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__7",
+            "median_residual_m": -0.05919652044773102,
+            "boxes": 3
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__8",
+            "median_residual_m": 0.037161093354225155,
+            "boxes": 3
+          },
+          {
+            "sample": "5_station_bergedorf_5.1__9",
+            "median_residual_m": 0.335760083720088,
+            "boxes": 2
+          }
+        ],
+        "training_list_sha256": "3a209b7e754a04ea9393f91a8aa54db1e1957a27c07c05d37c12a4adbabc4aab"
+      },
+      "synthetic": {
+        "offset_m": 0.060852304100990295,
+        "frames": [
+          {
+            "sample": "route_02_0022",
+            "median_residual_m": 0.060329556465148926,
+            "boxes": 5
+          },
+          {
+            "sample": "route_02_0017",
+            "median_residual_m": 0.08638656139373779,
+            "boxes": 4
+          },
+          {
+            "sample": "route_05_0026",
+            "median_residual_m": 0.05206573009490967,
+            "boxes": 4
+          },
+          {
+            "sample": "route_01_0021",
+            "median_residual_m": 0.11727398633956909,
+            "boxes": 4
+          },
+          {
+            "sample": "route_02_0008",
+            "median_residual_m": 0.04793405532836914,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0015",
+            "median_residual_m": -0.012096405029296875,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0036",
+            "median_residual_m": 0.09136629104614258,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0021",
+            "median_residual_m": -0.03018927574157715,
+            "boxes": 4
+          },
+          {
+            "sample": "route_06_0026",
+            "median_residual_m": 0.1254594624042511,
+            "boxes": 4
+          },
+          {
+            "sample": "route_06_0002",
+            "median_residual_m": 0.145474374294281,
+            "boxes": 4
+          },
+          {
+            "sample": "route_03_0023",
+            "median_residual_m": 0.0013680458068847656,
+            "boxes": 5
+          },
+          {
+            "sample": "route_04_0023",
+            "median_residual_m": 0.07086348533630371,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0017",
+            "median_residual_m": 0.0021004676818847656,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0030",
+            "median_residual_m": 0.05197268724441528,
+            "boxes": 5
+          },
+          {
+            "sample": "route_05_0000",
+            "median_residual_m": 0.13117271661758423,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0021",
+            "median_residual_m": 0.04454469680786133,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0001",
+            "median_residual_m": 0.05249452590942383,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0006",
+            "median_residual_m": 0.04321742057800293,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0002",
+            "median_residual_m": 0.003581225872039795,
+            "boxes": 4
+          },
+          {
+            "sample": "route_06_0033",
+            "median_residual_m": 0.09033340215682983,
+            "boxes": 6
+          },
+          {
+            "sample": "route_04_0030",
+            "median_residual_m": -0.008755922317504883,
+            "boxes": 6
+          },
+          {
+            "sample": "route_03_0013",
+            "median_residual_m": -0.012887835502624512,
+            "boxes": 5
+          },
+          {
+            "sample": "route_00_0038",
+            "median_residual_m": 0.06358718872070312,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0005",
+            "median_residual_m": -0.019916534423828125,
+            "boxes": 5
+          },
+          {
+            "sample": "route_02_0018",
+            "median_residual_m": 0.0897708535194397,
+            "boxes": 4
+          },
+          {
+            "sample": "route_00_0013",
+            "median_residual_m": 0.04674166440963745,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0013",
+            "median_residual_m": 0.06092572212219238,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0033",
+            "median_residual_m": 0.10898280143737793,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0012",
+            "median_residual_m": 0.10307925939559937,
+            "boxes": 4
+          },
+          {
+            "sample": "route_07_0006",
+            "median_residual_m": 0.09232911467552185,
+            "boxes": 6
+          },
+          {
+            "sample": "route_04_0035",
+            "median_residual_m": 0.0906914472579956,
+            "boxes": 5
+          },
+          {
+            "sample": "route_06_0016",
+            "median_residual_m": 0.10162174701690674,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0027",
+            "median_residual_m": 0.07363593578338623,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0017",
+            "median_residual_m": 0.026471436023712158,
+            "boxes": 6
+          },
+          {
+            "sample": "route_07_0012",
+            "median_residual_m": 0.05167746543884277,
+            "boxes": 5
+          },
+          {
+            "sample": "route_05_0013",
+            "median_residual_m": 0.08459794521331787,
+            "boxes": 5
+          },
+          {
+            "sample": "route_02_0013",
+            "median_residual_m": 0.07631301879882812,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0005",
+            "median_residual_m": 0.057157278060913086,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0032",
+            "median_residual_m": 0.06785541772842407,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0006",
+            "median_residual_m": 0.08100247383117676,
+            "boxes": 5
+          },
+          {
+            "sample": "route_06_0013",
+            "median_residual_m": 0.14198923110961914,
+            "boxes": 5
+          },
+          {
+            "sample": "route_02_0028",
+            "median_residual_m": 0.06014531850814819,
+            "boxes": 4
+          },
+          {
+            "sample": "route_05_0001",
+            "median_residual_m": 0.061623573303222656,
+            "boxes": 5
+          },
+          {
+            "sample": "route_04_0005",
+            "median_residual_m": 0.13765478134155273,
+            "boxes": 5
+          },
+          {
+            "sample": "route_05_0033",
+            "median_residual_m": 0.0695764422416687,
+            "boxes": 4
+          },
+          {
+            "sample": "route_01_0026",
+            "median_residual_m": 0.06816220283508301,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0030",
+            "median_residual_m": 0.05269962549209595,
+            "boxes": 5
+          },
+          {
+            "sample": "route_05_0020",
+            "median_residual_m": -0.0025658607482910156,
+            "boxes": 4
+          },
+          {
+            "sample": "route_00_0032",
+            "median_residual_m": 0.0513918399810791,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0008",
+            "median_residual_m": 0.02435845136642456,
+            "boxes": 6
+          },
+          {
+            "sample": "route_04_0003",
+            "median_residual_m": -0.02251887321472168,
+            "boxes": 6
+          },
+          {
+            "sample": "route_02_0020",
+            "median_residual_m": 0.02083897590637207,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0007",
+            "median_residual_m": 0.06020355224609375,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0020",
+            "median_residual_m": 0.09789431095123291,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0032",
+            "median_residual_m": 0.07663339376449585,
+            "boxes": 6
+          },
+          {
+            "sample": "route_03_0035",
+            "median_residual_m": -0.009894847869873047,
+            "boxes": 4
+          },
+          {
+            "sample": "route_04_0038",
+            "median_residual_m": 0.08016601204872131,
+            "boxes": 4
+          },
+          {
+            "sample": "route_05_0016",
+            "median_residual_m": 0.048568904399871826,
+            "boxes": 6
+          },
+          {
+            "sample": "route_01_0008",
+            "median_residual_m": 0.09342586994171143,
+            "boxes": 6
+          },
+          {
+            "sample": "route_07_0036",
+            "median_residual_m": 0.07889437675476074,
+            "boxes": 5
+          },
+          {
+            "sample": "route_05_0035",
+            "median_residual_m": 0.08996033668518066,
+            "boxes": 4
+          },
+          {
+            "sample": "route_06_0008",
+            "median_residual_m": 0.07219886779785156,
+            "boxes": 4
+          },
+          {
+            "sample": "route_05_0002",
+            "median_residual_m": 0.08867311477661133,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0017",
+            "median_residual_m": 0.0571923553943634,
+            "boxes": 4
+          },
+          {
+            "sample": "route_01_0022",
+            "median_residual_m": 0.06077888607978821,
+            "boxes": 6
+          },
+          {
+            "sample": "route_07_0015",
+            "median_residual_m": 0.018216252326965332,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0037",
+            "median_residual_m": 0.0910537838935852,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0023",
+            "median_residual_m": 0.12402725219726562,
+            "boxes": 5
+          },
+          {
+            "sample": "route_06_0028",
+            "median_residual_m": -0.03773915767669678,
+            "boxes": 4
+          },
+          {
+            "sample": "route_07_0031",
+            "median_residual_m": 0.07090497016906738,
+            "boxes": 6
+          },
+          {
+            "sample": "route_04_0002",
+            "median_residual_m": -0.0595393180847168,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0016",
+            "median_residual_m": 0.11144155263900757,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0008",
+            "median_residual_m": 0.03738713264465332,
+            "boxes": 6
+          },
+          {
+            "sample": "route_05_0018",
+            "median_residual_m": 0.07221364974975586,
+            "boxes": 5
+          },
+          {
+            "sample": "route_00_0025",
+            "median_residual_m": 0.0518646240234375,
+            "boxes": 4
+          },
+          {
+            "sample": "route_04_0028",
+            "median_residual_m": -0.05017518997192383,
+            "boxes": 6
+          },
+          {
+            "sample": "route_03_0017",
+            "median_residual_m": 0.05522388219833374,
+            "boxes": 6
+          },
+          {
+            "sample": "route_06_0036",
+            "median_residual_m": 0.0014222562313079834,
+            "boxes": 6
+          },
+          {
+            "sample": "route_04_0036",
+            "median_residual_m": 0.10148322582244873,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0002",
+            "median_residual_m": 0.0389103889465332,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0015",
+            "median_residual_m": 0.14443445205688477,
+            "boxes": 6
+          },
+          {
+            "sample": "route_01_0005",
+            "median_residual_m": 0.037561774253845215,
+            "boxes": 4
+          },
+          {
+            "sample": "route_02_0003",
+            "median_residual_m": 0.07122230529785156,
+            "boxes": 5
+          },
+          {
+            "sample": "route_06_0001",
+            "median_residual_m": 0.033599257469177246,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0001",
+            "median_residual_m": -0.13926172256469727,
+            "boxes": 5
+          },
+          {
+            "sample": "route_06_0032",
+            "median_residual_m": -0.008130073547363281,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0026",
+            "median_residual_m": 0.14362597465515137,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0006",
+            "median_residual_m": 0.04568660259246826,
+            "boxes": 6
+          },
+          {
+            "sample": "route_03_0031",
+            "median_residual_m": -0.04233825206756592,
+            "boxes": 5
+          },
+          {
+            "sample": "route_03_0000",
+            "median_residual_m": 0.02764880657196045,
+            "boxes": 4
+          },
+          {
+            "sample": "route_02_0038",
+            "median_residual_m": 0.07784360647201538,
+            "boxes": 4
+          },
+          {
+            "sample": "route_00_0020",
+            "median_residual_m": 0.043632686138153076,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0033",
+            "median_residual_m": 0.16052532196044922,
+            "boxes": 5
+          },
+          {
+            "sample": "route_02_0021",
+            "median_residual_m": 0.01894676685333252,
+            "boxes": 5
+          },
+          {
+            "sample": "route_05_0038",
+            "median_residual_m": 0.053221821784973145,
+            "boxes": 4
+          },
+          {
+            "sample": "route_02_0002",
+            "median_residual_m": 0.02021479606628418,
+            "boxes": 5
+          },
+          {
+            "sample": "route_00_0015",
+            "median_residual_m": 0.07464075088500977,
+            "boxes": 5
+          },
+          {
+            "sample": "route_01_0003",
+            "median_residual_m": 0.08259010314941406,
+            "boxes": 4
+          },
+          {
+            "sample": "route_06_0000",
+            "median_residual_m": 0.08317381143569946,
+            "boxes": 6
+          },
+          {
+            "sample": "route_03_0028",
+            "median_residual_m": 0.04988664388656616,
+            "boxes": 5
+          },
+          {
+            "sample": "route_00_0003",
+            "median_residual_m": 0.06331205368041992,
+            "boxes": 5
+          },
+          {
+            "sample": "route_02_0032",
+            "median_residual_m": 0.08671492338180542,
+            "boxes": 4
+          },
+          {
+            "sample": "route_04_0006",
+            "median_residual_m": 0.056670814752578735,
+            "boxes": 6
+          },
+          {
+            "sample": "route_00_0007",
+            "median_residual_m": 0.07490599155426025,
+            "boxes": 5
+          },
+          {
+            "sample": "route_00_0026",
+            "median_residual_m": 0.07866346836090088,
+            "boxes": 6
+          },
+          {
+            "sample": "route_02_0035",
+            "median_residual_m": 0.17798703908920288,
+            "boxes": 5
+          },
+          {
+            "sample": "route_07_0028",
+            "median_residual_m": -0.02110147476196289,
+            "boxes": 4
+          },
+          {
+            "sample": "route_07_0002",
+            "median_residual_m": 0.10909080505371094,
+            "boxes": 6
+          },
+          {
+            "sample": "route_01_0038",
+            "median_residual_m": 0.13240331411361694,
+            "boxes": 4
+          },
+          {
+            "sample": "route_00_0022",
+            "median_residual_m": -0.0180819034576416,
+            "boxes": 5
+          }
+        ],
+        "training_list_sha256": "fac813729b1bfedcf014bfe910d472213f0ddc4ed0b3df5f0aea212ee005cce8"
+      }
+    }
+  },
+  "split": "validation",
+  "results": {
+    "pretrained": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 2.8101201794730086e-05,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 206,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 0.00027202041832275804,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 206,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.00027202041832275804,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 206,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "adjusted_proposals": 1095
+    },
+    "real_lr1e5_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 2.8101201794730086e-05,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 202,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 0.0002724006406767907,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 202,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.0002724006406767907,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 202,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "adjusted_proposals": 1093
+    },
+    "real_lr1e4_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 0.00011198103787758606,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 174,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 0.0002763765579004291,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 174,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.0002763765579004291,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 174,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "adjusted_proposals": 1092
+    },
+    "synthetic_best": {
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 2.820794900002821e-05,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 203,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "3D_AP25": {
+          "AP101": 0.0002730209710750997,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 203,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 0.0002730209710750997,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 35,
+          "confidence": 0.25,
+          "tp": 0,
+          "fp": 203,
+          "fn": 35,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      },
+      "adjusted_proposals": 1095
+    }
+  }
+}

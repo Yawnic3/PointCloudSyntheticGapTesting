@@ -1,0 +1,31 @@
+{
+  "scope": "TRAIN-only fit diagnostic, never held-out performance and never used to select models",
+  "selection": "Greedy coverage of all supported training annotation IDs, four spread positive frames per source location and six spread negatives. No prediction-based frame selection.",
+  "samples": [
+    "11_main_station_11.1__284",
+    "14_signals_station_14.1__98",
+    "16_under_bridge_16.1__440",
+    "1_calibration_1.1__13",
+    "1_calibration_1.2__1",
+    "1_calibration_1.2__28",
+    "1_calibration_1.2__67",
+    "1_calibration_1.2__99",
+    "3_fire_site_3.2__347",
+    "3_fire_site_3.3__64",
+    "4_station_pedestrian_bridge_4.1__88",
+    "4_station_pedestrian_bridge_4.2__26",
+    "4_station_pedestrian_bridge_4.3__12",
+    "4_station_pedestrian_bridge_4.3__29",
+    "4_station_pedestrian_bridge_4.4__112",
+    "4_station_pedestrian_bridge_4.4__192",
+    "4_station_pedestrian_bridge_4.5__201",
+    "4_station_pedestrian_bridge_4.5__263",
+    "5_station_bergedorf_5.1__0",
+    "5_station_bergedorf_5.1__17",
+    "5_station_bergedorf_5.1__27",
+    "5_station_bergedorf_5.1__9",
+    "8_station_altona_8.3__704"
+  ],
+  "physical_annotation_ids": 15,
+  "ground_truth_boxes": 28
+}

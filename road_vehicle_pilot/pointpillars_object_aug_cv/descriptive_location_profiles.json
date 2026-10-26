@@ -1,0 +1,65 @@
+{
+  "scope": "Exploratory descriptive GT profiles; not used to fit or choose models",
+  "locations": [
+    {
+      "fold": 0,
+      "tracks": 3,
+      "median_track_LWH": [
+        4.1,
+        2.0,
+        1.6
+      ],
+      "median_frame_object_range": 50.60702026399104,
+      "median_frame_object_returns": 345.0,
+      "largest_within_track_width_ratio": 1.1111111111111112
+    },
+    {
+      "fold": 1,
+      "tracks": 8,
+      "median_track_LWH": [
+        3.3,
+        2.0,
+        1.6
+      ],
+      "median_frame_object_range": 90.893869073749,
+      "median_frame_object_returns": 62.5,
+      "largest_within_track_width_ratio": 1.4999999999999998
+    },
+    {
+      "fold": 2,
+      "tracks": 4,
+      "median_track_LWH": [
+        4.25,
+        2.0,
+        1.55
+      ],
+      "median_frame_object_range": 14.257773318439314,
+      "median_frame_object_returns": 167.0,
+      "largest_within_track_width_ratio": 1.1666666666666667
+    },
+    {
+      "fold": 3,
+      "tracks": 12,
+      "median_track_LWH": [
+        3.2,
+        1.1,
+        1.6
+      ],
+      "median_frame_object_range": 76.70493261122476,
+      "median_frame_object_returns": 30.5,
+      "largest_within_track_width_ratio": 1.375
+    },
+    {
+      "fold": 4,
+      "tracks": 4,
+      "median_track_LWH": [
+        4.05,
+        2.0,
+        1.85
+      ],
+      "median_frame_object_range": 23.315303986866653,
+      "median_frame_object_returns": 326.0,
+      "largest_within_track_width_ratio": 1.25
+    }
+  ]
+}

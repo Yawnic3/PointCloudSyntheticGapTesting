@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-25T19:36:16.136686+00:00",
+  "policy": "Secondary geometry support check: retain only predicted cuboids with >=5 points from the same full feature ROI cloud. Mirrors GT minimum-support eligibility, not a tuned confidence threshold. Apply identically to every model/source and both checkpoint policies; report unfiltered primary results separately.",
+  "minimum_points": 5,
+  "xyz_roi": {
+    "x": [
+      0,
+      160
+    ],
+    "y": [
+      -40,
+      40
+    ],
+    "z": [
+      -3,
+      8
+    ]
+  },
+  "box_tolerance_m": 0.03,
+  "declared_before_any_primary_test_inference": true,
+  "primary_protocol_sha256": "56e4f4633f481c6f95f4a9ac742be77b4195fdbff854344f05d8427bfb43f10c"
+}

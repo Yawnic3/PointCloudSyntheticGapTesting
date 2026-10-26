@@ -1,0 +1,2170 @@
+{
+  "source_hashes": {
+    "lidar_object_augmentation.py": "b188987fbc105a4ff8aefe216158f5d67f6dc8bc5c914cfe7afbb3e6463d97ef",
+    "build_pointpillars_object_cv.py": "1bafabf16637b3c31a994593c45cb7dca042c89165818ec1f7c8908fe782ee45"
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "source": "real",
+      "donor_instance_ids": 16,
+      "donor_observations": 110,
+      "minimum_donor_returns": 10,
+      "replay": [
+        {
+          "sample": "6_station_klein_flottbek_6.1__17",
+          "original_boxes": 9,
+          "output_boxes": 10,
+          "points": 154433,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__19",
+                "source_instance": "4ef9aa5f-df9f-4b34-a5c1-77a1a053df58",
+                "returns": 11,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  8.105734153423523,
+                  6.416615878250533,
+                  0.2981240846950637,
+                  2.5541506677662356,
+                  0.9578065004123384,
+                  1.3834982783733778,
+                  3.0784096599132638
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.7939380740169968
+          }
+        },
+        {
+          "sample": "6_station_klein_flottbek_6.1__18",
+          "original_boxes": 9,
+          "output_boxes": 11,
+          "points": 120692,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "7_approach_underground_station_7.3__70",
+                "source_instance": "b9339849-1d30-4f4d-970e-26d476ed4ca1",
+                "returns": 42,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  77.55282597517943,
+                  20.351564698912973,
+                  4.052762371057479,
+                  4.251668633551208,
+                  2.943462900150837,
+                  2.18034288900062,
+                  1.6037467574955733
+                ]
+              },
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__25",
+                "source_instance": "aea5698c-2f32-4b6c-b79e-160b67a404b7",
+                "returns": 60,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  41.908872295992396,
+                  -15.837595230296463,
+                  0.4783783282524516,
+                  4.562187799804416,
+                  1.9413565105550705,
+                  1.3589495573885493,
+                  0.0814998350903578
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": -0.7108455372523157
+          }
+        },
+        {
+          "sample": "6_station_klein_flottbek_6.1__19",
+          "original_boxes": 10,
+          "output_boxes": 10,
+          "points": 143430,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": -0.6842380285865335
+          }
+        },
+        {
+          "sample": "10_station_suelldorf_10.1__216",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 159541,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__24",
+                "source_instance": "34548425-ea21-401c-a461-a9c1705a1187",
+                "returns": 7,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  88.24276911469049,
+                  -9.495079454274293,
+                  2.4716037701093354,
+                  3.871977494254694,
+                  1.1208355904421485,
+                  1.8340946025416973,
+                  0.19286737085079475
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.31226649210778934
+          }
+        },
+        {
+          "sample": "10_station_suelldorf_10.1__221",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 159946,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__23",
+                "source_instance": "aea5698c-2f32-4b6c-b79e-160b67a404b7",
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  68.90271232286159,
+                  17.589067662428185,
+                  0.4811110936686712,
+                  3.1684878273899493,
+                  1.7375578408267465,
+                  1.4309299865632028,
+                  -0.2818388530114577
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.5270041806712205
+          }
+        },
+        {
+          "sample": "11_main_station_11.1__284",
+          "original_boxes": 0,
+          "output_boxes": 0,
+          "points": 132129,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.7095758978529949
+          }
+        }
+      ],
+      "pasted_instances": 5
+    },
+    {
+      "fold": 0,
+      "source": "synthetic",
+      "donor_instance_ids": 110,
+      "donor_observations": 110,
+      "minimum_donor_returns": 12,
+      "replay": [
+        {
+          "sample": "route_00_0006",
+          "original_boxes": 5,
+          "output_boxes": 6,
+          "points": 67445,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0033",
+                "source_instance": 99000332,
+                "returns": 123,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  91.63360056842433,
+                  -17.589067662428185,
+                  0.9818533379337151,
+                  6.06463010006996,
+                  2.452359345919402,
+                  2.7500862282374157,
+                  1.5465568074319007
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.3968857360863314
+          }
+        },
+        {
+          "sample": "route_00_0008",
+          "original_boxes": 6,
+          "output_boxes": 6,
+          "points": 159480,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.7095758978529949
+          }
+        },
+        {
+          "sample": "route_00_0020",
+          "original_boxes": 6,
+          "output_boxes": 7,
+          "points": 149050,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0032",
+                "source_instance": 99000323,
+                "returns": 240,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  59.038542283385134,
+                  -26.015707706693814,
+                  0.5840607317764401,
+                  5.206870659507182,
+                  2.3241808728355755,
+                  1.9372007672804767,
+                  1.8924260420501295
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.9885624557836721
+          }
+        },
+        {
+          "sample": "route_00_0004",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 95833,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0006",
+                "source_instance": 99000063,
+                "returns": 26,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  89.47489041170138,
+                  -9.495079454274293,
+                  1.7663535199034666,
+                  4.921055588634134,
+                  2.108079401424831,
+                  2.1482110818834563,
+                  3.2382863734906535
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.43964824672037883
+          }
+        },
+        {
+          "sample": "route_00_0009",
+          "original_boxes": 0,
+          "output_boxes": 2,
+          "points": 128574,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0006",
+                "source_instance": 99000065,
+                "returns": 479,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  50.12490227131731,
+                  -10.178720127435248,
+                  2.23143539247891,
+                  10.978185582788868,
+                  2.842332795654625,
+                  3.112759301137096,
+                  1.842386986686329
+                ]
+              },
+              {
+                "source_sample": "route_00_0033",
+                "source_instance": 99000335,
+                "returns": 12,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  80.4301486935042,
+                  -23.0059020800692,
+                  0.8168569960216518,
+                  3.870494248275274,
+                  2.102085506125041,
+                  1.572877942836656,
+                  2.9432975551131295
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": 0.21481548746120027
+          }
+        },
+        {
+          "sample": "route_00_0014",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 64774,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_06_0036",
+                "source_instance": 105000362,
+                "returns": 99,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  129.09917004723906,
+                  -24.317014774454233,
+                  0.8064376694021637,
+                  3.982151132317742,
+                  2.2974892973774006,
+                  1.719734443782635,
+                  0.10415695645804407
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.2920296183395803
+          }
+        }
+      ],
+      "pasted_instances": 6
+    },
+    {
+      "fold": 1,
+      "source": "real",
+      "donor_instance_ids": 7,
+      "donor_observations": 81,
+      "minimum_donor_returns": 18,
+      "replay": [
+        {
+          "sample": "1_calibration_1.1__13",
+          "original_boxes": 2,
+          "output_boxes": 5,
+          "points": 128889,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "7_approach_underground_station_7.3__71",
+                "source_instance": "86fd2662-93b6-4b77-abae-6af076a42e1e",
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  98.75407333200756,
+                  6.545475159494752,
+                  2.8276869131675735,
+                  4.151095258420852,
+                  1.5566607219078192,
+                  1.6604381033683406,
+                  3.0116696569873658
+                ]
+              },
+              {
+                "source_sample": "1_calibration_1.1__21",
+                "source_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+                "returns": 70,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  140.4092043706937,
+                  -12.360622770501054,
+                  1.1758239511769435,
+                  4.1412997668427085,
+                  1.919138916341743,
+                  1.515109670796113,
+                  1.8434206180123835
+                ]
+              },
+              {
+                "source_sample": "7_approach_underground_station_7.3__70",
+                "source_instance": "067cd154-c015-4b95-973d-bd76e960e92d",
+                "returns": 160,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  11.305256697928826,
+                  22.540867997857326,
+                  3.807211822238842,
+                  4.2629368727511885,
+                  1.663585121073635,
+                  1.767559191140737,
+                  -0.15846248232392285
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.23562117588943132
+          }
+        },
+        {
+          "sample": "1_calibration_1.1__14",
+          "original_boxes": 2,
+          "output_boxes": 3,
+          "points": 133015,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "7_approach_underground_station_7.3__68",
+                "source_instance": "b9339849-1d30-4f4d-970e-26d476ed4ca1",
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  81.98971692720447,
+                  29.132915040589307,
+                  0.6731033277121968,
+                  3.344549136060149,
+                  2.169437277444421,
+                  1.8078643978703508,
+                  0.11274530499962643
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.4972154164452047
+          }
+        },
+        {
+          "sample": "1_calibration_1.1__15",
+          "original_boxes": 2,
+          "output_boxes": 3,
+          "points": 142183,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "7_approach_underground_station_7.3__69",
+                "source_instance": "86fd2662-93b6-4b77-abae-6af076a42e1e",
+                "returns": 16,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  103.39474025881978,
+                  6.636324998325638,
+                  0.5767409006056652,
+                  3.93468017267423,
+                  1.4755050647528363,
+                  1.5738720690696921,
+                  1.820791058967957
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.33055781047396793
+          }
+        },
+        {
+          "sample": "10_station_suelldorf_10.1__216",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 160000,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "1_calibration_1.1__16",
+                "source_instance": "bede7143-47fc-4be8-b876-799150dd0a57",
+                "returns": 147,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  68.90271232286159,
+                  17.589067662428185,
+                  0.6855296631777003,
+                  4.394999244444123,
+                  2.1463949798448043,
+                  1.8397671255812609,
+                  -0.2818388530114577
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.8612141709049033
+          }
+        },
+        {
+          "sample": "10_station_suelldorf_10.1__221",
+          "original_boxes": 0,
+          "output_boxes": 0,
+          "points": 154109,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.7095758978529949
+          }
+        },
+        {
+          "sample": "13_station_ohlsdorf_13.1__66",
+          "original_boxes": 0,
+          "output_boxes": 2,
+          "points": 140644,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "1_calibration_1.1__14",
+                "source_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+                "returns": 457,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  54.95668552511541,
+                  10.178720127435248,
+                  0.5924225813504469,
+                  3.94213445155095,
+                  1.8268427946211723,
+                  1.4422443115430308,
+                  -0.06512937073431063
+                ]
+              },
+              {
+                "source_sample": "1_calibration_1.1__13",
+                "source_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+                "returns": 117,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  113.44898338632618,
+                  5.254918933849424,
+                  1.8147903307010607,
+                  4.236831375304658,
+                  1.9634096617265488,
+                  1.5500602592578017,
+                  3.4569473317120925
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": -0.006969090099013586
+          }
+        }
+      ],
+      "pasted_instances": 8
+    },
+    {
+      "fold": 1,
+      "source": "synthetic",
+      "donor_instance_ids": 274,
+      "donor_observations": 274,
+      "minimum_donor_returns": 12,
+      "replay": [
+        {
+          "sample": "route_00_0003",
+          "original_boxes": 5,
+          "output_boxes": 6,
+          "points": 84992,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0036",
+                "source_instance": 99000365,
+                "returns": 22,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  91.63360056842433,
+                  -17.589067662428185,
+                  0.44305453221828084,
+                  5.243039669857312,
+                  2.5698632699249044,
+                  1.679697977406065,
+                  1.5465568074319007
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.8463150093497167
+          }
+        },
+        {
+          "sample": "route_00_0005",
+          "original_boxes": 6,
+          "output_boxes": 8,
+          "points": 119938,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0006",
+                "source_instance": 99000062,
+                "returns": 48,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  50.12490227131731,
+                  -10.178720127435248,
+                  0.8069823335885687,
+                  5.224528048634944,
+                  2.4914054703659665,
+                  2.0744210689936966,
+                  1.842386986686329
+                ]
+              },
+              {
+                "source_sample": "route_00_0005",
+                "source_instance": 99000054,
+                "returns": 347,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  30.001189337281563,
+                  21.843134638317167,
+                  0.6663088962543802,
+                  4.803540283618738,
+                  2.4545149776524955,
+                  1.9341700234988262,
+                  0.049614131424206454
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": 0.7693651995006916
+          }
+        },
+        {
+          "sample": "route_00_0006",
+          "original_boxes": 5,
+          "output_boxes": 6,
+          "points": 65284,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_07_0013",
+                "source_instance": 106000132,
+                "returns": 51,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  129.09917004723906,
+                  -24.317014774454233,
+                  0.7177562403474642,
+                  5.35282586456959,
+                  2.2180222746125717,
+                  1.542371585673236,
+                  0.10415695645804407
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.5114552014824352
+          }
+        },
+        {
+          "sample": "route_00_0004",
+          "original_boxes": 0,
+          "output_boxes": 0,
+          "points": 102524,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.7095758978529949
+          }
+        },
+        {
+          "sample": "route_00_0009",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 133974,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0033",
+                "source_instance": 99000331,
+                "returns": 122,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  59.038542283385134,
+                  -26.015707706693814,
+                  0.6846128002225833,
+                  5.813636994290346,
+                  2.6029899134143073,
+                  2.106090620229587,
+                  1.8924260420501295
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.24239667210154003
+          }
+        },
+        {
+          "sample": "route_00_0014",
+          "original_boxes": 0,
+          "output_boxes": 3,
+          "points": 74932,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0035",
+                "source_instance": 104000355,
+                "returns": 6,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  102.37506300457075,
+                  -6.545475159494752,
+                  0.9088908988595101,
+                  4.619575867108703,
+                  2.201332440947601,
+                  1.642171150768373,
+                  2.9125731644793187
+                ]
+              },
+              {
+                "source_sample": "route_00_0003",
+                "source_instance": 99000034,
+                "returns": 129,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  140.4092043706937,
+                  12.117796969231682,
+                  1.1578009296624474,
+                  5.196760648471577,
+                  2.1740288884319194,
+                  2.533433811711821,
+                  0.2726242912174871
+                ]
+              },
+              {
+                "source_sample": "route_00_0006",
+                "source_instance": 99000063,
+                "returns": 60,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  23.4305554432498,
+                  -5.451749591693163,
+                  1.986515040624004,
+                  5.680514932189628,
+                  2.433416225919701,
+                  2.479741370188668,
+                  3.065288499262951
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": -0.9520106952910039
+          }
+        }
+      ],
+      "pasted_instances": 8
+    },
+    {
+      "fold": 2,
+      "source": "real",
+      "donor_instance_ids": 11,
+      "donor_observations": 116,
+      "minimum_donor_returns": 42,
+      "replay": [
+        {
+          "sample": "1_calibration_1.1__13",
+          "original_boxes": 2,
+          "output_boxes": 5,
+          "points": 130083,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.3__15",
+                "source_instance": "e02377a1-ce1f-4968-a31f-bf82d3493a16",
+                "returns": 52,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  92.24173044976996,
+                  19.480221438942703,
+                  0.6590545246519753,
+                  3.6116430056099005,
+                  2.5172057311826577,
+                  1.7510996390835882,
+                  3.1797506708640206
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.5__218",
+                "source_instance": "0a091e62-3161-4b58-a734-0cd13897456d",
+                "returns": 62,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  44.68615319935758,
+                  -14.268867756714627,
+                  0.6185725675652829,
+                  4.117797312956112,
+                  1.8301321390916054,
+                  1.5556123182278645,
+                  2.9699503518371295
+                ]
+              },
+              {
+                "source_sample": "1_calibration_1.1__14",
+                "source_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+                "returns": 79,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  132.34198463407944,
+                  -19.47131676253685,
+                  1.8554629273170014,
+                  3.838253983587415,
+                  1.7787030655648997,
+                  1.4042392622880788,
+                  1.7930467897676379
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": -0.520781938959334
+          }
+        },
+        {
+          "sample": "1_calibration_1.1__14",
+          "original_boxes": 2,
+          "output_boxes": 2,
+          "points": 120451,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.19310805393577457
+          }
+        },
+        {
+          "sample": "1_calibration_1.1__15",
+          "original_boxes": 2,
+          "output_boxes": 2,
+          "points": 110545,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": -0.2811579333168537
+          }
+        },
+        {
+          "sample": "12_vegetation_steady_12.1__29",
+          "original_boxes": 0,
+          "output_boxes": 0,
+          "points": 158973,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.7095758978529949
+          }
+        },
+        {
+          "sample": "12_vegetation_steady_12.1__40",
+          "original_boxes": 0,
+          "output_boxes": 2,
+          "points": 133811,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "1_calibration_1.1__14",
+                "source_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+                "returns": 457,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  54.95668552511541,
+                  10.178720127435248,
+                  0.6428314140793097,
+                  3.94213445155095,
+                  1.8268427946211723,
+                  1.4422443115430308,
+                  -0.06512937073431063
+                ]
+              },
+              {
+                "source_sample": "1_calibration_1.1__13",
+                "source_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+                "returns": 117,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  113.44898338632618,
+                  5.254918933849424,
+                  0.306585363917537,
+                  4.236831375304658,
+                  1.9634096617265488,
+                  1.5500602592578017,
+                  3.4569473317120925
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": -0.006969090099013586
+          }
+        },
+        {
+          "sample": "12_vegetation_steady_12.1__59",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 138032,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.5__228",
+                "source_instance": "0a091e62-3161-4b58-a734-0cd13897456d",
+                "returns": 65,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  39.161473692358,
+                  24.317014774454233,
+                  0.6080056320102678,
+                  4.84554199301106,
+                  2.1535742191160265,
+                  1.7228593752928214,
+                  1.418792893082855
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.5564805790823484
+          }
+        }
+      ],
+      "pasted_instances": 6
+    },
+    {
+      "fold": 2,
+      "source": "synthetic",
+      "donor_instance_ids": 418,
+      "donor_observations": 418,
+      "minimum_donor_returns": 12,
+      "replay": [
+        {
+          "sample": "route_00_0003",
+          "original_boxes": 5,
+          "output_boxes": 5,
+          "points": 81666,
+          "augmentation": {
+            "pasted": [],
+            "attempts": 0,
+            "z_translation": 0.7095758978529949
+          }
+        },
+        {
+          "sample": "route_00_0005",
+          "original_boxes": 6,
+          "output_boxes": 7,
+          "points": 106200,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_07_0006",
+                "source_instance": 106000062,
+                "returns": 40,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  129.09917004723906,
+                  -24.317014774454233,
+                  1.3040400653728177,
+                  5.13425700979313,
+                  2.2547606291523383,
+                  2.7149392357239432,
+                  0.10415695645804407
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.37416198110484267
+          }
+        },
+        {
+          "sample": "route_00_0008",
+          "original_boxes": 6,
+          "output_boxes": 9,
+          "points": 160000,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_04_0002",
+                "source_instance": 103000022,
+                "returns": 14,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  73.49532609145346,
+                  -25.999595778403194,
+                  1.1538843369290557,
+                  5.171126999597001,
+                  2.1892155938340636,
+                  2.0401044462704485,
+                  -1.758894376043838
+                ]
+              },
+              {
+                "source_sample": "route_07_0001",
+                "source_instance": 106000012,
+                "returns": 61,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  123.96460941174725,
+                  4.373507942469033,
+                  1.9123209590885246,
+                  6.891223042108971,
+                  2.507986086779533,
+                  3.4800814794388533,
+                  -1.3731745224745822
+                ]
+              },
+              {
+                "source_sample": "route_06_0001",
+                "source_instance": 105000013,
+                "returns": 81,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  93.62291546643786,
+                  -22.07034571748774,
+                  0.6106010685630648,
+                  3.94687386210318,
+                  2.3305955331641797,
+                  1.76689446538379,
+                  3.216549859355299
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": -0.5542765379094479
+          }
+        },
+        {
+          "sample": "route_00_0004",
+          "original_boxes": 0,
+          "output_boxes": 2,
+          "points": 120519,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0013",
+                "source_instance": 99000132,
+                "returns": 194,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  50.12490227131731,
+                  -10.178720127435248,
+                  0.58678943012102,
+                  4.7616771995197205,
+                  2.177160854636317,
+                  1.635292473028524,
+                  1.842386986686329
+                ]
+              },
+              {
+                "source_sample": "route_01_0006",
+                "source_instance": 100000062,
+                "returns": 98,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  65.32289154507185,
+                  12.473377582216372,
+                  0.7631242148056504,
+                  4.281327367240214,
+                  2.386332353266637,
+                  1.804981184298451,
+                  -0.2211213385076138
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": -0.03632444605761398
+          }
+        },
+        {
+          "sample": "route_00_0009",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 133846,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_01_0006",
+                "source_instance": 100000064,
+                "returns": 52,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  59.038542283385134,
+                  -26.015707706693814,
+                  0.821743831116436,
+                  5.170348471126634,
+                  2.388771120633423,
+                  2.380352682017292,
+                  1.8924260420501295
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.03075104945004825
+          }
+        },
+        {
+          "sample": "route_00_0014",
+          "original_boxes": 0,
+          "output_boxes": 3,
+          "points": 74829,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0027",
+                "source_instance": 104000274,
+                "returns": 20,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  102.37506300457075,
+                  -6.545475159494752,
+                  0.9416690410168853,
+                  4.392111471307218,
+                  2.2057669714094126,
+                  1.7077274350831233,
+                  2.9125731644793187
+                ]
+              },
+              {
+                "source_sample": "route_04_0030",
+                "source_instance": 103000301,
+                "returns": 87,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  53.88621234748776,
+                  -22.018379660044612,
+                  2.3827815463203743,
+                  11.943071149413909,
+                  2.855581405661231,
+                  3.7710147514054997,
+                  -0.029508302354356142
+                ]
+              },
+              {
+                "source_sample": "route_00_0022",
+                "source_instance": 99000221,
+                "returns": 23,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  29.183365558707912,
+                  -13.665279801131032,
+                  0.7857522159060538,
+                  5.576192440171112,
+                  2.801550577002958,
+                  1.9764398745013865,
+                  2.858228059207881
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": -0.3073950839626378
+          }
+        }
+      ],
+      "pasted_instances": 10
+    },
+    {
+      "fold": 3,
+      "source": "real",
+      "donor_instance_ids": 12,
+      "donor_observations": 129,
+      "minimum_donor_returns": 12,
+      "replay": [
+        {
+          "sample": "4_station_pedestrian_bridge_4.1__88",
+          "original_boxes": 1,
+          "output_boxes": 4,
+          "points": 134555,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "5_station_bergedorf_5.1__1",
+                "source_instance": "1ad7c877-e819-4c8f-87af-ffa4792d0744",
+                "returns": 8,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  126.31252227006408,
+                  20.176661376546754,
+                  0.41316696069863895,
+                  5.003344058689934,
+                  2.175366982039102,
+                  1.4139885383254163,
+                  1.339032616812081
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.2__33",
+                "source_instance": "37af3262-3c26-4cf7-b0eb-96fe288c0448",
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  119.1083931117943,
+                  -30.95780903296125,
+                  0.4273550526587884,
+                  2.8369748597508924,
+                  1.0507314295373675,
+                  1.260877715444841,
+                  1.2550404896895333
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.3__49",
+                "source_instance": "98373418-4b3c-4a77-9259-251ab45e54f7",
+                "returns": 117,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  34.21819904251353,
+                  10.251416435542872,
+                  1.4279038410811375,
+                  4.820448748083393,
+                  2.1424216658148416,
+                  1.3925740827796471,
+                  0.031578394953723166
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.47378818806404577
+          }
+        },
+        {
+          "sample": "4_station_pedestrian_bridge_4.1__93",
+          "original_boxes": 1,
+          "output_boxes": 4,
+          "points": 149990,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.5__235",
+                "source_instance": "0a091e62-3161-4b58-a734-0cd13897456d",
+                "returns": 7,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  138.1200513379684,
+                  -5.529929803776974,
+                  3.8516082361244814,
+                  4.116688334047685,
+                  1.829639259576749,
+                  1.5551933706402365,
+                  -0.18896540712746834
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.2__31",
+                "source_instance": "37af3262-3c26-4cf7-b0eb-96fe288c0448",
+                "returns": 53,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  20.97494848575367,
+                  -3.7914921510358703,
+                  0.506420889809405,
+                  2.8502642306459576,
+                  1.0962554733253682,
+                  1.3155065679904419,
+                  1.7689834998136023
+                ]
+              },
+              {
+                "source_sample": "5_station_bergedorf_5.1__3",
+                "source_instance": "2a416997-bb7d-4a64-a4b8-5f9fba814453",
+                "returns": 24,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  47.59608288686336,
+                  24.90463147507821,
+                  3.8775354395863886,
+                  4.684152995516473,
+                  1.801597305967874,
+                  1.8916771712662679,
+                  1.875262150224208
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.3825286972191013
+          }
+        },
+        {
+          "sample": "4_station_pedestrian_bridge_4.1__94",
+          "original_boxes": 1,
+          "output_boxes": 4,
+          "points": 134251,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.5__263",
+                "source_instance": "5597f6e5-df3b-4798-b511-a4fac1c937e9",
+                "returns": 51,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  90.93359196648787,
+                  19.20305736911355,
+                  3.689343789972229,
+                  3.1173028490209442,
+                  2.1726656220449008,
+                  1.5114195631616703,
+                  2.9449743340154786
+                ]
+              },
+              {
+                "source_sample": "5_station_bergedorf_5.1__6",
+                "source_instance": "f76c099b-9b32-440b-a781-3ba9138ab87c",
+                "returns": 5,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  106.79588314443562,
+                  3.0686462478211345,
+                  -0.006470467537185276,
+                  4.194851882711596,
+                  2.1512060936982547,
+                  1.18316335153404,
+                  3.4554217124067925
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.4__127",
+                "source_instance": "43c2e381-a973-4cb2-9456-3656ce296b3d",
+                "returns": 33,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  90.74080357137971,
+                  -30.56399306987367,
+                  0.5667871699170316,
+                  3.410161623966918,
+                  2.3767793136739126,
+                  1.653411696468809,
+                  1.2738292908129476
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.7607541600170737
+          }
+        },
+        {
+          "sample": "11_main_station_11.1__284",
+          "original_boxes": 0,
+          "output_boxes": 2,
+          "points": 156846,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.1__93",
+                "source_instance": "78ad0fc1-3837-4960-86e5-eac51f6a6666",
+                "returns": 63,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  54.95668552511541,
+                  10.178720127435248,
+                  0.5335444646226359,
+                  2.5960397607774555,
+                  0.9614962076953538,
+                  1.5383939323125662,
+                  -0.06512937073431063
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.2__30",
+                "source_instance": "37af3262-3c26-4cf7-b0eb-96fe288c0448",
+                "returns": 59,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  36.7992223751543,
+                  -10.59378679699779,
+                  3.592341763104563,
+                  2.699907086030685,
+                  1.038425802319494,
+                  1.2461109627833928,
+                  1.3054543359494786
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": -0.32320832848410586
+          }
+        },
+        {
+          "sample": "11_main_station_11.1__285",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 131837,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "5_station_bergedorf_5.1__4",
+                "source_instance": "2a416997-bb7d-4a64-a4b8-5f9fba814453",
+                "returns": 173,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  39.161473692358,
+                  24.317014774454233,
+                  0.877202409399771,
+                  5.599292969701669,
+                  2.1535742191160265,
+                  2.261252930071828,
+                  1.418792893082855
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.8728188327048456
+          }
+        },
+        {
+          "sample": "12_vegetation_steady_12.1__29",
+          "original_boxes": 0,
+          "output_boxes": 3,
+          "points": 135711,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.4__142",
+                "source_instance": "8041405b-f73f-4651-bcc0-bb948b77e387",
+                "returns": 8,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  128.59566437067065,
+                  -25.999595778403194,
+                  0.3727016144267426,
+                  4.48026126629422,
+                  1.9912272294640978,
+                  1.2942976991516637,
+                  0.11454331773489196
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.4__112",
+                "source_instance": "43c2e381-a973-4cb2-9456-3656ce296b3d",
+                "returns": 57,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  47.63623111075401,
+                  -10.047629531354882,
+                  2.65208117258323,
+                  3.1336272555676667,
+                  2.18404323872898,
+                  1.5193344269418994,
+                  -1.6406449343958884
+                ]
+              },
+              {
+                "source_sample": "4_station_pedestrian_bridge_4.1__88",
+                "source_instance": "78ad0fc1-3837-4960-86e5-eac51f6a6666",
+                "returns": 38,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  95.84704775152335,
+                  -31.847533042479412,
+                  0.5405889864806732,
+                  2.4995725030630767,
+                  0.9257675937270654,
+                  1.4812281499633047,
+                  1.802164353511737
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.6266038562402232
+          }
+        }
+      ],
+      "pasted_instances": 15
+    },
+    {
+      "fold": 3,
+      "source": "synthetic",
+      "donor_instance_ids": 354,
+      "donor_observations": 354,
+      "minimum_donor_returns": 15,
+      "replay": [
+        {
+          "sample": "route_00_0002",
+          "original_boxes": 5,
+          "output_boxes": 7,
+          "points": 78259,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0007",
+                "source_instance": 99000075,
+                "returns": 58,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  50.12490227131731,
+                  -10.178720127435248,
+                  1.4592940583785894,
+                  5.300153822731057,
+                  2.205925962842175,
+                  1.5107860125140913,
+                  1.842386986686329
+                ]
+              },
+              {
+                "source_sample": "route_01_0020",
+                "source_instance": 100000205,
+                "returns": 58,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  54.539530825016776,
+                  -6.994364860818653,
+                  0.8341827730606531,
+                  4.204100509165774,
+                  2.0941478971291048,
+                  1.6062328216247368,
+                  1.7052866349131257
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": -0.797750028145586
+          }
+        },
+        {
+          "sample": "route_00_0005",
+          "original_boxes": 6,
+          "output_boxes": 9,
+          "points": 124660,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_03_0015",
+                "source_instance": 102000154,
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  73.49532609145346,
+                  -25.999595778403194,
+                  1.3533086571573438,
+                  7.156582877485325,
+                  2.575375490336236,
+                  3.0126122683218735,
+                  -1.758894376043838
+                ]
+              },
+              {
+                "source_sample": "route_01_0012",
+                "source_instance": 100000121,
+                "returns": 2866,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  14.179572799004909,
+                  -10.1896824416096,
+                  0.6707964380009419,
+                  4.888140327471856,
+                  2.169249435442123,
+                  1.8247263485057434,
+                  1.7757227842423062
+                ]
+              },
+              {
+                "source_sample": "route_05_0023",
+                "source_instance": 104000234,
+                "returns": 125,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  107.57711931872096,
+                  -9.011854266656517,
+                  0.9875752119860773,
+                  5.148339076411568,
+                  2.3657303181473477,
+                  1.956704342936097,
+                  1.5441665816654822
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": -0.028873962866560188
+          }
+        },
+        {
+          "sample": "route_00_0007",
+          "original_boxes": 5,
+          "output_boxes": 6,
+          "points": 103292,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_00_0038",
+                "source_instance": 99000385,
+                "returns": 14,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  59.038542283385134,
+                  -26.015707706693814,
+                  1.3507238483168298,
+                  10.780579971437994,
+                  2.728933944612624,
+                  3.4610216092403454,
+                  1.8924260420501295
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.8147235606118515
+          }
+        },
+        {
+          "sample": "route_00_0004",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 101837,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_07_0007",
+                "source_instance": 106000074,
+                "returns": 49,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  129.09917004723906,
+                  -24.317014774454233,
+                  0.8019898120963044,
+                  5.359001404400931,
+                  2.4138348458195424,
+                  1.7108387291709164,
+                  0.10415695645804407
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.6146798642012501
+          }
+        },
+        {
+          "sample": "route_00_0009",
+          "original_boxes": 0,
+          "output_boxes": 3,
+          "points": 139411,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0035",
+                "source_instance": 104000351,
+                "returns": 13,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  102.37506300457075,
+                  -6.545475159494752,
+                  1.2947224768587342,
+                  5.111481180955622,
+                  2.2006857179713024,
+                  2.683686666061711,
+                  2.9125731644793187
+                ]
+              },
+              {
+                "source_sample": "route_07_0012",
+                "source_instance": 106000125,
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  122.70749650587612,
+                  -5.202031044004746,
+                  0.4734528455388329,
+                  4.557987261894754,
+                  2.182370445869987,
+                  1.476607928773649,
+                  1.6295521737438667
+                ]
+              },
+              {
+                "source_sample": "route_03_0008",
+                "source_instance": 102000085,
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  102.67048072830761,
+                  -22.160233309820846,
+                  0.5943098877709557,
+                  5.130812874003815,
+                  2.3281395056865613,
+                  1.5792627376387098,
+                  -0.13029551910554643
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.84371066548217
+          }
+        },
+        {
+          "sample": "route_00_0014",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 76599,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0023",
+                "source_instance": 104000234,
+                "returns": 95,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  65.31397957046191,
+                  6.636324998325638,
+                  0.9058709769710425,
+                  5.4624065655145175,
+                  2.51004850890512,
+                  2.076070455148565,
+                  3.281484023238458
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.16434147887638884
+          }
+        }
+      ],
+      "pasted_instances": 11
+    },
+    {
+      "fold": 4,
+      "source": "real",
+      "donor_instance_ids": 16,
+      "donor_observations": 134,
+      "minimum_donor_returns": 10,
+      "replay": [
+        {
+          "sample": "5_station_bergedorf_5.1__0",
+          "original_boxes": 4,
+          "output_boxes": 5,
+          "points": 122512,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__25",
+                "source_instance": "e30ff023-7e18-4bd1-b1bd-00380b5400fe",
+                "returns": 5,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  142.12905579858602,
+                  -5.978559805639027,
+                  1.0802064171732932,
+                  1.8264511332553548,
+                  0.9132255666276774,
+                  1.0958706799532127,
+                  0.22195257323083817
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.6417682583557178
+          }
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__1",
+          "original_boxes": 4,
+          "output_boxes": 6,
+          "points": 146941,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "5_station_bergedorf_5.1__14",
+                "source_instance": "f76c099b-9b32-440b-a781-3ba9138ab87c",
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  51.367473672505476,
+                  -19.980208500603826,
+                  0.8533840248639906,
+                  5.085453583377336,
+                  2.1640228014371643,
+                  1.2984136808622986,
+                  -1.3508273250913727
+                ]
+              },
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__22",
+                "source_instance": "aea5698c-2f32-4b6c-b79e-160b67a404b7",
+                "returns": 15,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  57.87777428873267,
+                  5.587945488318485,
+                  0.9619022360116541,
+                  3.0509885680319435,
+                  1.6731227631142915,
+                  1.3778658049176518,
+                  -1.499162424092952
+                ]
+              }
+            ],
+            "attempts": 2,
+            "z_translation": 0.08622075215364977
+          }
+        },
+        {
+          "sample": "5_station_bergedorf_5.1__10",
+          "original_boxes": 2,
+          "output_boxes": 5,
+          "points": 133621,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__25",
+                "source_instance": "aea5698c-2f32-4b6c-b79e-160b67a404b7",
+                "returns": 42,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  18.919219169303176,
+                  -20.00842180511134,
+                  0.8325811166975926,
+                  4.609697898806869,
+                  1.9615735739603695,
+                  1.3731015017722585,
+                  0.2400116902145396
+                ]
+              },
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__24",
+                "source_instance": "34548425-ea21-401c-a461-a9c1705a1187",
+                "returns": 22,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  46.518378012236184,
+                  7.580972429675136,
+                  0.7053594681875963,
+                  3.910800840357583,
+                  1.132073927471932,
+                  1.8524846085904343,
+                  0.12978297606157546
+                ]
+              },
+              {
+                "source_sample": "5_station_bergedorf_5.1__2",
+                "source_instance": "1ad7c877-e819-4c8f-87af-ffa4792d0744",
+                "returns": 5,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  109.67515496154213,
+                  -23.02023367657983,
+                  0.43287627689015457,
+                  4.342811554851164,
+                  1.8881789368918107,
+                  1.227316308979677,
+                  3.281477705358409
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.7232122617402319
+          }
+        },
+        {
+          "sample": "10_station_suelldorf_10.1__216",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 159750,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__21",
+                "source_instance": "b604f0c8-56b5-49f5-affa-067534e8c7d3",
+                "returns": 15,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  39.161473692358,
+                  24.317014774454233,
+                  0.5203269210544663,
+                  2.3689316410276295,
+                  1.1844658205138148,
+                  1.5075019533812184,
+                  1.418792893082855
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.46593668887012507
+          }
+        },
+        {
+          "sample": "10_station_suelldorf_10.1__221",
+          "original_boxes": 0,
+          "output_boxes": 3,
+          "points": 150017,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__22",
+                "source_instance": "aea5698c-2f32-4b6c-b79e-160b67a404b7",
+                "returns": 7,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  128.59566437067065,
+                  -25.999595778403194,
+                  0.442482295163345,
+                  3.086402205669352,
+                  1.692543145044483,
+                  1.3938590606248684,
+                  0.11454331773489196
+                ]
+              },
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__19",
+                "source_instance": "4ef9aa5f-df9f-4b34-a5c1-77a1a053df58",
+                "returns": 12,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  41.965051534500525,
+                  -25.989810379964116,
+                  0.3809070831745812,
+                  2.181651057981915,
+                  0.8181191467432182,
+                  1.1817276564068706,
+                  1.3909115223793247
+                ]
+              },
+              {
+                "source_sample": "6_station_klein_flottbek_6.1__21",
+                "source_instance": "affc7ffd-cd9f-4af1-a0f9-a6504d6c912c",
+                "returns": 17,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  76.52734848427663,
+                  -5.052401237856157,
+                  0.7733309621531911,
+                  3.5021218099613103,
+                  1.100666854559269,
+                  1.6009699702680278,
+                  2.9421718408382973
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": 0.7683658302690426
+          }
+        },
+        {
+          "sample": "11_main_station_11.1__284",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 130607,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "5_station_bergedorf_5.1__1",
+                "source_instance": "2a416997-bb7d-4a64-a4b8-5f9fba814453",
+                "returns": 80,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  58.46381658935347,
+                  26.015707706693814,
+                  0.8140444218900745,
+                  4.3852896938324575,
+                  1.9490176417033143,
+                  2.04646852378848,
+                  -0.2578620642181104
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.0804379345948305
+          }
+        }
+      ],
+      "pasted_instances": 11
+    },
+    {
+      "fold": 4,
+      "source": "synthetic",
+      "donor_instance_ids": 206,
+      "donor_observations": 206,
+      "minimum_donor_returns": 15,
+      "replay": [
+        {
+          "sample": "route_00_0020",
+          "original_boxes": 5,
+          "output_boxes": 6,
+          "points": 125488,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0020",
+                "source_instance": 104000202,
+                "returns": 73,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  73.87575913957413,
+                  -8.468570620803906,
+                  0.5507073687830984,
+                  4.588448317327433,
+                  1.999969683799759,
+                  1.486622537507482,
+                  1.5981689872064537
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.5399844613150078
+          }
+        },
+        {
+          "sample": "route_00_0022",
+          "original_boxes": 5,
+          "output_boxes": 8,
+          "points": 159919,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0006",
+                "source_instance": 104000065,
+                "returns": 169,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  102.37506300457075,
+                  -6.545475159494752,
+                  0.7886611728488289,
+                  5.172997797038926,
+                  2.2433090669983553,
+                  1.6715640580419,
+                  2.9125731644793187
+                ]
+              },
+              {
+                "source_sample": "route_05_0000",
+                "source_instance": 104000001,
+                "returns": 29,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  90.16752484702866,
+                  -26.69019877927072,
+                  0.8313674558367201,
+                  6.080526180273997,
+                  2.4159646268588046,
+                  2.0801528249788497,
+                  2.8563011168811707
+                ]
+              },
+              {
+                "source_sample": "route_07_0015",
+                "source_instance": 106000152,
+                "returns": 8,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  122.34718416731926,
+                  -16.716879477563037,
+                  0.6326105550734561,
+                  4.140756123310585,
+                  2.3265503033150363,
+                  1.5468921642762226,
+                  0.2225414333631477
+                ]
+              }
+            ],
+            "attempts": 4,
+            "z_translation": -0.17970857808690788
+          }
+        },
+        {
+          "sample": "route_00_0032",
+          "original_boxes": 5,
+          "output_boxes": 6,
+          "points": 160000,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_05_0006",
+                "source_instance": 104000061,
+                "returns": 505,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  65.31397957046191,
+                  6.636324998325638,
+                  1.8547189722684116,
+                  7.487046757576139,
+                  2.6665262931572022,
+                  3.4591071378462126,
+                  3.281484023238458
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.2102395113879887
+          }
+        },
+        {
+          "sample": "route_00_0009",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 117646,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_07_0013",
+                "source_instance": 106000131,
+                "returns": 36,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  129.09917004723906,
+                  -24.317014774454233,
+                  0.7383662579166903,
+                  4.910955376679649,
+                  2.4386151004929646,
+                  1.5835916208116882,
+                  0.10415695645804407
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": 0.07555430736147217
+          }
+        },
+        {
+          "sample": "route_00_0014",
+          "original_boxes": 0,
+          "output_boxes": 3,
+          "points": 72547,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_03_0031",
+                "source_instance": 102000315,
+                "returns": 66,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  73.49532609145346,
+                  -25.999595778403194,
+                  1.5286678857294151,
+                  11.094307578769403,
+                  2.7452202170815965,
+                  3.371923301254514,
+                  -1.758894376043838
+                ]
+              },
+              {
+                "source_sample": "route_00_0020",
+                "source_instance": 99000205,
+                "returns": 89,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  132.3937291391545,
+                  -23.589040963888223,
+                  0.744274942015926,
+                  5.096009586464005,
+                  2.249502603697134,
+                  1.6570146965777195,
+                  2.913955162312064
+                ]
+              },
+              {
+                "source_sample": "route_07_0021",
+                "source_instance": 106000211,
+                "returns": 22,
+                "partial_visibility": false,
+                "box_before_global_z": [
+                  79.36296357938171,
+                  -5.963286667084008,
+                  0.7691187095065607,
+                  4.704599596023228,
+                  2.3724461247621043,
+                  1.6982868685166281,
+                  1.2609321839195904
+                ]
+              }
+            ],
+            "attempts": 3,
+            "z_translation": -0.41729242917325227
+          }
+        },
+        {
+          "sample": "route_00_0019",
+          "original_boxes": 0,
+          "output_boxes": 1,
+          "points": 101130,
+          "augmentation": {
+            "pasted": [
+              {
+                "source_sample": "route_02_0008",
+                "source_instance": 101000081,
+                "returns": 555,
+                "partial_visibility": true,
+                "box_before_global_z": [
+                  59.038542283385134,
+                  -26.015707706693814,
+                  1.2369287866227445,
+                  10.827917044166007,
+                  2.644452295886496,
+                  3.2087847268189718,
+                  1.8924260420501295
+                ]
+              }
+            ],
+            "attempts": 1,
+            "z_translation": -0.18613628283191486
+          }
+        }
+      ],
+      "pasted_instances": 10
+    }
+  ],
+  "passed": true
+}

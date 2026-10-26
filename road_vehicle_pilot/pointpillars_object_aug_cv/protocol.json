@@ -1,0 +1,40 @@
+{
+  "model": "Published PointPillars Car, full fine-tune with frozen BN running stats; common KITTI initialization",
+  "epochs": 6,
+  "purpose": "Six-epoch screening experiment, not convergence study; five retrospective outer locations, two positive validation locations each",
+  "arms": {
+    "real_control": [
+      "real",
+      false
+    ],
+    "real_augmented": [
+      "real",
+      true
+    ],
+    "synthetic_control": [
+      "synthetic",
+      false
+    ],
+    "synthetic_augmented": [
+      "synthetic",
+      true
+    ]
+  },
+  "optimizer": "AdamW lr1e-4 weight decay .01 cosine to1e-6; batch1; clip10; BF16; seed23",
+  "selection": "Best TRAINED checkpoint at epochs2/4/6 by equal mean validation-location exact 3D AP50, then AP25. Each location includes common negative-only validation groups. Report selected and epoch6 separately. Also report the pretrained control and a validation gate that retains it unless fine-tuning strictly improves validation.",
+  "augmentation": "Source TRAIN donor crops only, >=10 returns, max3000. Uniform annotation-ID sampling; 75% frames attempt1-3 copy/pastes. Rigid yaw, uniform scale.9-1.1, x8..145, absY3..32, local q10 ground with TRAIN fallback and bounded -1.5..3m; reject vehicle XY collisions with .4m clearance. Remove scene points inside new boxes. Range-squared thinning and 50% half-space partial visibility. Global Z translation +/-1m. This is point-level augmentation, not new physical raycasts or paired RGB.",
+  "common_processing": "Previous global XY/scale/flip/point-drop augmentation; same transforms per frame seed across paired arms. Independent donor RNG. Common post-operation >=5-point training support filter. Same 160k point/32k train voxel limits, anchors/loss, zero intensity, original railway geometry and full exact-quaternion test labels. Fold TRAIN-only trackbed normalization; real TRAIN point statistics provide common real-test normalization for both sources.",
+  "evaluation": "All20 runs frozen before any new outer tests. Test frames cover all400 once per arm/policy; macro five-location AP primary, pooled out-of-fold AP secondary. No new blind data; no hyperparameter selection from outer tests. Source frame counts matched; box/physical-object counts differ.",
+  "splits_sha256": "9b680818f15c61f483e63589aff793d6d77d414e7e993d84bb3ce9e107374db5",
+  "preflight_sha256": "e2bf4ea223d956db8bee7c11dbe3af67d8e5fab51c69e52af725d2cc75da375c",
+  "initial_sha256": "d42d15edce05b552fdd14e6412fc1d3e02207ee4799e6e3869f61bd30e730f3e",
+  "sources": {
+    "train_pointpillars_object_cv.py": "9bebb9dc87a44fc4656030f70f24675adaccb9dc2fd396821dc073539294210b",
+    "build_pointpillars_object_cv.py": "1bafabf16637b3c31a994593c45cb7dca042c89165818ec1f7c8908fe782ee45",
+    "lidar_object_augmentation.py": "b188987fbc105a4ff8aefe216158f5d67f6dc8bc5c914cfe7afbb3e6463d97ef",
+    "official_pointpillars_windows.py": "4c4f4d7c72840e1c500e461dd91cd345a849a7409fbe88c6d92577158b7019fd",
+    "train_pretrained_pointpillars.py": "6d08c2ffb13691d04d23d228126930bef52df81c06bcbbae7180d28bf9978472",
+    "train_lidar3d.py": "79b1909429a38e80452b4354af0d737e7f22d37f67083edffb04f2401ff01f6c",
+    "lidar3d_geometry.py": "68977f4b308dc2e128da255e77eefdc4bf6de0559e507907d45c1bd23aec2c87"
+  }
+}

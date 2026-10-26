@@ -1,0 +1,12 @@
+{
+  "domains": {
+    "real": {
+      "median_training_trackbed_z": -0.18999999999999928,
+      "z_shift": -1.4100000000000008
+    },
+    "synthetic": {
+      "median_training_trackbed_z": -0.00999999999999912,
+      "z_shift": -1.590000000000001
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-25T22:23:02.239123+00:00",
+  "policy": "Secondary rule fitted on TRAIN and checked on validation before any new head-experiment test evaluation. Earlier test exposure remains acknowledged. No checkpoint or primary evaluation changes.",
+  "files": {
+    "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pointpillars_head_transfer\\point_height_plan.json": "9fed91e81900abe69c57c115e513a96f97e738f8f182c7fe935fe5b39b042485",
+    "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\refine_pointpillars_height.py": "95fa59cc5523620493edecfca1baad3ce8fea404c99f469098ac064d85cf9f51",
+    "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\pointpillars_head_transfer\\point_height_validation_before_test.json": "98745a17da7992758b2c2722170b7bedb70aac1189a01c5ce0586ada488932a8"
+  }
+}

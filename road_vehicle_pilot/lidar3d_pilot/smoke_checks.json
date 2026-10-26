@@ -1,0 +1,128 @@
+{
+  "geometry": {
+    "analytic_cube_cases": true,
+    "rotated_cube_45_degree_IoU": 0.7071067811865475,
+    "tilted_box_symmetry": true,
+    "perfect_detection_AP": 1.0
+  },
+  "models": {
+    "pillar_cnn": {
+      "passed": true,
+      "parameters": 417561,
+      "mean_first_20_loss": 2.8249463006854056,
+      "mean_last_20_loss": 0.014716165559366345,
+      "seconds": 5.453000000001339,
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 1.0,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "3D_AP25": {
+          "AP101": 1.0,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "3D_AP70": {
+          "AP101": 1.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 1.0,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "mean_supervised_loss": 0.01305508241057396
+      }
+    },
+    "pillar_transformer": {
+      "passed": true,
+      "parameters": 402657,
+      "mean_first_20_loss": 2.82852863073349,
+      "mean_last_20_loss": 0.015578129794448614,
+      "seconds": 5.453000000001339,
+      "metrics": {
+        "3D_AP50": {
+          "AP101": 1.0,
+          "IoU": 0.5,
+          "mode": "3d",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "3D_AP25": {
+          "AP101": 1.0,
+          "IoU": 0.25,
+          "mode": "3d",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "3D_AP70": {
+          "AP101": 1.0,
+          "IoU": 0.7,
+          "mode": "3d",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "oriented_BEV_AP50": {
+          "AP101": 1.0,
+          "IoU": 0.5,
+          "mode": "bev",
+          "ground_truth_boxes": 3,
+          "confidence": 0.25,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "mean_supervised_loss": 0.021268796175718307
+      }
+    }
+  },
+  "coordinate_decode_roundtrip": true,
+  "training_only_sample_id": "5_station_bergedorf_5.1__8"
+}

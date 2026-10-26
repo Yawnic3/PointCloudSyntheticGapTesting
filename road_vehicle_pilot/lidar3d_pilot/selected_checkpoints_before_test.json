@@ -1,0 +1,6 @@
+{
+  "pillar_cnn/real": "e58eaa0eedc6a6d6e24c92ac040a7c45e25c0303617c05213aae150ef14c941e",
+  "pillar_cnn/synthetic": "f52a375aeeddff71936555adfe15bc86b36e06c4382d760d7539ad74cac3537c",
+  "pillar_transformer/real": "29bb6ff05158a9982624f0cebe7cf809503abeaa274d663507fa9cd3e7c36ce4",
+  "pillar_transformer/synthetic": "26428e038a7e27a9210c29e3b35a605d9072c2a11d75e7d9d226be8eb9922ba3"
+}

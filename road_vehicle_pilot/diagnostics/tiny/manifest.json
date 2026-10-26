@@ -1,0 +1,32 @@
+[
+  {
+    "source_training_image": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\data\\images\\real_1_calibration_1.1_12.png",
+    "primary_instance": "1d39ad33-69a5-47e9-966c-b699c0f28d0e",
+    "crop": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\diagnostics\\tiny\\images\\crop_0.png",
+    "box_count": 2
+  },
+  {
+    "source_training_image": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\data\\images\\real_1_calibration_1.1_13.png",
+    "primary_instance": "bede7143-47fc-4be8-b876-799150dd0a57",
+    "crop": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\diagnostics\\tiny\\images\\crop_1.png",
+    "box_count": 2
+  },
+  {
+    "source_training_image": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\data\\images\\real_1_calibration_1.2_92.png",
+    "primary_instance": "c1481ba2-3695-42fd-87df-6a536fdd95b8",
+    "crop": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\diagnostics\\tiny\\images\\crop_2.png",
+    "box_count": 1
+  },
+  {
+    "source_training_image": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\data\\images\\real_5_station_bergedorf_5.1_0.png",
+    "primary_instance": "138d2704-8758-4f73-a43d-93d917c9f0b5",
+    "crop": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\diagnostics\\tiny\\images\\crop_3.png",
+    "box_count": 1
+  },
+  {
+    "source_training_image": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\data\\images\\real_4_station_pedestrian_bridge_4.5_231.png",
+    "primary_instance": "34efadf0-14b7-4446-ac59-0055e0ea9f59",
+    "crop": "C:\\Users\\qingy\\OneDrive\\Desktop\\CROSS\\osdar23_synthetic\\road_vehicle_pilot\\diagnostics\\tiny\\images\\crop_4.png",
+    "box_count": 2
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 26.43699999999808,
+    "training_loss": 3.8864976596306353,
+    "loss_parts": {
+      "cls": 1.160272015631199,
+      "box": 1.3080407019923714,
+      "direction": 0.5507211610674858,
+      "positive_anchors": 32.61764705882353
+    }
+  },
+  {
+    "epoch": 2,
+    "seconds": 25.92199999999866,
+    "training_loss": 3.7052689335802023,
+    "loss_parts": {
+      "cls": 1.0710370860555594,
+      "box": 1.2623422429842108,
+      "direction": 0.547736782624441,
+      "positive_anchors": 32.90588235294118
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 203,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 203,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 203,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002724006406767907,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 203,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "seconds": 26.42199999999866,
+    "training_loss": 3.7163972461048296,
+    "loss_parts": {
+      "cls": 1.1136417487964911,
+      "box": 1.2491115994313184,
+      "direction": 0.5226615478010739,
+      "positive_anchors": 30.50588235294118
+    }
+  },
+  {
+    "epoch": 4,
+    "seconds": 26.31199999999808,
+    "training_loss": 3.8531310531146388,
+    "loss_parts": {
+      "cls": 1.1437790610334453,
+      "box": 1.2983337270862916,
+      "direction": 0.5634226473794757,
+      "positive_anchors": 33.582352941176474
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 200,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 200,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 200,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.00027255528968102896,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 200,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "seconds": 26.45300000000134,
+    "training_loss": 3.672638533658841,
+    "loss_parts": {
+      "cls": 1.0804249634637553,
+      "box": 1.2409768633982714,
+      "direction": 0.5512993042083347,
+      "positive_anchors": 31.935294117647057
+    }
+  },
+  {
+    "epoch": 6,
+    "seconds": 26.31199999999808,
+    "training_loss": 3.637572747907218,
+    "loss_parts": {
+      "cls": 1.0795612542944797,
+      "box": 1.2208112695637872,
+      "direction": 0.5819448224761907,
+      "positive_anchors": 31.241176470588236
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002728654540704816,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "seconds": 26.234000000004016,
+    "training_loss": 3.6690368481418667,
+    "loss_parts": {
+      "cls": 1.0869089798892246,
+      "box": 1.231323144015144,
+      "direction": 0.5974078327417374,
+      "positive_anchors": 31.652941176470588
+    }
+  },
+  {
+    "epoch": 8,
+    "seconds": 26.31300000000192,
+    "training_loss": 3.6152987229473452,
+    "loss_parts": {
+      "cls": 1.1085374953115688,
+      "box": 1.199306345687193,
+      "direction": 0.5407427564701613,
+      "positive_anchors": 29.647058823529413
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.00027255528968102896,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 9,
+    "seconds": 26.68699999999808,
+    "training_loss": 3.5735823827631332,
+    "loss_parts": {
+      "cls": 1.067561169406947,
+      "box": 1.1962462691699758,
+      "direction": 0.5676433235406876,
+      "positive_anchors": 31.523529411764706
+    }
+  },
+  {
+    "epoch": 10,
+    "seconds": 25.718999999997322,
+    "training_loss": 3.8976352829266996,
+    "loss_parts": {
+      "cls": 1.2154312490540393,
+      "box": 1.288997903992148,
+      "direction": 0.5210411283899756,
+      "positive_anchors": 32.794117647058826
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002727102272095288,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "seconds": 26.64100000000326,
+    "training_loss": 3.8395745416774467,
+    "loss_parts": {
+      "cls": 1.0837949972818879,
+      "box": 1.3222979510531705,
+      "direction": 0.5559181446538252,
+      "positive_anchors": 34.7
+    }
+  },
+  {
+    "epoch": 12,
+    "seconds": 25.79699999999866,
+    "training_loss": 3.6840395937947665,
+    "loss_parts": {
+      "cls": 1.0673461538903855,
+      "box": 1.2538044165162479,
+      "direction": 0.5454231673303772,
+      "positive_anchors": 31.770588235294117
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002728654540704816,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 13,
+    "seconds": 26.25,
+    "training_loss": 3.5442666804527536,
+    "loss_parts": {
+      "cls": 1.0266487207921113,
+      "box": 1.1996774052872377,
+      "direction": 0.5913156984483494,
+      "positive_anchors": 30.352941176470587
+    }
+  },
+  {
+    "epoch": 14,
+    "seconds": 26.014999999999418,
+    "training_loss": 3.728491952752366,
+    "loss_parts": {
+      "cls": 1.0992969352532835,
+      "box": 1.2589385565589457,
+      "direction": 0.556589423821253,
+      "positive_anchors": 33.258823529411764
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002728654540704816,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "seconds": 26.625,
+    "training_loss": 3.5075421367498003,
+    "loss_parts": {
+      "cls": 1.08829515269574,
+      "box": 1.1578033953905105,
+      "direction": 0.5182009364752208,
+      "positive_anchors": 29.81764705882353
+    }
+  },
+  {
+    "epoch": 16,
+    "seconds": 25.92199999999866,
+    "training_loss": 3.48091552599388,
+    "loss_parts": {
+      "cls": 1.0164477145847153,
+      "box": 1.1761567732867073,
+      "direction": 0.5607713594156153,
+      "positive_anchors": 29.147058823529413
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002732484118371332,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 17,
+    "seconds": 25.485000000000582,
+    "training_loss": 3.731406490066472,
+    "loss_parts": {
+      "cls": 1.1539483293014414,
+      "box": 1.233119315960828,
+      "direction": 0.5560975821579204,
+      "positive_anchors": 32.4
+    }
+  },
+  {
+    "epoch": 18,
+    "seconds": 25.546000000002095,
+    "training_loss": 3.636557116753915,
+    "loss_parts": {
+      "cls": 1.0164694168111856,
+      "box": 1.2502502658787895,
+      "direction": 0.597935851707178,
+      "positive_anchors": 31.647058823529413
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.0002732484118371332,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  {
+    "epoch": 19,
+    "seconds": 25.8440000000046,
+    "training_loss": 3.574740504429621,
+    "loss_parts": {
+      "cls": 1.0407379275735686,
+      "box": 1.2136194670901579,
+      "direction": 0.5338181927800179,
+      "positive_anchors": 32.8235294117647
+    }
+  },
+  {
+    "epoch": 20,
+    "seconds": 25.67199999999866,
+    "training_loss": 3.6673506298485923,
+    "loss_parts": {
+      "cls": 1.1518558624912711,
+      "box": 1.2008211335715127,
+      "direction": 0.569262494848055,
+      "positive_anchors": 31.44705882352941
+    },
+    "validation": {
+      "3D_AP50": {
+        "AP101": 0.0,
+        "IoU": 0.5,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP25": {
+        "AP101": 0.0,
+        "IoU": 0.25,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "3D_AP70": {
+        "AP101": 0.0,
+        "IoU": 0.7,
+        "mode": "3d",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "oriented_BEV_AP50": {
+        "AP101": 0.00027340392884175126,
+        "IoU": 0.5,
+        "mode": "bev",
+        "ground_truth_boxes": 35,
+        "confidence": 0.25,
+        "tp": 0,
+        "fp": 197,
+        "fn": 35,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  }
+]
